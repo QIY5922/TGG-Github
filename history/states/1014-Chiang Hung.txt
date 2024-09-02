@@ -1,0 +1,16 @@
+
+state={
+	id=1014
+	name="STATE_1014"
+	provinces={
+		10413 10776 
+	}
+	history = {
+		owner = CHH
+		add_core_of = CHH
+		add_core_of = CHI
+	}
+	manpower=243000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -10,11 +10,6 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BHU_jigme_wangchuck
-recruit_character = BHU_tsarong_wangyal
-recruit_character = BHU_gendün_rinpoche
-recruit_character = BHU_andruk_tashi
-recruit_character = BHU_reginald_b_stevens
 recruit_character = BHU_jigme_dorji_wangchuck
 recruit_character = BHU_chamba_wangyal
 recruit_character = BHU_namgyal_bahadur
@@ -74,25 +69,28 @@ recruit_character = BHU_mang_pos_bhur_bai
 	}
 }
 
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = BHU
+			autonomous_state = autonomy_dominion
+		}
+		else = {
+			puppet = BHU
+		}
+	}
+}
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
+	autocracy = 100
 }

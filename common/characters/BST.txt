@@ -1,0 +1,22 @@
+characters={
+	BST_edwin_arrowsmith={
+		name="Edwin Porter Arrowsmith"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BST_ntsu_mokhehle={
+		name="Ntsu Mokhehle"
+		portraits={
+		}
+		country_leader={
+			ideology=african_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

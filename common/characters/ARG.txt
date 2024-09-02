@@ -1,0 +1,82 @@
+characters={
+	ARG_ricardo_balbin_2={
+		name=ARG_ricardo_balbin
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_alfredo_palacios={
+		name="Alfredo Palacios"
+		portraits={
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_americo_ghioldi={
+		name=ARG_america_goldy
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_luciano_molinas={
+		name="Luciano Molinas"
+		portraits={
+		}
+		country_leader={
+			ideology=social_liberalism_2
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_miguel_ortiz={
+		name=ARG_miguel_ortiz
+		portraits={
+		}
+		country_leader={
+			ideology=market_liberalism_3
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_vincente_solano_lima={
+		name="Vincente Solano Lima"
+		portraits={
+		}
+		country_leader={
+			ideology=right_populism_2
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_emiliano_hardoy={
+		name="Emiliano Hardoy"
+		portraits={
+		}
+		country_leader={
+			ideology=free_market_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_benjamin_menendez={
+		name="Benjamin Menéndez"
+		portraits={
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

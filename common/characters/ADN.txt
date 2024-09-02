@@ -1,0 +1,15 @@
+characters = {
+	ADN_joint_aden_political_offices = {
+		name = "Joint Aden Political Offices" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

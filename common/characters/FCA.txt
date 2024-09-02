@@ -1,0 +1,32 @@
+characters={
+	FCA_armand_annet={
+		name="Armand Annet"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FCA_gontchome_sahoulba={
+		name="Gontchomé Sahoulba"
+		portraits={
+		}
+		country_leader={
+			ideology=traditionalist_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FCA_felix_houphouet_boigny={
+		name="Félix Houphouët-Boigny"
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

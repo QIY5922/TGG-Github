@@ -1,0 +1,20 @@
+
+state={
+	id=1009
+	name="STATE_1009"
+
+	history={
+		owner = TKP
+		add_core_of = TKP
+		add_core_of = GXC
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		1918 
+	}
+	manpower=13900
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

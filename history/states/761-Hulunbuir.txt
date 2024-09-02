@@ -1,23 +1,26 @@
+
 state={
 	id=761
 	name="STATE_761"
-	provinces={
-		1776 4745 4852 7697 7743 10541 10567 10612 10638 12537 12690 13150 
-	}
-	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 	history={
 		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
 
 		}
 
 	}
 
-	local_supplies=0.0 
+	provinces={
+		1502 1508 1558 1638 1776 3877 3978 4514 4745 4809 4852 4876 6852 6893 6988 7697 7743 7812 7873 7894 9927 10429 10499 10567 10612 10638 11836 11903 12469 12478 12690 13150 
+	}
+	manpower=1470000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

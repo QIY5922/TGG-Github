@@ -1,0 +1,25 @@
+
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		783 3791 6811 9766 10376 11893 11906 12482 
+	}
+	manpower=768000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

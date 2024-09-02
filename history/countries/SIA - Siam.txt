@@ -19,7 +19,7 @@ if = {
 		}
 	}
 }
-
+recruit_character = SIA_plaek_phibunsongkhram
 recruit_character = SIA_phraya_phahon
 recruit_character = SIA_nangklao_chichalerm
 recruit_character = SIA_chao_phonphayuhasena
@@ -164,14 +164,17 @@ set_convoys = 15
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = ultranat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	ultranat = 64
+	paternalism = 23
+	conservatism = 7
+	socialism = 2
+	communism = 4
 }
 
 ### VARIANTS ###

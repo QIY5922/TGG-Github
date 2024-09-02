@@ -1,0 +1,12 @@
+characters={
+	GAM_percy_wyn_harris={
+		name="Sir Percy Wyn-Harris"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

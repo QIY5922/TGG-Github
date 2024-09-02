@@ -1,0 +1,19 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		1999 
+	}
+	history = {
+		owner = MUL
+		add_core_of = MUL
+		add_core_of = GXC
+		add_core_of = CHI
+		victory_points = {
+			1999 1
+		}
+	}
+	manpower=73000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

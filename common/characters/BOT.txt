@@ -1,0 +1,32 @@
+characters={
+	BOT_martin_osterfield_wray={
+		name="Martin Osterfield Wray"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BOT_tshekedi_khama={
+		name="Tshekedi Khama"
+		portraits={
+		}
+		country_leader={
+			ideology=aristocratic_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BOT_seretse_khama={
+		name="Seretse Khama"
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

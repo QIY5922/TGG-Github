@@ -1,0 +1,12 @@
+characters={
+	ZNB_khalifa_bin_harub={
+		name="Sir Khalifa II bin Harub al-Busaidi"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

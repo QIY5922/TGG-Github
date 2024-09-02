@@ -1,0 +1,14 @@
+characters={
+	ROM_gheorghe_gheorghiu_dej={
+		name="Gheorghe Gheorghiu-Dej"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -84,26 +84,14 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.6.5"
-	election_frequency = 48
+	ruling_party = paternalism
+	last_election = "1953.5.13"
+	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.6.7"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	recruit_character = PAN_juan_demostenes_arosemena
-	promote_character = PAN_juan_demostenes_arosemena
-	recruit_character = PAN_july_portocarrero
-	promote_character = PAN_july_portocarrero
-	retire_character = PAN_harmodio_arias_madrid
-	retire_character = PAN_bartolomé_sinibaldi
+	paternalism = 69
+	liberalism = 27
+	socialism = 3
+	communism = 1
 }

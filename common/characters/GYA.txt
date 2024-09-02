@@ -1,0 +1,42 @@
+characters={
+	GYA_ralph_grey={
+		name="Ralph Grey"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GYA_cheddi_jagan={
+		name="Cheddi Jagan"
+		portraits={
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GYA_forbes_burnham={
+		name="Forbes Burnham"
+		portraits={
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GYA_rudy_kendall={
+		name="Rudy Kendall"
+		portraits={
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

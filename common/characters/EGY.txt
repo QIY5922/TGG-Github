@@ -1,0 +1,22 @@
+characters={
+	EGY_gamal_abdel_nasser={
+		name=EGY_gamal_abdel_nasser
+		portraits={
+		}
+		country_leader={
+			ideology=arab_nationalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EGY_fuad_ii={
+		name=EGY_fuad_ii
+		portraits={
+		}
+		country_leader={
+			ideology=semi_const_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,26 @@
+characters={
+	SAF_de_villiers_graaff={
+		name="Pieter De Villiers Graaff"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=traditionalist_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_j_g_strijdom={
+		name="J. G. Strijdom"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=baasskap
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

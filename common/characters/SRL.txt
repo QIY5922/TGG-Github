@@ -1,0 +1,32 @@
+characters={
+	SRL_dudley_senanyake={
+		name="Dudley Senanyake"
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRL_s_w_r_d_bandaranaike={
+		name="S. W. R. D. Bendaranaike"
+		portraits={
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRL_n_m_perera={
+		name="N. M. Perera"
+		portraits={
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

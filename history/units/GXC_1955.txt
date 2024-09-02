@@ -1,0 +1,68 @@
+division_template = {
+	name = "Pu-ping Shih" 			# Infantry Division
+	division_names_group = CHI_INF_01
+							
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		signal = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tu-li Lü" 			# Independent Brigade
+	division_names_group = CHI_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+##### OOB #####
+
+units = {
+
+	division = { # Ti 136 Shih 'Hsi-ch'ang'
+		division_name = {
+			is_name_ordered = yes
+			name_order = 136
+		}
+		location = 7294
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 137 Shih 'Ya-chou'
+		division_name = {
+			is_name_ordered = yes
+			name_order = 137
+		}
+		location = 10841
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Ti 34 Tu-li Lü
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 4999
+		division_template = "Tu-li Lü"
+		start_experience_factor = 0.3
+	}
+}

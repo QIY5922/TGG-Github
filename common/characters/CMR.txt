@@ -1,0 +1,63 @@
+characters={
+	CMR_roland_pre = {
+		name = "Roland Pré" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CMR_georges_thierry_d_argenlieu = {
+		name = "Georges Thierry d'Argenlieu" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CMR_andre_marie_mbida = {
+		name = "André-Marie Mbida" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CMR_ruben_um_nyobe = {
+		name = "Ruben Um Nyobé" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = african_socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CMR_felix_roland_moumie = {
+		name = "Félix-Roland Moumié" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = african_socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

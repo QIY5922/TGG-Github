@@ -1,0 +1,12 @@
+characters={
+	TNG_ismail_nasiruddin={
+		name="Sir Ismail Nasiruddin III"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

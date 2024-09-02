@@ -1,4 +1,4 @@
-capital = 286
+capital = 671
 
 oob = "FIC_1955"
 
@@ -28,20 +28,6 @@ set_technology = {
 	basic_train = 1
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.5.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 34
-	fascism = 12
-	neutrality = 55
-	communism = 3
-}
-
 FRA = {
 	if = {
 		limit = {
@@ -55,4 +41,24 @@ FRA = {
 			puppet = FIC
 		}
 	}
+}
+
+recruit_character = FIC_raoul_salan
+recruit_character = FIC_bao_dai
+recruit_character = FIC_paul_bernard
+recruit_character = FIC_nguyen_ai_quoc
+recruit_character = FIC_truong_tu_anh
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	paternalism = 20
+	conservatism = 25
+	ultranat = 37
+	communism = 18
 }

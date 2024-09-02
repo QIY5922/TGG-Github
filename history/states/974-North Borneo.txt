@@ -1,0 +1,33 @@
+state={
+	id=974
+	name="STATE_974"
+	resources = {
+		oil=23.000
+		rubber=15.000
+	}
+	provinces={
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+	}
+	history={
+		owner = NBR
+		add_core_of = NBR
+		victory_points = {
+			10212 1
+		}
+		victory_points = {
+			10199 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			10212 = {
+				naval_base = 2
+			}
+		}
+	}
+	state_category = rural
+	manpower=453000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

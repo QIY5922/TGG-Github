@@ -1,0 +1,24 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		8183 
+	}
+	history = {
+		owner = ZNB
+		add_core_of = ZNB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8183 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			8183 5
+		}
+	}
+	manpower=279000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

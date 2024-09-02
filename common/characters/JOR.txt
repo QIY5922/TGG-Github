@@ -1,0 +1,12 @@
+characters={
+	JOR_hussein={
+		name="Hussein I"
+		portraits={
+		}
+		country_leader={
+			ideology=semi_const_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

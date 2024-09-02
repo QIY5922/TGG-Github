@@ -269,16 +269,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1934.7.1"
-	election_frequency = 72
+	ruling_party = paternalism
+	last_election = "1952.7.1"
+	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-	fascism = 20
-	communism = 9
-	neutrality = 53
+	paternalism = 89
+	conservatism = 9
+	socialism = 2
+	communism = 0
 }
 
 ### VARIANTS ###

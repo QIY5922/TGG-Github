@@ -93,14 +93,18 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.10"
+	ruling_party = paternalism
+	last_election = "1954.11.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	paternalism = 39
+	liberalism = 11
+	conservatism = 7
+	social_democracy = 7
+	socialism = 8
+	communism = 28
 }
 
 1939.1.1 = {

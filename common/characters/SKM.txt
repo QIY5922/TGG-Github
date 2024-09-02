@@ -1,0 +1,12 @@
+characters={
+	SKM_tashi_namgyal={
+		name="Tashi Namgyal"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

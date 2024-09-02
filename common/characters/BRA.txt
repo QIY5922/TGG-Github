@@ -1,0 +1,82 @@
+characters={
+	BRA_eduardo_gomes={
+		name="Eduardo Gomes"
+		portraits={
+		}
+		country_leader={
+			ideology=free_market_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_magalhaes_pinto={
+		name="Magalhães Pinto"
+		portraits={
+		}
+		country_leader={
+			ideology=paternalistic_conservatism_2
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_adhemar_de_barros={
+		name="Adhemar de Barros"
+		portraits={
+		}
+		country_leader={
+			ideology=paternalist_populism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_jurandyr_mamede={
+		name="Jurandyr Mamede"
+		portraits={
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_plinio_salgado={
+		name="Plinio Salgado"
+		portraits={
+		}
+		country_leader={
+			ideology=ultranat_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_juscelino_kubitschek={
+		name="Juscelino Kubitschek"
+		portraits={
+		}
+		country_leader={
+			ideology=paternalistic_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_osvaldo_aranha={
+		name="Osvaldo Aranha"
+		portraits={
+		}
+		country_leader={
+			ideology=varguism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRA_luis_carlos_prestes={
+		name="Luis Carlos Prestes"
+		portraits={
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

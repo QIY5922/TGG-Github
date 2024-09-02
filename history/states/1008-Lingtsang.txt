@@ -1,0 +1,19 @@
+
+state={
+	id=1008
+	name="STATE_1008"
+
+	history={
+		owner = LNT
+		add_core_of = LNT
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		8104 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

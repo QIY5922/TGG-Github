@@ -1,0 +1,12 @@
+characters={
+	NGC_trashi_tsewang_dorje={
+		name="Trashi Tsewang Dorje"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

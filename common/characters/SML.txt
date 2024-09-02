@@ -1,0 +1,27 @@
+characters = {
+	SML_gerald_reece = {
+		name = "Sir Gerald Reece" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	SML_aden_adde = {
+		name = "Aden Abdulle Osman Da'ar" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

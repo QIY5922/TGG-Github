@@ -1,0 +1,12 @@
+characters={
+	NCH_chang_jen_li={
+		name=NCH_chang_jen_li
+		portraits={
+		}
+		country_leader={
+			ideology=autocrat_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,74 @@
+characters={
+	HOL_paul_de_groot={
+		name="Paul de Groot"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_louis_beel={
+		name="Louis Beel"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_jan_schouten={
+		name="Jan Schouten"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_anton_mussert={
+		name="Anton Mussert"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_pieter_oud={
+		name="Pieter Oud"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=social_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_marinus_van_der_goes={
+		name="Jonkheer van der Goes van Naters"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

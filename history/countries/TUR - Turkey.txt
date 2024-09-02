@@ -246,13 +246,6 @@ if = {
 	add_political_power = 1198
 	add_command_power = 100
 
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.2.8"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }
 		complete_national_focus = TUR_the_montreux_convention
@@ -414,13 +407,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.2.8"
+	ruling_party = paternalism
+	last_election = "1951.2.24"
+	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	communism = 4
+	liberalism = 6
+	paternalism = 90
 }
 
 set_convoys = 20

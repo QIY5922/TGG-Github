@@ -1,0 +1,26 @@
+characters={
+	ELS_oscar_osorio={
+		name="Óscar Osorio"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ELS_jose_maria_lemus={
+		name="José María Lemus"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

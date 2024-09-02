@@ -1,0 +1,87 @@
+characters={
+	CHL_oyarzun_galo_gonzalez = {
+		name = "Oyarzun Galo González" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_salvador_allende = {
+		name = "Salvador Allende" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_luis_bossay = {
+		name = "Luis Bossay" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_eduardo_frei_montalva = {
+		name = "Eduardo Frei Montalva" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = christian_progressivism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_jorge_alessandri = {
+		name = "Jorge Alessandri" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_juan_coloma_mellado = {
+		name = "Juan Coloma Mellado" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = traditionalist_conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	CHL_carlos_ibanez_del_campo = {
+		name = "Carlos Ibáñez del Campo" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = paternalist_populism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

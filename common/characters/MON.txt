@@ -1,0 +1,14 @@
+characters={
+	MON_yumjaagiin_tsedenbal={
+		name="Yumjaagiin Tsedenbal"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

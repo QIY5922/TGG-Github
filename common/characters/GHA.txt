@@ -1,0 +1,42 @@
+characters={
+	GHA_gerald_creasy={
+		name="Sir Gerald Creasy"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GHA_alex_waddell={
+		name="Sir Alexander Waddell"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GHA_kofi_abrefa_busia={
+		name="Kofi Abrefa Busia"
+		portraits={
+		}
+		country_leader={
+			ideology=national_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GHA_kwame_nkrumah={
+		name="Kwame Nkrumah"
+		portraits={
+		}
+		country_leader={
+			ideology=african_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

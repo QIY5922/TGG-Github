@@ -1,0 +1,118 @@
+division_template = {
+	name = "Pu-ping Shih" 			# Infantry Division
+	division_names_group = CHI_INF_01
+							
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		signal = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tu-li Lü" 			# Independent Brigade
+	division_names_group = CHI_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = { # Ti 66 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = 1575
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 69 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 1575
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 72 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = 7418
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 68 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = 8049
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 71 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = 8049
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 45 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 1458
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 73 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 73
+		}
+		location = 7314
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 70 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 1458
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+	division = { # Ti 44 Shih
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 1531
+		division_template = "Pu-ping Shih"
+		start_experience_factor = 0.3
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+		7270 
+	}
+	history = {
+		owner = ARK
+		add_core_of = ARK
+		add_core_of = CHI
+	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

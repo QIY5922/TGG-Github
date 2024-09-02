@@ -1,0 +1,12 @@
+characters={
+	KLT_ibrahim_muhammad={
+		name="Sir Ibrahim Muhammad IV"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

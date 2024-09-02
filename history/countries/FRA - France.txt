@@ -164,203 +164,53 @@ if = {
 		armored_car1 = 1
 	}
 }
-1939.1.1 = {
-
-	add_political_power = 899
-	add_command_power = 100
-
-	#adding ministers
-	add_ideas = {
-		FRA_charles_tillon
-		francois_darlan
-		philippe_fequant
-		famh
-		jean_marie_bergeret
-		renault_fra
-		FRA_full_employment
-	    FRA_political_violence
-	    FRA_inefficient_economy_2
-	    FRA_matignon_agreements
-		#laws
-		partial_economic_mobilisation
-	}
-
-	complete_national_focus = FRA_begin_rearmament
-	complete_national_focus = FRA_form_the_popular_front
-	complete_national_focus = FRA_reform_the_labour_laws
-	complete_national_focus = FRA_the_blum_viollette_proposal
-	complete_national_focus = FRA_review_foreign_policy
-	complete_national_focus = FRA_intervention_in_spain
-	complete_national_focus = FRA_buy_time
-	complete_national_focus = FRA_defensive_focus
-	complete_national_focus = FRA_firepower_kills
-	complete_national_focus = FRA_go_with_britain
-	complete_national_focus = FRA_devalue_the_franc
-	complete_national_focus = FRA_invest_in_the_metropole
-
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
-
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "FRA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "FRA_1939_naval_legacy"
-		}
-	}
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "FRA_1939_air_bba"
-			set_technology = {
-				basic_small_airframe = 1
-				improved_small_airframe = 1
-				basic_medium_airframe = 1
-				basic_large_airframe = 1
-				engines_3 = 1
-				improved_medium_airframe = 1
-			}
-		else = {
-			set_air_oob = "FRA_1939_air_legacy"
-			set_technology = {
-				fighter1 = 1
-				fighter2 = 1
-				heavy_fighter1 = 1
-				tactical_bomber2 = 1
-				strategic_bomber1 = 1
-				cv_fighter1 = 1
-				cv_CAS1 = 1
-			}
-		}
-	}
-
-	set_technology = {
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
-
-			grand_battle_plan = 1
-
-		trench_warfare = 1
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		set_technology = {
-			improved_light_tank = 1
-			basic_medium_tank = 1
-			basic_heavy_tank = 1
-		}
-		set_oob = "FRA_1939"
-	}
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		set_technology = {
-			improved_light_tank_chassis = 1
-			basic_medium_tank_chassis = 1
-			basic_heavy_tank_chassis = 1
-
-		}
-		set_oob = "FRA_1939_nsb"
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_battleship = 1
-			basic_battlecruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			improved_ship_hull_light = 1
-			improved_ship_hull_heavy = 1
-			basic_ship_hull_carrier = 1
-			improved_heavy_armor_scheme = 1
-			improved_light_battery = 1
-			basic_heavy_battery = 1
-			improved_ship_torpedo_launcher = 1
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
-	}
-}
-
 set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.5.1"
+	ruling_party = social_democracy
+	last_election = "1952.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 64
-	fascism = 1
-	neutrality = 15
-	communism = 20
+	communism = 9
+	socialism = 11
+	social_democracy_3 = 10
+	social_democracy = 16
+	liberalism_2 = 10
+	liberalism = 11
+	conservatism_2 = 10
+	conservatism = 12
+	paternalism = 10
+	ultranat = 1
 }
 
-add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
-	limited_conscription
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
-}
-
-give_guarantee = CZE
+give_guarantee = BUL
+give_guarantee = HUN
 give_guarantee = YUG
-give_guarantee = ROM
+give_guarantee = BEL
+give_guarantee = LUX
+give_guarantee = HOL
 
-recruit_character = FRA_philippe_petain
+recruit_character = FRA_jean_zay
+recruit_character = FRA_pierre_mendes_france
+recruit_character = FRA_paul_reynaud
+recruit_character = FRA_henri_queuille
+recruit_character = FRA_yves_dechezelles
+recruit_character = FRA_guy_mollet
+recruit_character = FRA_jean_raymond_laurent
+recruit_character = FRA_antoine_pinay
+recruit_character = FRA_rene_coty
+recruit_character = FRA_joseph_denais
+recruit_character = FRA_georges_pernot
+recruit_character = FRA_pierre_pfimlin
+recruit_character = FRA_robert_schuman
+recruit_character = FRA_georges_bidault
+recruit_character = FRA_francois_de_la_rocque
+recruit_character = FRA_jacques_doriot
+recruit_character = FRA_pierre_poujade
 recruit_character = FRA_maurice_thorez
-recruit_character = FRA_pierre_laval
-recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
 recruit_character = FRA_alphonse_juin
 recruit_character = FRA_maurice_gamelin
@@ -1290,3 +1140,15 @@ if = {
 		}
 	}
 }
+
+create_faction = "French Union"
+add_to_faction = FRA
+add_to_faction = FCA
+add_to_faction = FWA
+add_to_faction = TUN
+add_to_faction = MOR
+add_to_faction = SYR
+add_to_faction = LEB
+add_to_faction = CMR
+add_to_faction = FIC
+add_to_faction = MAD

@@ -1,0 +1,15 @@
+characters={
+	HAI_sténio_vincent={
+		name="Sténio Vincent"
+		portraits={
+			civilian={
+				large="GFX_portrait_haiti_stenio_vincent"
+			}
+		}
+		country_leader={
+			ideology=controlled_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

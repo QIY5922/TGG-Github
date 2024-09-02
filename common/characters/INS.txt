@@ -1,0 +1,61 @@
+characters={
+	INS_sukarno={
+		name=INS_sukarno
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_sukarno
+			}
+		}
+		country_leader={
+			ideology=socialism_ideology
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_antonius_lovink={
+		name="Antonius Lovink"
+		portraits={
+			civilian={
+				large="GFX_portrait_indonesia_at_van_starkenborgh"
+			}
+		}
+		country_leader={
+			ideology=colonial_admin
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_suharto={
+		name=INS_suharto
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_suharto
+			}
+		}
+		country_leader={
+			ideology=socialism_ideology
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_sekarmadji={
+		name="Sekarmadji Maridjan Kartosoewirjo"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=theocracy
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

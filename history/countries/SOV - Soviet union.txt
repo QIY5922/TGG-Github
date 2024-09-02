@@ -10,22 +10,9 @@ set_party_name = {
 	long_name = SOV_communism_party_russian_long
 	name = SOV_communism_party_russian
 }
-set_party_name = {
-	ideology = fascism
-	long_name = SOV_fascism_party_russian_long
-	name = SOV_fascism_party_russian
-}
 
 #COUNTRY LEADERS
-recruit_character = SOV_iosif_stalin
-recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = SOV_provisional_government # United Exiles
-	set_country_flag = vlasov_owner_flag
-}
+recruit_character = SOV_georgy_malenkov
 
 #POLITICAL ADVISORS
 recruit_character = SOV_mikhail_kalinin
@@ -39,7 +26,6 @@ recruit_character = SOV_vsevolod_merkulov
 recruit_character = SOV_vyacheslav_molotov
 recruit_character = SOV_maksim_litvinov
 
-recruit_character = SOV_lev_trotsky
 recruit_character = SOV_ivan_smirnov
 recruit_character = SOV_ivar_smilga
 recruit_character = SOV_karl_radek
@@ -54,7 +40,6 @@ recruit_character = SOV_lev_kamenev
 recruit_character = SOV_martemyan_ryutin
 recruit_character = SOV_patriarch_sergy
 recruit_character = SOV_aleksandr_kerensky
-recruit_character = SOV_konstantin_rodzayevsky
 
 
 recruit_character = SOV_aleksandr_vasilevsky
@@ -144,7 +129,6 @@ if = {
 	recruit_character = SOV_vyacheslav_tkachyov
 	recruit_character = SOV_yan_nagursky
 	recruit_character = SOV_vasily_yanchenko
-	recruit_character = SOV_tsar_vladimir_kirillovich
 
 	recruit_character = SOV_pyotr_krasnov
 	recruit_character = SOV_konstantin_nechayev
@@ -1236,8 +1220,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
+	socialism = 10
+	ultranat = 2
 	communism = 88
 }
 

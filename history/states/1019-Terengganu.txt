@@ -1,0 +1,20 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		4355 12199 
+	}
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12199 2
+		}
+	}
+	manpower=328790
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

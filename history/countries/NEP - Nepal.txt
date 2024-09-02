@@ -2,7 +2,7 @@
 
 oob = "NEP_1936"
 
-recruit_character = NEP_juddha_rana
+recruit_character = NEP_mohan_rana
 recruit_character = NEP_bhakti_thapa
 recruit_character = NEP_bir_shamsher_singh_thapa
 recruit_character = NEP_amar_thapa
@@ -11,7 +11,7 @@ recruit_character = NEP_hira_rana
 recruit_character = NEP_birsha_gurung
 recruit_character = NEP_gagan_lama
 recruit_character = NEP_walter_morriano
-recruit_character = NEP_mohan_rana
+
 recruit_character = NEP_robert_mainwaring
 recruit_character = NEP_kiran_rana
 recruit_character = NEP_h_t_s_collins
@@ -88,11 +88,13 @@ set_stability = 0.8
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	paternalism = 36
+	social_democracy = 50
+	communism = 14
 }

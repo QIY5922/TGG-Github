@@ -1,0 +1,41 @@
+﻿capital = 973
+
+set_cosmetic_tag = SWZ_UK
+
+oob = "BOT_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SWZ
+			autonomous_state = autonomy_dominion
+		}
+		else = {
+			puppet = SWZ
+		}
+	}
+}
+
+recruit_character = SWZ_david_morgan
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	paternalism = 100
+}
+

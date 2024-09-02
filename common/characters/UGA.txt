@@ -1,0 +1,22 @@
+characters={
+	UGA_geoffrey_colby={
+		name="Sir Geoffrey Colby"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	UGA_ignatius_k_musaazi={
+		name="Ignatius K. Musaazi"
+		portraits={
+		}
+		country_leader={
+			ideology=african_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

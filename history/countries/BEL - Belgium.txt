@@ -30,7 +30,12 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = BEL_paul_henri_spaak
 recruit_character = BEL_hubert_pierlot
+recruit_character = BEL_maurice_destenay
+recruit_character = BEL_roger_motz
+
+
 recruit_character = BEL_joseph_jacquemotte
 recruit_character = BEL_mcl_keyaerts
 recruit_character = BEL_georges_timmermans
@@ -122,30 +127,20 @@ recruit_character = BEL_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.11.27"
-	election_frequency = 48
+	ruling_party = social_democracy
+	last_election = "1953.2.17"
+	election_frequency = 42
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
-	}
+	ultranat = 2
+ 	autocracy = 8
+	conservatism = 33
+	social_democracy = 20
+	socialism = 21
+	liberalism = 12
+	communism = 4
 }
 
 set_convoys = 80

@@ -1,0 +1,14 @@
+characters={
+	GXC_liu_wen_hui = {
+		name=GXC_liu_wen_hui
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+}

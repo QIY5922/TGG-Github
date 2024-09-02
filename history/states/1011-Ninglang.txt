@@ -1,0 +1,18 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		4937 
+	}
+	history = {
+		owner = NGL
+		add_core_of = NGL
+		add_core_of = CHI
+		victory_points = {
+			4937 1
+		}
+	}
+	manpower=93000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

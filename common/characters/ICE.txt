@@ -1,0 +1,66 @@
+characters={
+	ICE_hermann_jonasson = {
+		name = ICE_hermann_jonasson
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ICE_hermann_jonasson
+				small = GFX_portrait_ICE_hermann_jonasson_small
+			}
+
+		}
+		country_leader = {
+			ideology = nordic_agrarianism
+			traits = { ICE_hot_tempered_reformer }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+	
+	ICE_olafur_thors = {
+		name = ICE_olafur_thors
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ICE_olafur_thors
+				small = GFX_portrait_ICE_olafur_thors_small
+			}
+
+		}
+		country_leader = {
+			ideology = conservatism_ideology
+			traits = { ICE_transportation_enthusiast }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+	
+	ICE_haraldur_gudhmundsson = {
+		name = ICE_haraldur_gudhmundsson
+		portraits = {
+			civilian = {
+				small = GFX_portrait_ICE_haraldur_gudhmundsson_small
+			}
+
+		}
+		country_leader = {
+			ideology = socdem_ideology
+			expire = "1965.1.1"
+			id = -1
+		}
+		
+	}
+
+	ICE_hannibal_valdimarsson = {
+		name = "Hannibal Valdimarsson"
+		portraits = {
+			civilian = {
+			}
+
+		}
+		country_leader = {
+			ideology = socialism_ideology
+			expire = "1965.1.1"
+			id = -1
+		}
+		
+	}
+}

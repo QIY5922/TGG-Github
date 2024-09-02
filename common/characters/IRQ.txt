@@ -1,0 +1,42 @@
+characters={
+	IRQ_nuri_al_said={
+		name="Nuri al-Said"
+		portraits={
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_fuad_al_rikabi={
+		name="Fuad al-Rikabi"
+		portraits={
+		}
+		country_leader={
+			ideology=baathism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_abd_al_ilah={
+		name="Crown Prince Abd al-Ilah"
+		portraits={
+		}
+		country_leader={
+			ideology=semi_const_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_abdul_karim_qasim={
+		name="Abdul-Karim Qasim"
+		portraits={
+		}
+		country_leader={
+			ideology=arab_nationalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

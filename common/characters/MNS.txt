@@ -1,0 +1,12 @@
+characters={
+	MNS_fang_ko_sheng={
+		name="Fang K'o-sheng"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

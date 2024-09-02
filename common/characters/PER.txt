@@ -1,0 +1,52 @@
+characters={
+	PER_mohammad_mosaddegh={
+		name="Mohammad Mosaddegh"
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_mozzafar_baghai={
+		name="Mozzafar Baghai"
+		portraits={
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_mohammad_bahrami={
+		name="Mohammad Bahrami"
+		portraits={
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_abol_ghasem_kashani={
+		name="Sayyed Abol-Ghasem Kashani"
+		portraits={
+		}
+		country_leader={
+			ideology=theocracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_mohammad_reza_shah={
+		name="Mohammad Reza Pahlavi"
+		portraits={
+		}
+		country_leader={
+			ideology=semi_const_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

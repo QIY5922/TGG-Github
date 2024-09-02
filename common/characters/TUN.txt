@@ -1,0 +1,51 @@
+characters = {
+	TUN_pierre_boyer_de_latour = {
+		name = "Pierre Boyer de Latour du Moulin" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	TUN_salah_farhat = {
+		name = "Salah Farhat" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	TUN_habib_bourguiba = {
+		name = "Habib Bourguiba" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = arab_nationalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	TUN_mohamed_nafaa = {
+		name = "Mohamed Nafaa" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

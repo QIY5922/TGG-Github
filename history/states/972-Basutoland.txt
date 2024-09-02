@@ -1,0 +1,22 @@
+state={
+	id=972
+	name="STATE_972"
+	provinces={
+		4556 
+	}
+	history = {
+
+		owner = BST
+		add_core_of = BST
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4556 1
+		}
+	}
+	manpower=453000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

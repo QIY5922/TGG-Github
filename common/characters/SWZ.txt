@@ -1,0 +1,12 @@
+characters={
+	SWZ_david_morgan={
+		name="David Loftus Morgan"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,6 +1,6 @@
-﻿capital = 613 # Nanjing
+﻿capital = 749 # Nanjing
 
-oob = "CHI_1936"
+oob = "CHI_1955"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CHI_1936_naval_mtg"
@@ -20,11 +20,16 @@ if = {
 	}
 }
 
-recruit_character = CHI_chiang_kaishek
-recruit_character = CHI_zhang_guotao
 recruit_character = CHI_wang_jingwei
-recruit_character = CHI_weng_wenhao
-recruit_character = CHI_tu_yuming
+recruit_character = CHI_chen_kung_po
+recruit_character = CHI_lin_pai_sheng
+recruit_character = CHI_madame_wang
+recruit_character = CHI_chou_fo_hai
+recruit_character = CHI_ye_feng
+recruit_character = CHI_chu_hsiang
+recruit_character = CHI_kiang_kang_hu
+recruit_character = CHI_chao_yu_sung
+recruit_character = CHI_chang_jen_li
 recruit_character = CHI_hsueh_yueh
 recruit_character = CHI_tai_anlan
 recruit_character = CHI_wang_yaowu
@@ -176,20 +181,8 @@ if = {
 		CHI_hyper_inflation_1
 	}
 }
-save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
-
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	neutrality = 100
-}
 
 ### VARIANTS ###
 # 1936 Start #
@@ -271,4 +264,30 @@ if = {
 	}
 }
 
+JAP = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = CHI
+			autonomous_state = autonomy_puppet
+		}
+		else = {
+			puppet = CHI
+		}
+	}
+}
 
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	paternalism = 82
+	conservatism = 10
+	socialism = 8
+}

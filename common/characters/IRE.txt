@@ -1,0 +1,51 @@
+characters={
+	IRE_Éamon_de_valera={
+		name="Éamon de Valera"
+		portraits={
+			civilian={
+				large=GFX_portrait_Eamon_de_Valera
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_richard_mulcahy={
+		name="Richard Mulcahy"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_william_norton={
+		name="William Norton"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_paddy_mclogan={
+		name="Paddy McLogan"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -313,18 +313,7 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.6.9"
-	election_frequency = 7
-	elections_allowed = yes # none after offset 1
-}
-set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
-}
+
 
 set_stability = 0.72
 set_war_support = 0.23
@@ -577,5 +566,19 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
+	}
+}
+
+1955.1.1 = {
+	set_politics = {
+		ruling_party = autocracy
+		last_election = "1935.6.9"
+		election_frequency = 7
+		elections_allowed = no
+	}
+	set_popularities = {
+		autocracy = 83
+		paternalism = 13
+		communism = 4
 	}
 }

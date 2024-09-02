@@ -1,0 +1,22 @@
+characters={
+	TZN_edward_twining={
+		name="Sir Edward Twining"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TZN_julius_nyerere={
+		name="Julius Nyerere"
+		portraits={
+		}
+		country_leader={
+			ideology=african_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

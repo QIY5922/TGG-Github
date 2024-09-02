@@ -1,0 +1,12 @@
+characters={
+	KAN_darijaya={
+		name=KAN_darijaya
+		portraits={
+		}
+		country_leader={
+			ideology=aristocratic_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

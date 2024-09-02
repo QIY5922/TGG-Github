@@ -1,0 +1,19 @@
+state={
+	id=999
+	name="STATE_999"
+	provinces={
+		11830
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+	manpower=821304
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

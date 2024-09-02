@@ -1,9 +1,64 @@
+KOR_JAP = {
+    color = hsv { 0.05 0.3 1 }
+    color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+ZNB_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+SWZ_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+SKM_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+GHA_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+BLZ_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+BOT_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+GYA_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+GAM_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+SIE_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
 
 UGA_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+SRL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
@@ -49,8 +104,33 @@ SUD_UK = {
 }
 
 LEB_FRA = {
-	color = rgb { 130  150  60 }
-	color_ui = rgb { 130  150  60 }
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+MOR_FRA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+TUN_FRA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+CMR_FRA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+MAD_FRA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+
+SYR_FRA = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
 }
 
 COG_BEL = {

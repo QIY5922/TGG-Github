@@ -1,0 +1,72 @@
+characters={
+	LEB_andre_mutter={
+		name="André Mutter"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_pierre_gemayel={
+		name="Pierre Gemayel"
+		portraits={
+		}
+		country_leader={
+			ideology=paternalist_populism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_raymond_edde={
+		name="Raymond Eddé"
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_bechara_el_khoury={
+		name="Bechara el-Khoury"
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_camille_chamoun={
+		name="Camille Chamoun"
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_yusuf_yazbek={
+		name="Yusuf Yazbek"
+		portraits={
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_kamal_jumblatt={
+		name="Kamal Jumblatt"
+		portraits={
+		}
+		country_leader={
+			ideology=left_nationalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

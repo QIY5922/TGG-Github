@@ -81,32 +81,16 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.2.14"
-	election_frequency = 48
+	ruling_party = conservatism
+	last_election = "1953.2.2" # For 2 Feb 1958 election
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 2
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.2.9"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 95
-		communism = 5
-	}
-
-	recruit_character = COS_leon_cortes_castro
-	promote_character = COS_leon_cortes_castro
-	retire_character = COS_ricardo_jiménez_oreamuno
-
+	conservatism = 42
+	liberalism = 23
+	social_democracy = 10
+	socialism = 22
+	ultranat = 3
 }

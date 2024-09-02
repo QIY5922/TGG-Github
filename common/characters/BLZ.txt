@@ -1,0 +1,42 @@
+characters={
+	BLZ_kenneth_maddocks={
+		name="Kenneth Maddocks"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_leigh_richardson={
+		name="Leigh Richardson"
+		portraits={
+		}
+		country_leader={
+			ideology=socialism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_george_cadle_price={
+		name="George Cadle Price"
+		portraits={
+		}
+		country_leader={
+			ideology=socialism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_w_h_courtenay={
+		name="W. H. Courtenay"
+		portraits={
+		}
+		country_leader={
+			ideology=traditionalist_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

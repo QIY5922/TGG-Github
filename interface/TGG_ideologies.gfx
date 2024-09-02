@@ -1,0 +1,70 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ideology_communism_group"
+        texturefile = "gfx/interface/ideologies/communism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_socialism_group"
+        texturefile = "gfx/interface/ideologies/socialism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_socialism_2_group"
+        texturefile = "gfx/interface/ideologies/socialism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_socialism_3_group"
+        texturefile = "gfx/interface/ideologies/socialism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_social_democracy_group"
+        texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_social_democracy_2_group"
+        texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_social_democracy_3_group"
+        texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_liberalism_group"
+        texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_liberalism_2_group"
+        texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_liberalism_3_group"
+        texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_conservatism_group"
+        texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_conservatism_2_group"
+        texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_conservatism_3_group"
+        texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_paternalism_group"
+        texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_paternalism_2_group"
+        texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_autocracy_group"
+        texturefile = "gfx/interface/ideologies/autocracy_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_ultranat_group"
+        texturefile = "gfx/interface/ideologies/ultranat_group.dds"
+    }
+}

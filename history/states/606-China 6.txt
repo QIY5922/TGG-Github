@@ -1,3 +1,4 @@
+
 state={
 	id=606
 	name="STATE_606"
@@ -14,17 +15,29 @@ state={
 
 		}
 		victory_points = {
-			7222 1 
+			7222 3
+		}
+		victory_points = {
+			12036 1
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 3
+				air_base = 1
+				arms_factory = 1
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		1083 1146 4079 4158 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
+		1001 1083 1099 1121 1125 1146 1153 1161 1171 4005 4079 4105 4173 4203 7035 7094 7104 7222 9937 10008 10017 10040 10044 10064 10079 11916 11937 11973 11994 12019 12036 12061 13144 
 	}
 	manpower=18265400
 	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=2.0 
+	local_supplies=2.000
 }

@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_richard_russell_jr"
+        texturefile = "gfx/portraits/richard_russell_jr.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_anthony_eden"
+        texturefile = "gfx/portraits/anthony_eden.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_luigi_einaudi"
+        texturefile = "gfx/portraits/luigi_einaudi.dds"
+    }
+}

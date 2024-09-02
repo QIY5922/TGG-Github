@@ -1,0 +1,122 @@
+characters={
+	RAJ_archibald_nye={
+		name="Lord Nye of Calicut"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_enoch_powell={
+		name="Lord Powell of Dacca"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_huseyn_shaheed_suhrawardy={
+		name="Huseyn Shaheed Suhrawardy"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=islamic_modernism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_chakravarti_rajagopalachari={
+		name="Chakravarti Rajagopalachari"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=paternalistic_liberalism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_v_k_krishna_menon={
+		name="V. K. Krishna Menon"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_liaquat_ali_khan={
+		name="Liaquat Ali Khan"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=islamic_democracy
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_khizar_hayat_tiwana={
+		name="Khizar Hayat Tiwana"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_house_of_princes={
+		name="House of Princes"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_mohan_singh={
+		name="Mohan Singh"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=left_nationalism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	RAJ_ajoy_ghosh={
+		name="Ajoy Ghosh"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+}

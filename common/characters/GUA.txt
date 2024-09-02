@@ -1,0 +1,14 @@
+characters={
+	GUA_carlos_castillo_armas={
+		name="Carlos Castillo Armas"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,38 @@
+characters={
+	YUG_bozidar_puric={
+		name = "Božidar Purić"
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = paternalism_ideology
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	YUG_radoje_knezevic={
+		name = "Radoje Knežević"
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = liberalism_ideology
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	YUG_dimitrije_ljotic={
+		name = "Dimitrije Ljotić"
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = ultranat_ideology
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+}

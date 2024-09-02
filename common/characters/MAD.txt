@@ -1,0 +1,15 @@
+characters = {
+	MAD_jules_marcel_de_coppet = {
+		name = "Jules Marcel de Coppet" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

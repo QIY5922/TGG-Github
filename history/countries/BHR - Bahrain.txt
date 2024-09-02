@@ -1,0 +1,39 @@
+﻿capital = 996
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+}
+
+set_convoys = 5
+
+recruit_character = BHR_salman_bin_hamad
+recruit_character = BHR_isa_bin_salman
+
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = BHR
+			autonomous_state = autonomy_dominion
+		}
+		else = {
+			puppet = BHR
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	autocracy = 100
+}

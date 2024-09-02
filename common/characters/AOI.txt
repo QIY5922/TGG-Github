@@ -1,0 +1,18 @@
+characters = {
+
+	# GUGLIELMO NASI
+	AOI_guglielmo_nasi = {
+		name = AOI_guglielmo_nasi
+		portraits = {
+			army = {
+				large = GFX_portrait_AOI_gugliemo_nasi
+				small = GFX_idea_AOI_guglielmo_nasi_small
+			}
+		}
+		country_leader = {
+			ideology = imperial_government
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}	
+}

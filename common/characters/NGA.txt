@@ -1,0 +1,42 @@
+characters={
+	NGA_james_wilson_robertson={
+		name="Sir James Wilston Robertson"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NGA_ahmadu_bello={
+		name="Ahmadu Bello"
+		portraits={
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NGA_nnamdi_azikiwe={
+		name="Nnamdi Benjamin Azikiwe"
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NGA_obafemi_awolowo={
+		name="Chief Obafemi Awolowo"
+		portraits={
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

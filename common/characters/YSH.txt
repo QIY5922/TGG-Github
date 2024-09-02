@@ -1,0 +1,12 @@
+characters={
+	YSH_yushu_chiefs={
+		name="Yushu Chiefs"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

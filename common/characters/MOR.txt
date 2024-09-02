@@ -1,0 +1,63 @@
+characters = {
+	MOR_mohammed_v = {
+		name = "Mohammed V" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MOR_augustin_guillaume = {
+		name = "Augustin Guillaume" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MOR_ahmed_balafrej = {
+		name = "Ahmed Balafrej" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MOR_abbas_messaadi = {
+		name = "Abbas Messaadi" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = arab_nationalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MOR_ali_yata = {
+		name = "Ali Yata" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

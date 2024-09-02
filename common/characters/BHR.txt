@@ -1,0 +1,22 @@
+characters={
+	BHR_salman_bin_hamad={
+		name="Salman bin Hamad al-Khalifa"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BHR_isa_bin_salman={
+		name="Isa bin Salman al-Khalifa"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

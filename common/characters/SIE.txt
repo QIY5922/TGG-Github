@@ -1,0 +1,32 @@
+characters={
+	SIE_patrick_muir_renison={
+		name="Sir Patrick Muir Renison"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIE_herbert_bankole_bright={
+		name="Herbert Bankole-Bright"
+		portraits={
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIE_lamina_sankoh={
+		name="Lamina Sankoh"
+		portraits={
+		}
+		country_leader={
+			ideology=national_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

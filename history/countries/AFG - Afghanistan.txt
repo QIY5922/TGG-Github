@@ -122,28 +122,14 @@ recruit_character = AFG_muhammed_nowroz
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 15
-	communism = 10
-	neutrality = 75
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
-	}
+	paternalism = 76
+	autocracy = 22
+	communism = 2
 }

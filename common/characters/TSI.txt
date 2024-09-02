@@ -1,0 +1,12 @@
+characters={
+	TSI_ye_feng={
+		name="Ye Feng"
+		portraits={
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

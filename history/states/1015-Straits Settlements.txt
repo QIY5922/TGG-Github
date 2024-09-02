@@ -1,0 +1,32 @@
+state={
+	id=1015
+	name="STATE_1015"
+	provinces={
+		1376 4412 7342 12299 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+		}
+		victory_points = {
+			1376 1
+		}
+		victory_points = {
+			7342 3
+		}
+		victory_points = {
+			4412 3
+		}
+	}
+			
+	manpower=2313386
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

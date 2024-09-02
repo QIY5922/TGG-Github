@@ -1,0 +1,42 @@
+characters={
+	BOL_juan_lechin={
+		name="Juan Lechín"
+		portraits={
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BOL_simon_reyes_rivera={
+		name="Simón Reyes Rivera"
+		portraits={
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BOL_victor_paz_estenssoro={
+		name="Víctor Paz Estenssoro"
+		portraits={
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BOL_oscar_unzanga={
+		name="Óscar Únzaga"
+		portraits={
+		}
+		country_leader={
+			ideology=falangism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

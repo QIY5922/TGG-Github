@@ -1,0 +1,22 @@
+characters={
+	FWA_bernard_cornut_gentille={
+		name="Bernard Cornut-Gentille"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FWA_felix_houphouet_boigny={
+		name="Félix Houphouët-Boigny"
+		portraits={
+		}
+		country_leader={
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

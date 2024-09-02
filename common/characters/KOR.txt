@@ -1,0 +1,39 @@
+characters = {
+	KOR_yoshimoto_teiichi = {
+		name = "Yoshimoto Teiichi" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = imperial_government
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	KOR_kim_tu_bong= {
+		name = "Kim Tu-bong" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	KOR_kim_ku = {
+		name = "Kim Ku" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

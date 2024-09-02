@@ -1,0 +1,63 @@
+characters={
+	COG_jean_paul_harroy = {
+		name = "Jean-Paul Harroy" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_patrice_lumumba = {
+		name = "Patrice Lumumba" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_joseph_kasa_vubu = {
+		name = "Joseph Kasa-Vubu" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_mobutu = {
+		name = "Joseph-Désiré Mobutu" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_antoine_gizenga = {
+		name = "Antoine Gizenga" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = african_socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

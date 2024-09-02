@@ -1,0 +1,15 @@
+characters = {
+	BRN_omar_ali_iii = {
+		name = "Omar Ali Saifuddien III" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchism
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}
+}
+	

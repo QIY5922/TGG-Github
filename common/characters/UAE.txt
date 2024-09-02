@@ -1,0 +1,12 @@
+characters={
+	UAE_trucial_states_council={
+		name="Trucial States Council"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

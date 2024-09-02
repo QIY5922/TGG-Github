@@ -1,0 +1,21 @@
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		10962 
+	}
+	history = {
+
+		owner = KEN
+		add_core_of = KEN
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		set_demilitarized_zone = yes
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

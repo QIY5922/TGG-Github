@@ -1,0 +1,12 @@
+characters={
+	KUW_abdullah_al_salim={
+		name="Abdullah al-Salim al-Sabah"
+		portraits={
+		}
+		country_leader={
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

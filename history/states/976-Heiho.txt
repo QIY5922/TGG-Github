@@ -1,0 +1,19 @@
+state={
+	id=976
+	name="STATE_976"
+	provinces={
+		1693 7832 7848 10541 10675 10698 12537 12548 
+	}
+	history={
+		add_core_of = MAN
+		add_core_of = CHI
+		owner = MAN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=161000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

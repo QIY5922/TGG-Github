@@ -83,8 +83,12 @@ if = {
 		}
 	}
 }
-
-recruit_character = AST_john_curtin
+recruit_character = AST_robert_g_menzies
+recruit_character = AST_harold_holt
+recruit_character = AST_arthur_calwell
+recruit_character = AST_h_v_evatt
+recruit_character = AST_arthur_fadden
+recruit_character = AST_john_mc_ewen
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon
 recruit_character = AST_earle_page
@@ -112,7 +116,6 @@ recruit_character = AST_charles_burnett
 recruit_character = AST_edmund_herring
 recruit_character = AST_arthur_drakeford
 recruit_character = AST_john_lavarack
-recruit_character = AST_robert_g_menzies
 recruit_character = AST_ben_chifley
 recruit_character = AST_frank_forde
 recruit_character = AST_alexander_hore_ruthven
@@ -274,29 +277,32 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberal
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 2
+
 }
 
 set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.10.23"
+		ruling_party = conservatism
+		last_election = "1954.5.29"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 99
+		paternalism = 9
+		conservatism = 21
+		liberalism = 18
+		social_democracy = 30
+		socialism = 21
 		communism = 1
 	}
 

@@ -1,0 +1,55 @@
+characters = {
+	POL_boleslaw_bierut={
+		name=POL_boleslaw_bierut
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1" #No Portrait
+			}
+		}
+		country_leader = {
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_jozef_cyrankiewicz={
+		name="Józef Cyrankiewicz"
+		portraits={
+		}
+		country_leader = {
+			ideology=democratic_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_adam_koc={
+		name="Adam Koc"
+		portraits={
+		}
+		country_leader = {
+			ideology=paternalism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_stanislaw_mikolajczyk={
+		name="Stanisław Mikołajczyk"
+		portraits={
+		}
+		country_leader = {
+			ideology=christian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_boleslaw_piasecki={
+		name="Bolesław Piasecki"
+		portraits={
+		}
+		country_leader = {
+			ideology=falangism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

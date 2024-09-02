@@ -7,6 +7,9 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = TIB_tenzin_gyatso
+recruit_character = TIB_tsarong_shape
+recruit_character = TIB_pandatsang_rapga
 recruit_character = TIB_jamphel_yeshe_gyaltsen
 recruit_character = TIB_namgang_rinpoche
 recruit_character = TIB_penor_tashi
@@ -69,12 +72,29 @@ recruit_character = TIB_taktra_rinpoche
 	}
 }
 
+JAP = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = TIB
+			autonomous_state = autonomy_puppet
+		}
+		else = {
+			puppet = TIB
+		}
+	}
+}
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	autocracy = 25
+	paternalism = 71
+	social_democracy = 4
 }

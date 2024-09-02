@@ -1,0 +1,19 @@
+state={
+	id=992
+	name="STATE_992"
+	provinces={
+		1137 1590 6904 9776 
+	}
+	history={
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=1390000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

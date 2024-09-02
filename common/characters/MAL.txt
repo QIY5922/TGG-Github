@@ -1,0 +1,86 @@
+characters={
+	MAL_henry_gurney={
+		name="Sir Henry Gurney"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_tunku_abdul_rahman={
+		name="Tunku Abdul Rahman"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_tan_cheng_lock={
+		name="Sir Tan Cheng Lock"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_chin_peng={
+		name="Chin Peng"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_k_l_devaser={
+		name="K. L. Devaser"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_d_s_ramanthan={
+		name="D. S. Ramanthan"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=socialism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_abbas_alias={
+		name="Abbas Alias"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=theocracy
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}

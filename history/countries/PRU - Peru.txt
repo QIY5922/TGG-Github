@@ -151,14 +151,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = autocracy
 	last_election = "1931.10.11"
 	election_frequency = 96
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	autocracy = 98
+	communism = 2
 }
 
 1939.1.1 = {

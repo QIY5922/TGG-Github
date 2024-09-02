@@ -1,0 +1,28 @@
+
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		add_core_of = MAN
+		add_core_of = CHI
+		owner = MAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+
+		}
+		victory_points = {
+			9803 1
+		}
+	}
+
+	provinces={
+		800 861 927 3888 3949 6868 6905 9759 9803 9841 9866 11781 11823 11850 
+	}
+	manpower=7490000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
