@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		USA_america_the_beautiful = {
+			name = USA_america_the_beautiful
+			picture = america_the_beautiful
+
+			removal_cost = -1
+		}
+		USA_the_circling_eagle = {
+			name = USA_the_circling_eagle
+			picture = the_circling_eagle
+
+			removal_cost = -1
+		}
+		USA_all_created_equal = {
+			name = USA_all_created_equal
+
+			removal_cost = -1
+		}
+		USA_march_of_the_dollar = {
+			name = USA_march_of_the_dollar
+
+			removal_cost = -1
+		}
+		USA_bounty_for_all = {
+			name = USA_bounty_for_all
+
+			removal_cost = -1
+		}
+	}
+}
+

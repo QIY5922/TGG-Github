@@ -188,11 +188,11 @@ set_popularities = {
 	communism = 1
 	socialism = 7
 	social_democracy = 9
-	liberalism = 35
-	conservatism = 41
+	liberalism_2 = 10
+	liberalism = 21
+	conservatism = 38
+	conservatism_3 = 10
 	paternalism = 4
-	autocracy = 2
-	ultranat = 1
 }
 
 set_convoys = 100

@@ -4,7 +4,37 @@ characters={
 		portraits={
 		}
 		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EGY_gamal_abdel_nasser_2={
+		name=EGY_gamal_abdel_nasser
+		portraits={
+		}
+		country_leader={
 			ideology=arab_nationalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EGY_central_committee={
+		name="Central Committee"
+		portraits={
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EGY_qutb={
+		name="Sayyid Qutb"
+		portraits={
+		}
+		country_leader={
+			ideology=islamism_2
 			expire="1965.1.1.1"
 			id=-1
 		}

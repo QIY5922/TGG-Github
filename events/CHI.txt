@@ -1,0 +1,51 @@
+﻿add_namespace = TGG.china
+
+country_event = {
+	id = TGG.china.1
+	title = TGG.china.1.t
+	desc = TGG.china.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		date > 1955.7.3
+		has_country_leader = {
+			character = CHI_wang_jingwei
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	immediate = { set_country_flag = wang_dead }
+
+	option = {
+		name = TGG.china.1.a
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = CHI_chen_kung_po
+			promote_leader = yes
+			country_leader = {
+				ideology=tridemism
+				expire="1989.1.1"
+				id=-1
+			}
+		}
+	}
+	option = {
+		name = TGG.china.1.b
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = CHI_madame_wang
+			promote_leader = yes
+			country_leader = {
+				ideology=tridemism
+				expire="1989.1.1"
+				id=-1
+			}
+		}
+	}
+}

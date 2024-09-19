@@ -1,6 +1,6 @@
 characters={
 	MNS_fang_ko_sheng={
-		name="Fang K'o-sheng"
+		name="Fang Kesheng"
 		portraits={
 		}
 		country_leader={

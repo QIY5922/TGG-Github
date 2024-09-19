@@ -2,6 +2,9 @@ characters={
 	FIC_raoul_salan={
 		name=FIC_raoul_salan
 		portraits={
+			civilian={
+				large=GFX_portrait_raoul_salan
+			}
 		}
 		country_leader={
 			ideology=colonial_admin
@@ -44,7 +47,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=ultranat_ideology
+			ideology=tridemism_2
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -3,21 +3,12 @@ characters={
 		name=SPA_francisco_franco
 		portraits={
 			civilian={
-				large="GFX_portrait_spain_francisco_franco"
+				large="GFX_portrait_francisco_franco"
 			}
 			army={
-				large="GFX_portrait_spain_francisco_franco"
+				large="GFX_portrait_francisco_franco"
 				small=GFX_portrait_SPA_francisco_franco_small
 			}
-		}
-		field_marshal={
-			traits={ logistics_wizard organisational_leader expert_delegator }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=1108
 		}
 		country_leader={
 			ideology=national_catholicism

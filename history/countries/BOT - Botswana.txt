@@ -21,7 +21,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = BOT
-			autonomous_state = autonomy_colony
+			autonomous_state = autonomy_protectorate
 		}
 		else = {
 			puppet = BOT

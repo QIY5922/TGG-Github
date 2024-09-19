@@ -8,7 +8,59 @@ spriteTypes = {
         texturefile = "gfx/portraits/anthony_eden.dds"
     }
     spriteType = {
-        name = "GFX_portrait_luigi_einaudi"
-        texturefile = "gfx/portraits/luigi_einaudi.dds"
+        name = "GFX_portrait_italo_balbo"
+        texturefile = "gfx/portraits/italo_balbo.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_paul_lejeune_jung"
+        texturefile = "gfx/portraits/paul_lejeune_jung.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_georgy_malenkov"
+        texturefile = "gfx/portraits/georgy_malenkov.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_jean_zay"
+        texturefile = "gfx/portraits/jean_zay.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_louis_st_laurent"
+        texturefile = "gfx/portraits/louis_st_laurent.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_francisco_franco"
+        texturefile = "gfx/portraits/francisco_franco.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_antonio_salazar"
+        texturefile = "gfx/portraits/antonio_salazar.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_boris_iii"
+        texturefile = "gfx/portraits/boris_iii.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_bozidar_puric"
+        texturefile = "gfx/portraits/bozidar_puric.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_stanislaw_mikolajczyk"
+        texturefile = "gfx/portraits/stanislaw_mikolajczyk.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_raoul_salan"
+        texturefile = "gfx/portraits/raoul_salan.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_prince_higashikuni"
+        texturefile = "gfx/portraits/prince_higashikuni.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_godfrey_huggins"
+        texturefile = "gfx/portraits/godfrey_huggins.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_div_graaff"
+        texturefile = "gfx/portraits/div_graaff.dds"
     }
 }

@@ -8,6 +8,7 @@ characters = {
 		name = BUL_boris_iii
 		portraits = {
 			civilian = {
+				large=GFX_portrait_boris_iii
 			}
 		}
 		country_leader = {

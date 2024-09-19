@@ -14,7 +14,13 @@ state=
 		add_core_of = SRL
 		owner = SRL
 		victory_points = {
-			10201 3 
+			7260 5
+		}
+		victory_points = {
+			10201 1
+		}
+		victory_points = {
+			1213 1
 		}
 		buildings = {
 			infrastructure = 2

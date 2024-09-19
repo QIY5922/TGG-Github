@@ -21,7 +21,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = ZNB
-			autonomous_state = autonomy_dominion
+			autonomous_state = autonomy_protectorate
 		}
 		else = {
 			puppet = ZNB

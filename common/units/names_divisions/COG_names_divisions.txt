@@ -1,0 +1,96 @@
+COG_FP_01 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Bataillon d'Infanterie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+COG_FP_02 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Bataillon de Gendarmerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+COG_FP_03 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Compagnie Détachée de Gendarmerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+COG_FP_04 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Peloton Détaché de Gendarmerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+COG_FP_05 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Escadron de Reconnaissance"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+COG_FP_05 = {
+	name = "Infantry Unit"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Compagnie de Police Militaire"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}

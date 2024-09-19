@@ -1,6 +1,21 @@
+ANG_POR = {
+    color = rgb { 14 115 162 }
+    color_ui = rgb { 14 115 162 }
+}
+
+MZB_POR = {
+    color = rgb { 14 115 162 }
+    color_ui = rgb { 14 115 162 }
+}
+
 KOR_JAP = {
     color = hsv { 0.05 0.3 1 }
     color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+FIJ_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
 }
 
 ZNB_UK = {
@@ -14,8 +29,8 @@ SWZ_UK = {
 }
 
 SKM_UK = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
 }
 
 GHA_UK = {
@@ -59,7 +74,7 @@ UGA_UK = {
 }
 
 SRL_UK = {
-    color = rgb { 201 56 93 }
+    color = rgb { 245 137 64 }
     color_ui = rgb { 255 73 121 }
 }
 
@@ -79,7 +94,7 @@ NGA_UK = {
 }
 
 BRM_UK = {
-    color = rgb { 201 56 93 }
+    color = rgb { 55 170 75 }
     color_ui = rgb { 255 73 121 }
 }
 

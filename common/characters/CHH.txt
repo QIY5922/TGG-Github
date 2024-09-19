@@ -1,6 +1,6 @@
 characters={
 	CHH_tao_shih_hsun={
-		name="Tao Shih-hsün"
+		name="Dao Shixun"
 		portraits={
 		}
 		country_leader={

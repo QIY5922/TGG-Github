@@ -107,7 +107,10 @@ if = {
 }
 
 add_ideas = {
-	german_advisors
+	CHI_san_min_chu_i
+	CHI_sino_japanese_treaty
+	CHI_the_i_min
+	CHI_mengkiang_moon
 }
 
 600 = { #Jiangxi
@@ -154,32 +157,6 @@ add_ideas = {
 }
 325 = { #Dali
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Waking the Tiger"
-		}
-	}
-	add_ideas = {
-		CHI_communist_uprisings
-	}
-}
-
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}		
-	add_ideas = {
-		CHI_nine_power_treaty
-		CHI_army_corruption_1
-		CHI_ineffective_bureaucracy
-		CHI_incompetent_officers
-		free_trade
-		CHI_hyper_inflation_1
-	}
 }
 
 set_convoys = 40
@@ -287,7 +264,8 @@ set_politics = {
 }
 
 set_popularities = {
-	paternalism = 82
+	paternalism = 57
+	paternalism_2 = 25
 	conservatism = 10
 	socialism = 8
 }

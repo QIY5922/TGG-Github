@@ -3,6 +3,7 @@ characters={
 		name="Pieter De Villiers Graaff"
 		portraits={
 			civilian={
+				large="GFX_portrait_div_graaff"
 			}
 		}
 		country_leader={

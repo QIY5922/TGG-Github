@@ -1,0 +1,535 @@
+division_template = {
+	name = "Bataillon d'Infanterie" 	# Infantry Battalion
+	division_names_group = COG_FP_01
+							
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Bataillon de Gendarmerie" 	# Gendarmerie Battalion
+	division_names_group = COG_FP_02
+							
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Compagnie Détachée de Gendarmerie" 	# Detached Gendarmerie Company
+	division_names_group = COG_FP_03
+							
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Peloton Détaché de Gendarmerie" 	# Detached Gendarmerie Platoon
+	division_names_group = COG_FP_04
+							
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Escadron de Reconnaissance" 	# Reconnaissance Squadron
+	division_names_group = COG_FP_05
+							
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Compagnie de Police Militaire" 	# Military Police Company
+	division_names_group = COG_FP_06
+							
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0}
+	}
+}
+
+##### OOB #####
+
+units = {
+### LEOPOLDVILLE PROVINCE ###
+	division = { # 13th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 5117
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 15th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 5117
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { # 2nd Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12925
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 3rd Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12925
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 2nd Reconnaissance Squadron
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12925
+		division_template = "Escadron de Reconnaissance"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10968
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12925
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5117
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10968
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10968
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12925
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12925
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5117
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 5117
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+### EQUATEUR PROVINCE
+	division = { # 4th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7931
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7931
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10071
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10071
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7931
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 7931
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 10071
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 10071
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+### ORIENTALE PROVINCE ###
+	division = { # 5th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1950
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 16th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 1950
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { # 6th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 2154
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 3rd Reconnaissance Squadron
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2154
+		division_template = "Escadron de Reconnaissance"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1950
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 2073
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 2034
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 2034
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 1950
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1950
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 2154
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+### KIVU PROVINCE ###
+	division = { # 11th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 1181
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 7th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4941
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4941
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4941
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 1181
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 10858
+		division_template = "Compagnie Détachée de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 10858
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 1181
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 2220
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 7161
+		division_template = "Peloton Détaché de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+### KATANGA PROVINCE ###
+	division = { # 12th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 191
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 10th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 191
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+	division = { # 1st Military Police Company
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 191
+		division_template = "Compagnie de Police Militaire"
+		start_experience_factor = 0.5
+	}
+	division = { # 1st Reconnaissance Squadron
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4515
+		division_template = "Escadron de Reconnaissance"
+		start_experience_factor = 0.5
+	}
+### KASAI PROVINCE ###
+	division = { # 8th Infantry Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 2024
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = { # 9th Gendarmerie Battalion
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 2024
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.5
+	}
+}

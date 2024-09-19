@@ -9,6 +9,21 @@ set_technology = {
 
 set_convoys = 20
 
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = MLD
+			autonomous_state = autonomy_protected_state
+		}
+		else = {
+			puppet = MLD
+		}
+	}
+}
+
 recruit_character = MLD_muhammad_fareed_didi
 
 set_politics = {

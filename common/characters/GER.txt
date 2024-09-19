@@ -3,6 +3,7 @@ characters={
 		name="Paul Lejeune-Jung"
 		portraits={
 			civilian={
+				large=GFX_portrait_paul_lejeune_jung
 			}
 		}
 		country_leader={

@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_idea_america_the_beautiful"
+        texturefile = "gfx/natspirits/america_the_beautiful.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_the_circling_eagle"
+        texturefile = "gfx/natspirits/the_circling_eagle.dds"
+    }
+}

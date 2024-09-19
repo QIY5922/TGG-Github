@@ -191,7 +191,7 @@ if = {
 	}
 	set_autonomy = {
 		target = MAL
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_protected_state
 		freedom_level = 0.3
 	}
 	set_autonomy = {

@@ -1,6 +1,6 @@
 characters={
 	TSI_ye_feng={
-		name="Ye Feng"
+		name="Ye Peng"
 		portraits={
 		}
 		country_leader={

@@ -2,6 +2,9 @@ characters={
 	JAP_prince_higashikuni={
 		name=JAP_prince_higashikuni
 		portraits={
+			civilian={
+				large="GFX_portrait_prince_higashikuni"
+			}
 		}
 		country_leader={
 			ideology=aristocratic_conservatism
@@ -14,7 +17,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=corporatism
+			ideology=corporatism_2
 			expire="1989.1.1"
 			id=-1
 		}
@@ -24,7 +27,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=paternalist_populism
+			ideology=paternalism_ideology_3
 			expire="1989.1.1"
 			id=-1
 		}

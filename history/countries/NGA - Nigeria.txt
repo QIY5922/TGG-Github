@@ -21,7 +21,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = NGA
-			autonomous_state = autonomy_colony
+			autonomous_state = autonomy_protectorate
 		}
 		else = {
 			puppet = NGA

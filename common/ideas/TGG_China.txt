@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		CHI_san_min_chu_i = {
+			name = CHI_san_min_chu_i
+			picture = san_min_chu_i
+
+			removal_cost = -1
+		}
+		CHI_sino_japanese_treaty = {
+			name = CHI_sino_japanese_treaty
+			picture = sino_japanese_treaty
+
+			removal_cost = -1
+		}
+		CHI_the_i_min = {
+			name = CHI_the_i_min
+			picture = the_i_min
+
+			removal_cost = -1
+		}
+		CHI_mengkiang_moon = {
+			name = CHI_mengkiang_moon
+			picture = mengkiang_moon
+
+			removal_cost = -1
+		}
+	}
+}

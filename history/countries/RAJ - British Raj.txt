@@ -134,10 +134,12 @@ set_politics = {
 }
 set_popularities = {
 	communism = 1
-	socialism = 24
+	socialism = 15
+	socialism_2 = 9
 	social_democracy = 5
 	liberalism = 15
-	conservatism = 25
+	conservatism = 15
+	conservatism_2 = 10
 	paternalism = 20
 	autocracy = 10
 }

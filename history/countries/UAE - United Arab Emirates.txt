@@ -18,7 +18,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = UAE
-			autonomous_state = autonomy_dominion
+			autonomous_state = autonomy_protected_state
 		}
 		else = {
 			puppet = UAE

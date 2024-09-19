@@ -32,3 +32,8 @@ NGC = "countries/Nangchen.txt"
 NGL = "countries/Ninglang.txt"
 TKP = "countries/Trokyap.txt"
 YSH = "countries/Yushu.txt"
+
+#Congo Crisis successor states
+KAT = "countries/Katanga.txt"
+RCO = "countries/Congo-Leopoldville.txt"
+SKS = "countries/South Kasai.txt"

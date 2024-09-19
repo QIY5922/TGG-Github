@@ -1,6 +1,6 @@
 characters={
 	NGL_a_min_han={
-		name="A Min-han"
+		name="A Minhan"
 		portraits={
 		}
 		country_leader={

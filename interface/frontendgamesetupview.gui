@@ -1008,7 +1008,7 @@ guiTypes = {
 			iconType ={
 				name ="piechart_frame"
 				spriteType = "GFX_small_pol_piechart_frame"
-				position = { x= -11 y = -11 }
+				position = { x= -13 y = -12 }
 			}
 		}
 

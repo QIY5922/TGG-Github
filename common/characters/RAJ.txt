@@ -78,7 +78,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism_ideology
+			ideology=conservatism_ideology_2
 			expire="1989.1.1"
 			id=-1
 		}
@@ -102,7 +102,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=left_nationalism
+			ideology=left_nationalism_2
 			expire="1989.1.1"
 			id=-1
 		}

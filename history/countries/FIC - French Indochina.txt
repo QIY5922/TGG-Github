@@ -35,7 +35,7 @@ FRA = {
 		}
 		set_autonomy = {
 			target = FIC
-			autonomous_state = autonomy_colony
+			autonomous_state = autonomy_protectorate
 		}
 		else = {
 			puppet = FIC
@@ -57,8 +57,8 @@ set_politics = {
 }
 
 set_popularities = {
-	paternalism = 20
-	conservatism = 25
-	ultranat = 37
-	communism = 18
+	paternalism = 43
+	paternalism_2 = 20
+	ultranat = 21
+	communism = 16
 }

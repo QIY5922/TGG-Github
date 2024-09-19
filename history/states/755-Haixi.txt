@@ -9,7 +9,7 @@ state={
 		add_core_of = TSI
 		add_core_of = CHI
 		victory_points = {
-			8018 1
+			8037 1
 		}
 	}
 

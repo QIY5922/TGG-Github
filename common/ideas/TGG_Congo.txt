@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		COG_dominer_pour_servir = {
+			name = COG_dominer_pour_servir
+			picture = dominer_pour_servir
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.20
+				war_support_factor = -0.30
+				political_power_gain = 0.10
+			}
+		}
+		COG_la_trinite_coloniale = {
+			name = COG_la_trinite_coloniale
+			picture = la_trinite_coloniale
+
+			removal_cost = -1
+
+			modifier = {
+				resource_gain_efficiency = 0.15
+				consumer_goods_factor = -0.15
+				political_power_gain = 0.10
+			}
+		}
+		COG_whispers = {
+			name = COG_whispers
+			picture = whispers_beneath_congo
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+	}
+}

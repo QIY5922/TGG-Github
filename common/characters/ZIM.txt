@@ -2,6 +2,9 @@ characters={
 	ZIM_godfrey_huggins={
 		name="Sir Godfrey Huggins"
 		portraits={
+			civilian={
+				large="GFX_portrait_godfrey_huggins"
+			}
 		}
 		country_leader={
 			ideology=traditionalist_conservatism

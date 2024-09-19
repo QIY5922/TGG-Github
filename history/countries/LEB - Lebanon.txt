@@ -50,7 +50,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	paternalism = 27
+	paternalism = 15
+	paternalism_2 = 12
 	conservatism = 40
 	liberalism = 30
 	socialism = 2

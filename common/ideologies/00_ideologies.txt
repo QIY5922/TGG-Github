@@ -1,23 +1,129 @@
 ideologies = {
-	conservatism_2 = { 
+	ultranat = { # ULTRANATIONALISM
 		types = {
-			conservatism_ideology_2 = {}
-			liberal_conservatism_2 = {}
-			traditionalist_conservatism_2 = {}
-			free_market_conservatism_2 = {}
-			christian_democracy_2 = {}
-			islamic_democracy_2 = {}
-			right_populism_2 = {}
-			one_nation_conservatism_2 = {}
-			national_conservatism_2 = {}
-			red_toryism_2 = {}
-			paternalistic_conservatism_2 = {}
+			ultranat_ideology = {}
+			ethnonationalism = {}
+			fascism_ideology = {}
+			falangism = {}
 		}
 		dynamic_faction_names = {}
-		color = { 102 92 214 }
+		color = { 127 96 0 }
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	autocracy_2 = { 
+		types = {
+			autocrat_ideology_2 = {}
+			absolute_monarchism_2 = {}
+			military_junta_2 = {}
+			mystical_despotism_2 = {}
+			caesarism_2 = {}
+			imperial_government_2 = {}
+			national_catholicism_2 = {}
+			theocracy_2 = {}
+			wangdao_2 = {}
+			islamism_2 = {}
+		}
+
+		dynamic_faction_names = {}
+		color = { 45 45 45 }
+		ai_fascist = yes
+	}
+	autocracy = { 
+		types = {
+			autocrat_ideology = {}
+			absolute_monarchism = {}
+			military_junta = {}
+			mystical_despotism = {}
+			caesarism = {}
+			imperial_government = {}
+			national_catholicism = {}
+			theocracy = {}
+			wangdao = {}
+			islamism = {}
+		}
+
+		dynamic_faction_names = {}
+		color = { 67 67 67 }
+		ai_fascist = yes
+	}
+	paternalism_2 = {
+		types = {
+			paternalism_ideology_2 = {}
+			aristocratic_conservatism_2 = {}
+			semi_const_monarchy_2 = {}
+			southern_paternalism_2 = {}
+			southern_populism_2 = {}
+			baasskap_2 = {}
+			tridemism_2 = {}
+			colonial_admin_2 = {}
+			prussian_conservatism_2 = {}
+			paternalist_populism_2 = {}
+			controlled_democracy_2 = {}
+			nihonshugi_2 = {}
+			corporatism_2 = {}
+		}
+		dynamic_faction_names = {}
+		color = { 108 108 108 }
+		ai_neutral = yes #
+	}
+	paternalism = {
+		types = {
+			paternalism_ideology = {}
+			aristocratic_conservatism = {}
+			semi_const_monarchy = {}
+			southern_paternalism = {}
+			southern_populism = {}
+			baasskap = {}
+			tridemism = {}
+			colonial_admin = {}
+			prussian_conservatism = {}
+			paternalist_populism = {}
+			controlled_democracy = {}
+			nihonshugi = {}
+			corporatism = {}
+		}
+		dynamic_faction_names = {}
+		color = { 124 124 124 }
+		ai_neutral = yes #
+	}
+	paternalism_3 = {
+		types = {
+			paternalism_ideology_3 = {}
+			aristocratic_conservatism_3 = {}
+			semi_const_monarchy_3 = {}
+			southern_paternalism_3 = {}
+			southern_populism_3 = {}
+			baasskap_3 = {}
+			tridemism_3 = {}
+			colonial_admin_3 = {}
+			prussian_conservatism_3 = {}
+			paternalist_populism_3 = {}
+			controlled_democracy_3 = {}
+			nihonshugi_3 = {}
+			corporatism_3 = {}
+		}
+		dynamic_faction_names = {}
+		color = { 144 144 144 }
+		ai_neutral = yes #
+	}
+	conservatism_3 = { 
+		types = {
+			conservatism_ideology_3 = {}
+			liberal_conservatism_3 = {}
+			traditionalist_conservatism_3 = {}
+			free_market_conservatism_3 = {}
+			christian_democracy_3 = {}
+			islamic_democracy_3 = {}
+			right_populism_3 = {}
+			one_nation_conservatism_3 = {}
+			national_conservatism_3 = {}
+			red_toryism_3 = {}
+			paternalistic_conservatism_3 = {}
+		}
+		dynamic_faction_names = {}
+		color = { 42 33 158 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-
 	conservatism = { 
 		types = {
 			conservatism_ideology = {}
@@ -36,23 +142,22 @@ ideologies = {
 		color = { 60 48 186 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-
-	conservatism_3 = { 
+	conservatism_2 = { 
 		types = {
-			conservatism_ideology_3 = {}
-			liberal_conservatism_3 = {}
-			traditionalist_conservatism_3 = {}
-			free_market_conservatism_3 = {}
-			christian_democracy_3 = {}
-			islamic_democracy_3 = {}
-			right_populism_3 = {}
-			one_nation_conservatism_3 = {}
-			national_conservatism_3 = {}
-			red_toryism_3 = {}
-			paternalistic_conservatism_3 = {}
+			conservatism_ideology_2 = {}
+			liberal_conservatism_2 = {}
+			traditionalist_conservatism_2 = {}
+			free_market_conservatism_2 = {}
+			christian_democracy_2 = {}
+			islamic_democracy_2 = {}
+			right_populism_2 = {}
+			one_nation_conservatism_2 = {}
+			national_conservatism_2 = {}
+			red_toryism_2 = {}
+			paternalistic_conservatism_2 = {}
 		}
 		dynamic_faction_names = {}
-		color = { 52 43 168 }
+		color = { 102 92 214 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	liberalism_2 = {
@@ -174,13 +279,13 @@ ideologies = {
 	}
 	socialism_3 = { # MODERATE SOCIALISM
 		types = {
-			socialism_ideology_2 = {}
-			democratic_socialism_2 = {}
-			african_socialism_2 = {}
-			left_nationalism_2 = {}
-			baathism_2 = {}
-			bevanism_2 = {}
-			arab_nationalism_2 = {}
+			socialism_ideology_3 = {}
+			democratic_socialism_3 = {}
+			african_socialism_3 = {}
+			left_nationalism_3 = {}
+			baathism_3 = {}
+			bevanism_3 = {}
+			arab_nationalism_3 = {}
 
 		}
 		dynamic_faction_names = {}
@@ -195,166 +300,6 @@ ideologies = {
 		dynamic_faction_names = {}
 		color = { 152 0 0 }
 		ai_communist = yes # uses the commie AI behaviour
-	}
-	paternalism = {
-		types = {
-			paternalism_ideology = {}
-			aristocratic_conservatism = {}
-			semi_const_monarchy = {}
-			southern_paternalism = {}
-			southern_populism = {}
-			baasskap = {}
-			tridemism = {}
-			colonial_admin = {}
-			prussian_conservatism = {}
-			paternalist_populism = {}
-			controlled_democracy = {}
-			nihonshugi = {}
-			corporatism = {}
-		}
-		dynamic_faction_names = {}
-		color = { 124 124 124 }
-		ai_neutral = yes #
-	}
-	paternalism_2 = {
-		types = {
-			paternalism_ideology_2 = {}
-			aristocratic_conservatism_2 = {}
-			semi_const_monarchy_2 = {}
-			southern_paternalism_2 = {}
-			southern_populism_2 = {}
-			baasskap_2 = {}
-			tridemism_2 = {}
-			colonial_admin_2 = {}
-			prussian_conservatism_2 = {}
-			paternalist_populism_2 = {}
-			controlled_democracy_2 = {}
-			nihonshugi_2 = {}
-			corporatism_2 = {}
-		}
-		dynamic_faction_names = {}
-		color = { 108 108 108 }
-		ai_neutral = yes #
-	}
-	autocracy = { 
-
-		types = {
-
-			autocrat_ideology = {
-			}
-
-			absolute_monarchism = {
-			}
-
-			military_junta = {
-			}
-
-			mystical_despotism = {
-			}
-
-			caesarism = {
-			}
-
-			imperial_government = {
-			}
-
-			national_catholicism = {
-			}
-
-			theocracy = {
-			}
-
-			wangdao = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-
-		color = { 67 67 67 }
-
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
-			lend_lease_tension = 0.50
-		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
-	}
-
-	ultranat = { # ULTRANATIONALISM
-
-		types = {
-
-			ultranat_ideology = {
-			}
-
-			ethnonationalism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-
-		color = { 127 96 0 }
-
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
-			lend_lease_tension = 0.50
-		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
 	}
 
 	########## PLACEHOLDERS TO STOP THE GAME FROM BREAKING! DO NOT USE! ##########

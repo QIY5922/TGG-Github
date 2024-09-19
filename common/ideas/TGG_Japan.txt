@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		JAP_koi_in_the_ocean = {
+			name = JAP_koi_in_the_ocean
+			picture = koi_in_the_ocean
+
+			removal_cost = -1
+		}
+		JAP_taisei_yokusankai = {
+			name = JAP_taisei_yokusankai
+			picture = taisei_yokusankai
+
+			removal_cost = -1
+		}
+		JAP_zaibatsu = {
+			name = JAP_zaibatsu
+			picture = zaibatsu
+
+			removal_cost = -1
+		}
+		JAP_interservice_rivalry = {
+			name = JAP_interservice_rivalry
+			picture = interservice_rivalry
+
+			removal_cost = -1
+		}
+	}
+}

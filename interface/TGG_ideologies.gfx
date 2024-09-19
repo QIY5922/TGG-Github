@@ -67,4 +67,17 @@ spriteTypes = {
         name = "GFX_ideology_ultranat_group"
         texturefile = "gfx/interface/ideologies/ultranat_group.dds"
     }
+### SUBIDEOLOGIES ###
+    spriteType = {
+        name = "GFX_ideology_fascism_ideology"
+        texturefile = "gfx/interface/ideologies/fascism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_southern_paternalism"
+        texturefile = "gfx/interface/ideologies/southern_paternalism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_progressivism"
+        texturefile = "gfx/interface/ideologies/progressivism.dds"
+    }
 }

@@ -1,6 +1,6 @@
 characters={
-	COG_jean_paul_harroy = {
-		name = "Jean-Paul Harroy" 
+	COG_leo_petillon = {
+		name = "Léo Pétillon" 
 		portraits = {
 			civilian = {
 			}

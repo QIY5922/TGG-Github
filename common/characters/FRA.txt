@@ -2,6 +2,9 @@ characters={
 	FRA_jean_zay={
 		name=FRA_jean_zay
 		portraits={
+			civilian={
+				large=GFX_portrait_jean_zay
+			}
 		}
 		country_leader={
 			ideology=progressivism

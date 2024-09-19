@@ -3,6 +3,7 @@ characters={
 		name = "Božidar Purić"
 		portraits = {
 			civilian = {
+				large = GFX_portrait_bozidar_puric
 			}
 		}
 		country_leader = {

@@ -1,0 +1,55 @@
+SetGNP = {
+	set_variable = { GNP_private = 0 }
+	set_variable = { GNP_civilian = 0 }
+	set_variable = { GNP_military = 0 }
+	set_variable = { private_factory_output_factor = 1 }
+	set_variable = { military_factory_output_factor = 1 }
+	set_temp_variable = { num_of_private_factory = 0 } # Private factories producing consumer goods
+	set_temp_variable = { num_of_civilian_factory = 0 }
+	set_temp_variable = { num_of_military_factory = 0 }
+
+	# Nationalised civilian factories used for infrastructure projects. Consumer goods factor will now represent inefficiency in these nationalised industries, which can be increased by strikes, etc. or decreased by reforms. If they go unused then they are not going
+	# to contribute to GNP, hence this chunk of code determining the proportion that are actually being used in infrastructure projects. Other government spending will be added to GNP later with public finances, etc.
+	set_temp_variable = { civilian_factory_unused_factor = ROOT = { num_of_available_civilian_factories } } # No. of unused civilian factories
+	divide_temp_variable = { civilian_factory_unused_factor = ROOT = { num_of_civilian_factories_available_for_projects } } # Prop. of unused civilian factories
+	set_temp_variable = { civilian_factory_use_factor = 1 }
+	subtract_from_temp_variable = { civilian_factory_use_factor = civilian_factory_unused_factor }
+
+	# Nationalised military factories. Unfortunately, it doesn't seem you can check for production efficiency cap, etc., so that's probably something that will have to be coded separately. For now 'military_factory_output_factor' is just set to 1 as you can see.
+	# Once again, this chunk of code determines the proportion that are actually in use, since if they are laying idle they are obviously not going to be contributing to GNP.
+	set_temp_variable = { military_factory_unused_factor = ROOT = { num_of_available_military_factories } }
+	divide_temp_variable = { military_factory_unused_factor = ROOT = { num_of_military_factories } }
+	set_temp_variable = { military_factory_use_factor = 1 }
+	subtract_from_temp_variable = { military_factory_use_factor = military_factory_unused_factor }
+
+	every_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+		}
+		add_to_temp_variable = { num_of_private_factory = non_damaged_building_level@private_factory }
+		add_to_temp_variable = { num_of_civilian_factory = non_damaged_building_level@industrial_complex }
+		add_to_temp_variable = { num_of_military_factory = non_damaged_building_level@arms_factory }
+		add_to_temp_variable = { num_of_military_factory = non_damaged_building_level@dockyard }
+
+		set_variable = { state_GNP = 0 }
+
+		multiply_variable = { num_of_private_factory = private_factory_output_factor }
+
+		multiply_variable = { num_of_civilian_factory = civilian_factory_use_factor }
+
+		multiply_temp_variable = { num_of_military_factory = military_factory_use_factor }
+		multiply_temp_variable = { num_of_military_factory = military_factory_output_factor }
+
+		add_to_variable = { state_GNP = num_of_private_factory }
+		add_to_variable = { state_GNP = num_of_civilian_factory }
+		add_to_variable = { state_GNP = num_of_military_factory }
+		# Done separately so people would also be able to see the GNP produced by a specific state as well as the national picture
+		add_to_variable = { GNP_private = num_of_private_factory }
+		add_to_variable = { GNP_civilian = num_of_civilian_factory }
+		add_to_variable = { GNP_military = num_of_military_factory }
+	}
+
+	set_variable = { GNP = GNP_private }
+	add_to_variable = { GNP = GNP_civilian }
+	add_to_variable = { GNP = GNP_military }
+}

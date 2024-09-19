@@ -120,7 +120,7 @@ recruit_character = POL_boleslaw_piasecki
 recruit_character = POL_adam_koc
 recruit_character = POL_stanislaw_mikolajczyk
 recruit_character = POL_jozef_cyrankiewicz
-recruit_character = POL_boleslaw_bierut
+recruit_character = POL_tadeusz_bielecki
 
 set_politics = {
 	ruling_party = conservatism
@@ -129,7 +129,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	ultranat = 23
+	autocracy = 23
 	paternalism = 11
 	conservatism = 28
 	socialism = 24

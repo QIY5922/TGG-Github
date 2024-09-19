@@ -15,6 +15,7 @@ characters = {
 		name = "Georgy Malenkov"
 		portraits = {
 			civilian = {
+				large=GFX_portrait_georgy_malenkov
 			}
 			army = {
 			}

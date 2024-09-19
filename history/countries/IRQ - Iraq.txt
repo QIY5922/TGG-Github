@@ -46,6 +46,7 @@ set_politics = {
 }
 set_popularities = {
 	paternalism = 11
-	conservatism = 49
-	socialism = 40
+	conservatism = 39
+	socialism = 28
+	socialism_2 = 22
 }

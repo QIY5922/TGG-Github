@@ -16,50 +16,30 @@ characters={
 		name=CHI_chen_kung_po
 		portraits={
 		}
-		country_leader={
-			ideology=tridemism
-			expire="1989.1.1"
-			id=-1
-		}
 	}
 	CHI_lin_pai_sheng={
 		name=CHI_lin_pai_sheng
 		portraits={
-		}
-		country_leader={
-			ideology=tridemism
-			expire="1989.1.1"
-			id=-1
 		}
 	}
 	CHI_madame_wang={
 		name=CHI_madame_wang
 		portraits={
 		}
-		country_leader={
-			ideology=tridemism
-			expire="1989.1.1"
-			id=-1
-		}
 	}
 	CHI_chou_fo_hai={
-		name=CHI_chou_fo_hai
-		portraits={
-		}
+		name="Zhou Fohai"
 		country_leader={
-			ideology=tridemism
-			expire="1989.1.1"
+			ideology=tridemism_2
+			expire="1965.1.1.1"
 			id=-1
+		}
+		portraits={
 		}
 	}
 	CHI_ye_feng={
 		name=CHI_ye_feng
 		portraits={
-		}
-		country_leader={
-			ideology=tridemism
-			expire="1989.1.1"
-			id=-1
 		}
 	}
 	CHI_chu_hsiang={
@@ -92,30 +72,6 @@ characters={
 			id=-1
 		}
 	}
-	CHI_chang_jen_li={
-		name=CHI_chang_jen_li
-		portraits={
-		}
-		country_leader={
-			ideology=autocrat_ideology
-			expire="1989.1.1"
-			id=-1
-		}
-	}
-	CHI_weng_wenhao={
-		name=CHI_weng_wenhao
-		portraits={
-			civilian={
-				large="GFX_portrait_chi_weng_wenhao"
-			}
-		}
-		country_leader={
-			ideology=socialism_ideology
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	
 	CHI_tu_yuming={
 		name=CHI_tu_yuming
 		portraits={

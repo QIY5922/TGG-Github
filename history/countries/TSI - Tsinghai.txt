@@ -16,7 +16,7 @@ CHI = {
 		}
 		set_autonomy = {
 			target = TSI
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_province
 		}
 		else = {
 			puppet = TSI

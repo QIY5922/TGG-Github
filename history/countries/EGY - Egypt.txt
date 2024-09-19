@@ -18,15 +18,18 @@ if = {
 set_convoys = 20
 
 recruit_character = EGY_gamal_abdel_nasser
+recruit_character = EGY_qutb
+recruit_character = EGY_central_committee
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 79
+	autocracy = 70
+	autocracy_2 = 9
 	conservatism = 11
 	liberalism = 4
 	autocracy = 6

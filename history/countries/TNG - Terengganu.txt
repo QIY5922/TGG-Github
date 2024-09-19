@@ -14,7 +14,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = TNG
-			autonomous_state = autonomy_dominion
+			autonomous_state = autonomy_protected_state
 		}
 		else = {
 			puppet = TNG

@@ -1,6 +1,6 @@
 ﻿capital = 295
 set_cosmetic_tag = COG_BEL
-oob = "COG_1936"
+oob = "COG_1955"
 
 # Starting tech
 set_technology = {
@@ -10,8 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
-recruit_character = COG_jean_paul_harroy
-recruit_character = COG_patrice_lumumba
+recruit_character = COG_leo_petillon
 recruit_character = COG_joseph_kasa_vubu
 recruit_character = COG_mobutu
 recruit_character = COG_antoine_gizenga
@@ -31,6 +30,12 @@ BEL = {
 	}
 }
 
+add_ideas = {
+	COG_dominer_pour_servir
+	COG_la_trinite_coloniale
+	COG_whispers
+}
+
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1936.1.1"
@@ -38,8 +43,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	paternalism = 15
-	conservatism = 32
-	liberalism = 53
+	paternalism = 54
+	conservatism_2 = 13
+	conservatism = 11
+	liberalism = 22
 	socialism = 0
 }

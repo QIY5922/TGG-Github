@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = KOR
+		remove_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 4

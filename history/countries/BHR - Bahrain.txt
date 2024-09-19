@@ -20,7 +20,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = BHR
-			autonomous_state = autonomy_dominion
+			autonomous_state = autonomy_protected_state
 		}
 		else = {
 			puppet = BHR

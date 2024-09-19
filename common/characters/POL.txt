@@ -35,6 +35,9 @@ characters = {
 	POL_stanislaw_mikolajczyk={
 		name="Stanisław Mikołajczyk"
 		portraits={
+			civilian={
+				large = GFX_portrait_stanislaw_mikolajczyk
+			}
 		}
 		country_leader = {
 			ideology=christian_democracy
@@ -42,12 +45,12 @@ characters = {
 			id=-1
 		}
 	}
-	POL_boleslaw_piasecki={
-		name="Bolesław Piasecki"
+	POL_tadeusz_bielecki={
+		name="Tadeusz Bielecki"
 		portraits={
 		}
 		country_leader = {
-			ideology=falangism
+			ideology=national_catholicism
 			expire="1965.1.1.1"
 			id=-1
 		}

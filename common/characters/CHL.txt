@@ -42,7 +42,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = christian_progressivism
+			ideology = christian_progressivism_2
 			expire = "1965.1.1.1"
 			id = -1
 		}

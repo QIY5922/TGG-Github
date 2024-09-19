@@ -9,6 +9,7 @@ state={
 
 	history={
 		owner = KOR
+		remove_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3

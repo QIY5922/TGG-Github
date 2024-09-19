@@ -16,7 +16,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = SRL
-			autonomous_state = autonomy_colony
+			autonomous_state = autonomy_dominion
 		}
 		else = {
 			puppet = SRL

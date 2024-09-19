@@ -7,6 +7,7 @@ state={
 		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN
+		remove_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -17,7 +18,7 @@ state={
 	}
 
 	provinces={
-		814 881 972 3814 3828 3881 3955 6898 6937 7575 7633 9768 9873 9905 10331 10426 11801 11855 
+		814 972 3814 3828 3881 6898 6937 7575 7633 9768 9873 10331 10426 11801 11855 
 	}
 	manpower=2475377
 	buildings_max_level_factor=1.000

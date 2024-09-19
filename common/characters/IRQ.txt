@@ -34,7 +34,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=arab_nationalism
+			ideology=arab_nationalism_2
 			expire="1965.1.1.1"
 			id=-1
 		}

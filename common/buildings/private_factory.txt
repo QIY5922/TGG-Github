@@ -1,0 +1,11 @@
+buildings = {
+	private_factory = {
+		base_cost = -1
+		per_level_extra_cost = -1
+		base_cost_conversion = 9000
+		shares_slots = yes
+		max_level = 20
+		value = 5
+		icon_frame = 1
+	}
+}
