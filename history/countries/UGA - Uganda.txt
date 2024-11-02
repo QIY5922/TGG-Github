@@ -1,5 +1,5 @@
 ﻿capital = 548
-
+oob = "UGA_1955"
 set_cosmetic_tag = UGA_UK
 
 # Starting tech
@@ -25,6 +25,10 @@ ENG = {
 			puppet = UGA
 		}
 	}
+}
+
+add_ideas = {
+	work_in_progress
 }
 
 set_politics = {

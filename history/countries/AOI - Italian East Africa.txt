@@ -6,6 +6,7 @@ set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.3
 add_ideas = {
+	work_in_progress
 }
 
 
@@ -570,12 +571,12 @@ ITA = {
 }
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = paternalism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	autocracy = 95
+	paternalism = 95
 	conservatism = 5
 }

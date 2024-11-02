@@ -11,6 +11,10 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	work_in_progress
+}
+
 POR = {
 	if = {
 		limit = {

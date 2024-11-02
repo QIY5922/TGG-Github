@@ -12,12 +12,32 @@ characters={
 			id=-1
 		}
 	}
+	JAP_iwao_yamazaki={
+		name="Iwao Yamazaki"
+		portraits={
+		}
+		advisor={
+			cost = 0
+			slot = head_of_government
+			idea_token = JAP_iwao_yamazaki
+		}
+	}
+	JAP_shigemitsu_mamoru={
+		name="Shigemitsu Mamoru"
+		portraits={
+		}
+		advisor={
+			cost = 0
+			slot = foreign_minister
+			idea_token = JAP_shigemitsu_mamoru
+		}
+	}
 	JAP_kishi_nobusuke={
 		name=JAP_kishi_nobusuke
 		portraits={
 		}
 		country_leader={
-			ideology=corporatism_2
+			ideology=corporatism
 			expire="1989.1.1"
 			id=-1
 		}
@@ -27,9 +47,14 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=paternalism_ideology_3
+			ideology=paternalism_ideology_2
 			expire="1989.1.1"
 			id=-1
+		}
+		advisor={
+			cost = 0
+			slot = finance_minister
+			idea_token = JAP_ikeda_hayato
 		}
 	}
 	JAP_prince_konoye={
@@ -200,6 +225,11 @@ characters={
 			planning_skill=2
 			logistics_skill=1
 			legacy_id=0
+		}
+		advisor={
+			cost = 0
+			slot = defence_minister
+			idea_token = JAP_akira_muto
 		}
 	}
 

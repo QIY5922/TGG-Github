@@ -43,11 +43,51 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
+		OR = {
+			original_tag = BHU
+			original_tag = NEP
+			original_tag = OMA
+			original_tag = MAL
+			original_tag = QAT
+			original_tag = UAE
+			original_tag = KUW
+			original_tag = MLD
+			original_tag = BHR
+			original_tag = SWK
+			original_tag = JHR
+			original_tag = KDH
+			original_tag = KLT
+			original_tag = PLS
+			original_tag = TNG
+			original_tag = SWZ
+			original_tag = ZNB
+			original_tag = KEN
+			original_tag = BOT
+			original_tag = SUD
+			original_tag = UGA
+			original_tag = NGA
+			original_tag = ADN
+			original_tag = BST
+			original_tag = SML
+			original_tag = NBR
+			original_tag = BRN
+			original_tag = SKM
+		}
 	}
 	
 	can_take_level = {
+		if = {
+			limit = {
+				always = no
+			}
+		}
 	}
 
 	can_lose_level = {
+		if = {
+			limit = {
+				always = no
+			}
+		}
 	}
 }

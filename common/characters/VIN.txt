@@ -1,0 +1,12 @@
+characters={
+	VIN_truong_tu_anh={
+		name="Truong Tu Anh"
+		portraits={
+		}
+		country_leader={
+			ideology=tridemism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

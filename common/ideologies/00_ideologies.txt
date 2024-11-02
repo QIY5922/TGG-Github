@@ -2,7 +2,7 @@ ideologies = {
 	ultranat = { # ULTRANATIONALISM
 		types = {
 			ultranat_ideology = {}
-			ethnonationalism = {}
+			italian_fascism = {}
 			fascism_ideology = {}
 			falangism = {}
 		}
@@ -17,11 +17,12 @@ ideologies = {
 			military_junta_2 = {}
 			mystical_despotism_2 = {}
 			caesarism_2 = {}
-			imperial_government_2 = {}
 			national_catholicism_2 = {}
 			theocracy_2 = {}
 			wangdao_2 = {}
 			islamism_2 = {}
+			revolutionary_conservatism_2 = {}
+			corporatism_2 = {}
 		}
 
 		dynamic_faction_names = {}
@@ -35,11 +36,12 @@ ideologies = {
 			military_junta = {}
 			mystical_despotism = {}
 			caesarism = {}
-			imperial_government = {}
 			national_catholicism = {}
 			theocracy = {}
 			wangdao = {}
 			islamism = {}
+			revolutionary_conservatism = {}
+			corporatism = {}
 		}
 
 		dynamic_faction_names = {}
@@ -60,10 +62,9 @@ ideologies = {
 			paternalist_populism_2 = {}
 			controlled_democracy_2 = {}
 			nihonshugi_2 = {}
-			corporatism_2 = {}
 		}
 		dynamic_faction_names = {}
-		color = { 108 108 108 }
+		color = { 94 94 94 }
 		ai_neutral = yes #
 	}
 	paternalism = {
@@ -80,30 +81,9 @@ ideologies = {
 			paternalist_populism = {}
 			controlled_democracy = {}
 			nihonshugi = {}
-			corporatism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 124 124 124 }
-		ai_neutral = yes #
-	}
-	paternalism_3 = {
-		types = {
-			paternalism_ideology_3 = {}
-			aristocratic_conservatism_3 = {}
-			semi_const_monarchy_3 = {}
-			southern_paternalism_3 = {}
-			southern_populism_3 = {}
-			baasskap_3 = {}
-			tridemism_3 = {}
-			colonial_admin_3 = {}
-			prussian_conservatism_3 = {}
-			paternalist_populism_3 = {}
-			controlled_democracy_3 = {}
-			nihonshugi_3 = {}
-			corporatism_3 = {}
-		}
-		dynamic_faction_names = {}
-		color = { 144 144 144 }
 		ai_neutral = yes #
 	}
 	conservatism_3 = { 
@@ -121,7 +101,7 @@ ideologies = {
 			paternalistic_conservatism_3 = {}
 		}
 		dynamic_faction_names = {}
-		color = { 42 33 158 }
+		color = { 32 23 138 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	conservatism = { 
@@ -217,21 +197,6 @@ ideologies = {
 		color = { 232 140 140 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-	social_democracy = {
-		types = {
-			socdem_ideology = {}
-			left_populism = {}
-			gaitskellism = {}
-			christian_socialism = {}
-			liberal_socialism = {}
-			progressivism = {}
-			varguism = {}
-			islamic_modernism = {}
-		}
-		dynamic_faction_names = {}
-		color = { 224 102 102 }
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
 	social_democracy_3 = {
 		types = {
 			socdem_ideology_3 = {}
@@ -245,6 +210,21 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 220 129 105 }
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+	social_democracy = {
+		types = {
+			socdem_ideology = {}
+			left_populism = {}
+			gaitskellism = {}
+			christian_socialism = {}
+			liberal_socialism = {}
+			progressivism = {}
+			varguism = {}
+			islamic_modernism = {}
+		}
+		dynamic_faction_names = {}
+		color = { 224 102 102 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	socialism_2 = { # MODERATE SOCIALISM
@@ -296,9 +276,20 @@ ideologies = {
 		types = {
 			communism_ideology = {}
 			marxism = {}
+			technocratic_communism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 152 0 0 }
+		ai_communist = yes # uses the commie AI behaviour
+	}
+	communism_2 = {
+		types = {
+			communism_ideology_2 = {}
+			marxism_2 = {}
+			technocratic_communism_2 = {}
+		}
+		dynamic_faction_names = {}
+		color = { 122 10 10 }
 		ai_communist = yes # uses the commie AI behaviour
 	}
 

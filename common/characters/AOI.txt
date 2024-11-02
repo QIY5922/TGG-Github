@@ -10,7 +10,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = imperial_government
+			ideology = colonial_admin
 			expire="1965.1.1.1"
 			id = -1
 		}

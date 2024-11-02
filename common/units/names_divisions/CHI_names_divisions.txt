@@ -31,7 +31,7 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 CHI_INF_01 = {
-	name = "Infantry Unit"
+	name = "Infantry Division"
 
 	for_countries = { CHI GXC SHX }
 
@@ -47,25 +47,25 @@ CHI_INF_01 = {
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "Ti %d Shih 'Nan-ching'" }
-		2 = { "Ti %d Shih 'Peng-pu'" }
-		3 = { "Ti %d Shih 'K'ai-feng'" }
-		30 = { "Ti %d Shih 'Yen-ch'eng'" }
-		39 = { "Ti %d Shih 'Yen-ch'eng'" }
-		40 = { "Ti %d Shih 'Shang-kang'" }
-		38 = { "Ti %d Shih 'Yang-chou'" }
-		22 = { "Ti %d Shih 'Hsing-hua'" }
-		16 = { "Ti %d Shih 'Lu-yi'" }
-		18 = { "Ti %d Shih 'Fu-ch'eng'" }
-		54 = { "Ti %d Shih 'Po-hsien'" }
-		55 = { "Ti %d Shih 'Hsia-yi'" }
-		136 = { "Ti %d Shih 'Hsi-ch'ang'"}
-		137 = { "Ti %d Shih 'Ya-chou'"}
+		1 = { "Ti %d Shih 'Nanking'" }
+		2 = { "Ti %d Shih 'Pengpu'" }
+		3 = { "Ti %d Shih 'Kaifeng'" }
+		30 = { "Ti %d Shih 'Yencheng'" }
+		39 = { "Ti %d Shih 'Yencheng'" }
+		40 = { "Ti %d Shih 'Shangkang'" }
+		38 = { "Ti %d Shih 'Yangchow'" }
+		22 = { "Ti %d Shih 'Hinghwa'" }
+		16 = { "Ti %d Shih 'Luyi'" }
+		18 = { "Ti %d Shih 'Fucheng'" }
+		54 = { "Ti %d Shih 'Pohsien'" }
+		55 = { "Ti %d Shih 'Hsiayi'" }
+		136 = { "Ti %d Shih 'Hsichang'"}
+		137 = { "Ti %d Shih 'Yachow'"}
 	}
 }
 
 CHI_INF_02 = {
-	name = "Infantry Unit"
+	name = "Independent Brigade"
 
 	for_countries = { CHI GXC SHX }
 
@@ -82,7 +82,7 @@ CHI_INF_02 = {
 }
 
 CHI_INF_03 = {
-	name = "Infantry Unit"
+	name = "Guard Division"
 
 	for_countries = { CHI }
 

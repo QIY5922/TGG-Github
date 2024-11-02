@@ -48,6 +48,10 @@ recruit_character = NOR_halvdan_koht
 recruit_character = NOR_trygve_halvdan_lie
 recruit_character = NOR_carsten_tank_nielsen 
 
+add_ideas = {
+	work_in_progress
+}
+
 if = {
 	limit = {
 		has_aat = yes 
@@ -166,7 +170,7 @@ set_politics = {
 	ruling_party = social_democracy
 	last_election = "1954.10.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	communism = 1

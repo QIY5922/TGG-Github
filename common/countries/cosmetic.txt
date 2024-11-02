@@ -18,6 +18,17 @@ FIJ_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+NWF_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+
+CAN_UK = {
+	color = rgb { 173  39  39 }
+	color_ui = rgb { 155 62 51 }
+}
+
 ZNB_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
@@ -74,7 +85,7 @@ UGA_UK = {
 }
 
 SRL_UK = {
-    color = rgb { 245 137 64 }
+    color = rgb { 255 77 44 }
     color_ui = rgb { 255 73 121 }
 }
 
@@ -94,7 +105,7 @@ NGA_UK = {
 }
 
 BRM_UK = {
-    color = rgb { 55 170 75 }
+    color = rgb { 205 70 145 }
     color_ui = rgb { 255 73 121 }
 }
 
@@ -114,8 +125,8 @@ RAJ_FREE = {
 }
 
 SUD_UK = {
-	color = rgb { 204 102 0 }
-	color_ui = rgb { 204 102 0 }
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
 }
 
 LEB_FRA = {
@@ -399,16 +410,6 @@ ENG_imperial_federation_india_unified = {
 CAN_north_america_dominion = {
 	color = rgb { 160 0 0 }
 	color_ui = rgb { 235 0 0 }
-}
-
-CAN_UK = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
-}
-
-CAN_FREE = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
 }
 
 USA_CSA = {

@@ -22,6 +22,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = KLT_ibrahim_muhammad
 
 set_politics = {

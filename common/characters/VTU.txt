@@ -1,0 +1,14 @@
+characters={
+	VTU_dual_residencies={
+		name="Dual Residencies"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -53,6 +53,9 @@ recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 
+add_ideas = {
+	work_in_progress
+}
 
 set_politics = {
 	ruling_party = neutrality

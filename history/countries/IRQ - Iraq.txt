@@ -33,6 +33,10 @@ if = {
 
 set_convoys = 5
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = IRQ_nuri_al_said
 recruit_character = IRQ_fuad_al_rikabi
 recruit_character = IRQ_abd_al_ilah
@@ -42,7 +46,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1954.9.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 11

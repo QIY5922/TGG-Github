@@ -4,24 +4,29 @@ recruit_character = GER_paul_lejeune_jung
 recruit_character = GER_ewald_von_kleist_schmenzin
 recruit_character = GER_ulrich_von_hassell
 recruit_character = GER_konrad_adenauer
+recruit_character = GER_eugen_gerstenmaier
+recruit_character = GER_theodor_heuss
+recruit_character = GER_wilhelm_leuschner
+recruit_character = GER_kurt_schumacher
+recruit_character = GER_walter_ulbricht
 
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1952.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 4
+	communism = 2
 	socialism = 10
-	social_democracy = 11
-	liberalism_2 = 9
-	liberalism = 7
+	social_democracy = 3
+	liberalism = 5
 	conservatism = 10
-	conservatism_2 = 20
-	paternalism = 21
-	ultranat = 8
+	conservatism_2 = 10
+	paternalism = 30
+	autocracy = 25
+	ultranat = 5
 }
 if = {
 	limit = {

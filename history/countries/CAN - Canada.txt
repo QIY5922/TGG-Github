@@ -164,24 +164,18 @@ if = {
 	}
 }
 
-if = { 
-	limit = { NOT = { has_dlc = "Together for Victory" } }
-	set_cosmetic_tag = CAN_ALY
-}
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	add_ideas = CAN_great_depression_1
-	add_ideas = CAN_conscription_crisis
-	set_cosmetic_tag = CAN_UK
+set_cosmetic_tag = CAN_UK
 
-	add_to_tech_sharing_group = commonwealth_research
+add_ideas = {
+	work_in_progress
 }
+
 
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1952.6.10"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

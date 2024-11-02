@@ -1,5 +1,5 @@
 ﻿capital = 756
-#oob = "XSM_1936"
+oob = "TSI_1955"
 
 # Starting tech
 set_technology = {
@@ -29,6 +29,10 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+add_ideas = {
+	work_in_progress
 }
 
 set_popularities = {

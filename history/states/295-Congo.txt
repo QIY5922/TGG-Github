@@ -2,8 +2,6 @@
 state={
 	id=295
 	name="STATE_295"
-	manpower = 1947522
-	state_category = rural
 
 	history={
 		owner = COG
@@ -17,46 +15,47 @@ state={
 
 		}
 		victory_points = {
-			191 3
+			191 3 
 		}
 		victory_points = {
-			1950 5
+			1950 5 
 		}
 		victory_points = {
-			9986 3
+			9986 3 
 		}
 		victory_points = {
-			7931 3
+			7931 3 
 		}
 		victory_points = {
-			2024 3
+			2024 3 
 		}
 		victory_points = {
-			12945 1
+			12945 1 
 		}
 		victory_points = {
-			10968 1
+			10968 1 
 		}
 		victory_points = {
-			9962 1
+			9962 1 
 		}
 		victory_points = {
-			2220 1
+			2220 1 
 		}
 		victory_points = {
-			4941 3
+			4941 3 
 		}
 		victory_points = {
-			5117 10
+			5117 10 
 		}
 		add_core_of = COG
 
 	}
 
 	provinces={
-		5117 10025 10968 12775 12896 12925 12945 
+		10025 12775 12896 12945 
 	}
-	
+	manpower=1747522
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=2.000
 }

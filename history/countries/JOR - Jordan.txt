@@ -17,11 +17,15 @@ set_convoys = 5
 
 recruit_character = JOR_hussein
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1954.10.16"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 91

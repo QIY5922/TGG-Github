@@ -1,0 +1,31 @@
+guiTypes = {
+	containerWindowType = {
+		name = "topbar_GNP_container"
+		position = { x =-4 y=-1 }
+		size = { width= 00%% height=100%% }
+		iconType ={
+			name ="GNP_text_bg"
+			spriteType = "GFX_generic_box_96"
+			position = { x=713 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="GNP_icon"
+			spriteType = "GFX_topbar_GNP_icon"
+			position = { x= 712 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name ="GNP_value"
+			position = { x= 738 y = 8 }
+			font = "hoi_18mbs"
+			text = "GNP_text"
+			format = left
+			maxWidth = 57
+			maxHeight = 24
+			fixedsize = yes
+		}
+	}
+}

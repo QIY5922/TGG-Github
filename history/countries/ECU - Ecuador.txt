@@ -18,6 +18,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = ECU_jose_maria_velasco_ibarra
 recruit_character = ECU_raul_clemente_huerta
 recruit_character = ECU_carlos_guevara_moreno
@@ -33,7 +37,7 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1952.6.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	autocracy = 15

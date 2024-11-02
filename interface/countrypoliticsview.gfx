@@ -108,7 +108,10 @@ spriteTypes = {
 		name = "GFX_autonomy_dominion_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_dominion_icon.dds"
 	}
-
+	spriteType = {
+		name = "GFX_autonomy_BEL_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_BEL_colony_icon.dds"
+	}
 	spriteType = {
 		name = "GFX_autonomy_colony_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
@@ -617,7 +620,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 27
+		size = 45
 	}
 	
 	pieChartType = {

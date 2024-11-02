@@ -7,9 +7,6 @@ set_war_support = 0.8
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
-add_ideas = {
-
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -149,8 +146,8 @@ set_popularities = {
 	liberalism = 2
 	conservatism = 7
 	paternalism = 48
-	paternalism_2 = 24
-	paternalism_3 = 16
+	autocracy = 24
+	paternalism_2 = 16
 	ultranat = 2
 }
 
@@ -158,6 +155,9 @@ recruit_character = JAP_prince_higashikuni
 recruit_character = JAP_kishi_nobusuke
 recruit_character = JAP_ikeda_hayato
 recruit_character = JAP_prince_konoye
+recruit_character = JAP_iwao_yamazaki
+recruit_character = JAP_akira_muto
+recruit_character = JAP_shigemitsu_mamoru
 
 create_faction = "Co-Prosperity Sphere"
 add_to_faction = JAP
@@ -171,6 +171,11 @@ add_ideas = {
 	JAP_taisei_yokusankai
 	JAP_zaibatsu
 	JAP_interservice_rivalry
+
+	JAP_akira_muto
+	JAP_shigemitsu_mamoru
+	JAP_ikeda_hayato
+	JAP_iwao_yamazaki
 }
 if = {
 	limit = {

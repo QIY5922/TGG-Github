@@ -11,11 +11,16 @@ set_convoys = 10
 
 recruit_character = LIB_william_tubman
 
+add_ideas = {
+	work_in_progress
+}
+
+
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1951.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 100

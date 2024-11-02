@@ -72,6 +72,10 @@ recruit_character = INS_sukarno
 recruit_character = INS_suharto
 recruit_character = INS_sekarmadji
 
+add_ideas = {
+	work_in_progress
+}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

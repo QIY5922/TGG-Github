@@ -33,11 +33,15 @@ recruit_character = SWI_federal_council_2
 recruit_character = SWI_federal_council_3
 recruit_character = SWI_federal_council_4
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = social_democracy
 	last_election = "1951.10.28"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	social_democracy = 31

@@ -81,7 +81,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1954.10.2"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	conservatism = 32
@@ -90,6 +90,10 @@ set_popularities = {
 	social_democracy = 4
 	socialism = 2
 	communism = 2
+}
+
+add_ideas = {
+	work_in_progress
 }
 
 ### VARIANTS ###

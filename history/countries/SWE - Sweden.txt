@@ -29,36 +29,11 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 set_research_slots = 3
-
-if = {
-	limit = { has_dlc = "Arms Against Tyranny" }
-	add_ideas = {
-#		SWE_historical_trade_with_Germany CUT
-		SWE_hungershield
-		SWE_severe_lack_of_ammunition
-		#SWE_standardized_equipment
-		SWE_gustaf_v_idea
-	}
-
-
-	add_dynamic_modifier = { modifier = SWE_folkhemmet }
-	set_stability = 0.47
-	set_war_support = 0.05
-}
-if = {
-	limit = {
-		NOT = { has_dlc = "Arms Against Tyranny" }
-	}
-	add_ideas = { 
-		en_svensk_tiger 
-		neutrality_idea
-	}
-	set_stability = 0.9
-	set_war_support = 0.1
-}
-
-
 
 set_technology = {
 	infantry_weapons = 1
@@ -134,7 +109,7 @@ set_politics = {
 	ruling_party = social_democracy
 	last_election = "1952.9.21"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	communism = 4

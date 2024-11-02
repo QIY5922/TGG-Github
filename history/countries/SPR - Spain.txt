@@ -18,6 +18,10 @@ if = {
 
 
 
+add_ideas = {
+	work_in_progress
+}
+
 if = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"

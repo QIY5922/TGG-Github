@@ -6,16 +6,6 @@ characters={
 				small="GFX_idea_AST_robert_g_menzies" #small="GFX_idea_generic_political_advisor_europe_2"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = AST_robert_g_menzies
-			allowed = {
-				original_tag = AST
-			}
-			traits = {
-				backroom_backstabber 
-			}
-		}
 		country_leader={
 			ideology=liberal_conservatism
 			expire="1965.1.1.1"

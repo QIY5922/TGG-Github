@@ -27,6 +27,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1936.1.1"
@@ -36,15 +40,3 @@ set_politics = {
 set_popularities = {
 	autocracy = 100
 }
-
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-

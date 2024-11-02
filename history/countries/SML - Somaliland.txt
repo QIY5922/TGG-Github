@@ -12,6 +12,10 @@ set_convoys = 5
 recruit_character = SML_gerald_reece
 recruit_character = SML_aden_adde
 
+add_ideas = {
+	work_in_progress
+}
+
 ENG = {
 	if = {
 		limit = {

@@ -2,6 +2,9 @@ characters={
 	ARG_ricardo_balbin_2={
 		name=ARG_ricardo_balbin
 		portraits={
+			civilian={
+				large=GFX_portrait_ricardo_balbin
+			}
 		}
 		country_leader={
 			ideology=national_liberalism

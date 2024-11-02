@@ -1,5 +1,9 @@
 ﻿capital = 278
 
+add_ideas = {
+	work_in_progress
+}
+
 oob = "ARG_1936"
 
 IF = {
@@ -365,7 +369,7 @@ set_politics = {
 	ruling_party = liberalism
 	last_election = "1951.7.5"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	communism = 2

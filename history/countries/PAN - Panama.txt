@@ -21,7 +21,7 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1953.5.13"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 69

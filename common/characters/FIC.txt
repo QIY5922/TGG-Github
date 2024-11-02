@@ -42,6 +42,16 @@ characters={
 			id=-1
 		}
 	}
+	FIC_nguyen_xuan_tieu ={
+		name="Nguyen Xuan Tieu"
+		portraits={
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	FIC_truong_tu_anh={
 		name=FIC_truong_tu_anh
 		portraits={

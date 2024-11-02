@@ -28,12 +28,16 @@ recruit_character = PER_mohammad_bahrami
 recruit_character = PER_abol_ghasem_kashani
 recruit_character = PER_mohammad_reza_shah
 
+add_ideas = {
+	work_in_progress
+}
+
 set_convoys = 10
 set_politics = {
 	ruling_party = social_democracy
 	last_election = "1954.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 9

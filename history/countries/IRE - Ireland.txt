@@ -19,11 +19,15 @@ recruit_character = IRE_richard_mulcahy
 recruit_character = IRE_william_norton
 recruit_character = IRE_paddy_mclogan
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1954.5.18"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	ultranat = 1

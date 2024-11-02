@@ -16,6 +16,10 @@ if = {
 recruit_character = YEM_ahmad_bin_yahya
 recruit_character = YEM_muhammad_al_badr
 
+add_ideas = {
+	work_in_progress
+}
+
 set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 5

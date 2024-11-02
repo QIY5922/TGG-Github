@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		MCP_yenan_way = {
+			name = MCP_yenan_way
+			picture = yenan_way
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.75
+				army_speed_factor = 0.5
+				out_of_supply_factor = -0.75
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+scripted_gui = {
+	TGG_topbar_GNP_container = {
+		context_type = player_context
+
+		window_name = "topbar_GNP_container"
+		parent_window_token = top_bar
+		dirty = TGG_month_tick_dirty
+	}
+}

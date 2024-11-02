@@ -1,10 +1,26 @@
 spriteTypes = {
     spriteType = {
+        name = "GFX_idea_work_in_progress"
+        texturefile = "gfx/natspirits/work_in_progress.dds"
+    }
+    spriteType = {
         name = "GFX_idea_america_the_beautiful"
         texturefile = "gfx/natspirits/america_the_beautiful.dds"
     }
     spriteType = {
         name = "GFX_idea_the_circling_eagle"
         texturefile = "gfx/natspirits/the_circling_eagle.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_dominer_pour_servir"
+        texturefile = "gfx/natspirits/dominer_pour_servir.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_la_trinite_coloniale"
+        texturefile = "gfx/natspirits/la_trinite_coloniale.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_whispers_beneath_congo"
+        texturefile = "gfx/natspirits/whispers_beneath_congo.dds"
     }
 }

@@ -22,3 +22,6 @@ set_politics = {
 set_popularities = {
 	paternalism = 100
 }
+add_ideas = {
+	work_in_progress
+}

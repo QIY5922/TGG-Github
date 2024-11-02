@@ -1,0 +1,95 @@
+ideas = {
+	country = {
+		QXD_dong_bac_base = {
+			name = QXD_dong_bac_base
+			picture = dong_bac
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.1
+				army_speed_factor = 0.1
+				pocket_penalty = -0.25
+			}
+		}
+		VIN_highland_guerillas = {
+			name = VIN_highland_guerillas
+			picture = highland_guerillas
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.15
+				dig_in_speed_factor = 0.5
+				irregular_infantry_defence_factor = 0.15
+			}
+		}
+		VIN_montagnard_question = {
+			name = VIN_montagnard_question
+			picture = montagnard_question
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population_factor = -0.3
+				stability_factor = -0.1
+			}
+		}
+		indochina_tokyo_officers_3 = {
+			name = indochina_tokyo_officers_3
+			picture = tokyo_officers
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = 0.4
+				recon_factor = 0.4
+				experience_gain_army_unit_factor = -0.4
+				experience_loss_factor = 0.4
+				experience_gain_army = 0.35
+			}
+		}
+		indochina_tokyo_officers_2 = {
+			name = indochina_tokyo_officers_2
+			picture = tokyo_officers
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = 0.35
+				recon_factor = 0.35
+				experience_gain_army_unit_factor = -0.35
+				experience_loss_factor = 0.35
+				experience_gain_army = 0.3
+			}
+		}
+		indochina_tokyo_officers_1 = {
+			name = indochina_tokyo_officers_1
+			picture = tokyo_officers
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = 0.25
+				recon_factor = 0.25
+				experience_gain_army_unit_factor = -0.25
+				experience_loss_factor = 0.25
+				experience_gain_army = 0.2
+			}
+		}
+		indochina_tokyo_officers_0 = {
+			name = indochina_tokyo_officers_0
+			picture = tokyo_officers
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = 0.15
+				recon_factor = 0.15
+				experience_gain_army_unit_factor = -0.15
+				experience_loss_factor = 0.15
+				experience_gain_army = 0.1
+			}
+		}
+	}
+}

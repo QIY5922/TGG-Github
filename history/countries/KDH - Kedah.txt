@@ -22,6 +22,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = KDH_badlishah
 
 set_politics = {

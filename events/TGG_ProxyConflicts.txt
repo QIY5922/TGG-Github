@@ -1,0 +1,87 @@
+add_namespace = TGG.proxies
+
+country_event = { # Malayan Emergency
+	id = TGG.proxies.1
+	title = TGG.proxies.1.t
+	desc = TGG.proxies.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = MAL
+		date > 1958.7.3
+		has_country_leader = {
+			character = MAL_henry_gurney
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = { 
+		set_country_flag = malayan_emergency
+	}
+
+	option = {
+		name = TGG.china.1.a
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = MAL_francis_festing
+			promote_leader = yes
+			country_leader = {
+				ideology=colonial_admin
+				expire="1989.1.1"
+				id=-1
+			}
+		}
+		1025 = {
+			set_demilitarized_zone = no
+		}
+		ENG = {
+			end_puppet = MAL
+			end_puppet = JHR
+			end_puppet = KDH
+			end_puppet = KLT
+			end_puppet = PLS
+			end_puppet = TNG
+			remove_from_faction = MAL
+			remove_from_faction = JHR
+			remove_from_faction = KDH
+			remove_from_faction = KLT
+			remove_from_faction = PLS
+			remove_from_faction = TNG
+		}
+		MCP = {
+			add_state_core = 336
+			add_state_core = 1015
+			add_state_core = 1016
+			add_state_core = 1017
+			add_state_core = 1018
+			add_state_core = 1019
+			add_state_core = 1020
+			add_state_core = 1024
+			add_state_core = 1025
+			transfer_state = 1025
+			declare_war_on = {
+				target = MAL
+				type = annex_everything
+			}
+			load_oob = MCP_1955
+		}
+		MAL = {
+			create_faction = "British Malaya"
+			add_to_faction = JHR
+			add_to_faction = KDH
+			add_to_faction = KLT
+			add_to_faction = PLS
+			add_to_faction = TNG
+		}
+		news_event = {
+			id = TGG.news.1
+			hours = 1
+			random_hours = 1
+		}
+	}
+}

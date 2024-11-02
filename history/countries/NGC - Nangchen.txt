@@ -7,18 +7,11 @@ set_technology = {
 	mass_assault = 1
 }
 
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
-
 recruit_character = NGC_trashi_tsewang_dorje
+
+add_ideas = {
+	work_in_progress
+}
 
 set_politics = {
 	ruling_party = autocracy

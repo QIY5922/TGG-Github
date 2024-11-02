@@ -1,5 +1,29 @@
 #reload countrycolors
 
+NWF = {
+    color = rgb { 235 93 93 }
+    color_ui = rgb { 235 93 93 }
+}
+
+PRC = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+
+QXD = {
+    color = rgb { 255 216 81 }
+    color_ui = rgb { 255 216 81 }
+}
+MCP = {
+    color = rgb { 200 26 43 }
+    color_ui = rgb { 200 26 43 }
+}
+
+MPL = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
 ZNB = {
 	color = rgb { 129 211 170 }
 	color_ui = rgb { 129 211 170 }
@@ -107,7 +131,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 195 107 160 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
@@ -191,7 +215,7 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
-	color = rgb { 57 143 97 }
+	color = rgb { 175 87 130 }
 	color_ui = rgb { 74 186 126 }
 }
 BHU = {
@@ -207,7 +231,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 233  59  59 }
+	color = rgb { 153  39  39 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -271,7 +295,7 @@ NIC = {
 	color_ui = rgb { 146 179 191 }
 }
 NZL = {
-	color = rgb { 152 130 191 }
+	color = rgb { 228 60 95 }
 	color_ui = rgb { 198 169 248 }
 }
 PAN = {
@@ -291,7 +315,7 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
+	color = rgb { 215 99 30 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
@@ -374,11 +398,6 @@ RAJ = {
 CRO = {
 	color = rgb { 230  70  180 }
 	color_ui = rgb { 230 255 122 }
-}
-
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
 }
 
 GXC = {	

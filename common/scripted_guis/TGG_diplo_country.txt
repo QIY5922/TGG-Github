@@ -1,0 +1,8 @@
+scripted_gui = {
+	TGG_diplo_country = {
+		context_type = selected_country_context
+
+		window_name = "diplo_ideology_container"
+		parent_window_token = selected_country_view_diplomacy
+	}
+}

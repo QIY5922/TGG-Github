@@ -75,6 +75,7 @@ characters={
 		name = "Carlos Ibáñez del Campo" 
 		portraits = {
 			civilian = {
+				large=GFX_portrait_carlos_ibanez
 			}
 		}
 		country_leader = {

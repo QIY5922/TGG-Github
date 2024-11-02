@@ -1,46 +1,119 @@
 ### French Indochina OOB ###
 
 division_template = {
-	name = "Infantry Division"		
-	division_names_group = BRENGL_INF_01		# Uses generic English templates
-	# Note: Represents both regular infantry and militia units
+	name = "Régiment d'Infanterie Coloniale"		
+	division_names_group = FIC_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal = { x = 0 y = 1 }
+	}
 }
 
+division_template = {
+	name = "Régiment Étranger d'Infanterie"		
+	division_names_group = FIC_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+	}
+}
 
+division_template = {
+	name = "Régiment de Tirailleurs Tonkinois"		
+	division_names_group = FIC_INF_03
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Régiment de Tirailleurs Annamite"		
+	division_names_group = FIC_INF_04
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
 
 units = {
-	
-}
-
-
-### No air forces (small handful of various aircraft in 1935) ###
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
-instant_effect = {
-
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_0
-			creator = "FIC"
-		}
-		requested_factories = 2
-		progress = 0.1
-		efficiency = 50
+	# TONKIN
+	division = {
+		name = "1er Régiment de Tirailleurs Tonkinois"
+		location = 10103
+		division_template = "Régiment de Tirailleurs Tonkinois"
+		start_experience_factor = 0.2
 	}
-
+	division = {
+		name = "2éme Régiment de Tirailleurs Tonkinois"
+		location = 9948
+		division_template = "Régiment de Tirailleurs Tonkinois"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3éme Régiment de Tirailleurs Tonkinois"
+		location = 12048
+		division_template = "Régiment de Tirailleurs Tonkinois"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4éme Régiment de Tirailleurs Tonkinois"
+		location = 12075
+		division_template = "Régiment de Tirailleurs Tonkinois"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3éme Régiment d'Infanterie Coloniale"
+		location = 12048
+		division_template = "Régiment d'Infanterie Coloniale"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "4éme Régiment Étranger d'Infanterie"
+		location = 7218
+		division_template = "Régiment Étranger d'Infanterie"
+		start_experience_factor = 0.3
+	}
+	# ANNAM
+	division = {
+		name = "1er Régiment de Tirailleurs Annamite"
+		location = 10309
+		division_template = "Régiment de Tirailleurs Annamite"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2éme Régiment de Tirailleurs Annamite"
+		location = 10162
+		division_template = "Régiment de Tirailleurs Annamite"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3éme Régiment de Tirailleurs Annamite"
+		location = 4596
+		division_template = "Régiment de Tirailleurs Annamite"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9éme Régiment d'Infanterie Coloniale"
+		location = 4405
+		division_template = "Régiment d'Infanterie Coloniale"
+		start_experience_factor = 0.2
+	}
 }
-
-#################################

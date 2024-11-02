@@ -18,6 +18,9 @@ if = {
 recruit_character = ELS_oscar_osorio
 recruit_character = ELS_jose_maria_lemus
 
+add_ideas = {
+	work_in_progress
+}
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
@@ -27,7 +30,7 @@ set_politics = {
 	ruling_party = autocracy
 	last_election = "1935.1.15"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	autocracy = 100

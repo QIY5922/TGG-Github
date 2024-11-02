@@ -1,0 +1,106 @@
+### French Indochina OOB ###
+
+division_template = {
+	name = "Régiment d'Infanterie Coloniale"		
+	division_names_group = FIC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Régiment Étranger d'Infanterie"		
+	division_names_group = FIC_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Régiment de Tirailleurs Congolais"		
+	division_names_group = FCA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Régiment de Tirailleurs Tchadien"		
+	division_names_group = FCA_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1er Régiment de Tirailleurs Congolais"
+		location = 8193
+		division_template = "Régiment de Tirailleurs Congolais"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2éme Régiment de Tirailleurs Congolais"
+		location = 5139
+		division_template = "Régiment de Tirailleurs Congolais"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3éme Régiment de Tirailleurs Congolais"
+		location = 12975
+		division_template = "Régiment de Tirailleurs Congolais"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2éme Régiment d'Infanterie Coloniale"
+		location = 5139
+		division_template = "Régiment d'Infanterie Coloniale"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1er Régiment de Tirailleurs Tchadien"
+		location = 12830
+		division_template = "Régiment de Tirailleurs Tchadien"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2éme Régiment de Tirailleurs Tchadien"
+		location = 2081
+		division_template = "Régiment de Tirailleurs Tchadien"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1éme Régiment d'Infanterie Coloniale"
+		location = 12830
+		division_template = "Régiment d'Infanterie Coloniale"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5éme Régiment Étranger d'Infanterie"
+		location = 12975
+		division_template = "Régiment Étranger d'Infanterie"
+		start_experience_factor = 0.2
+	}
+}

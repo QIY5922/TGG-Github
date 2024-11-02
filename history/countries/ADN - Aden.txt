@@ -11,6 +11,10 @@ set_convoys = 5
 
 recruit_character = ADN_joint_aden_political_offices
 
+add_ideas = {
+	work_in_progress
+}
+
 ENG = {
 	if = {
 		limit = {

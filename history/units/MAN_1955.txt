@@ -1,0 +1,422 @@
+division_template = {
+	name = "Hohei Shidan" 			# Infantry Division
+	division_names_group = MAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kihei Shidan" 			# Cavalry Division
+	division_names_group = MAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hohei Ryodan" 			# Infantry Brigade
+	division_names_group = MAN_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kihei Ryodan" 			# Cavalry Brigade
+	division_names_group = MAN_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Konsei Ryodan" 			# Mixed Brigade
+	division_names_group = MAN_INF_03
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Ryodan" 		# Independent Brigade
+	division_names_group = MAN_INF_04
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Kihei Rentai" 	# Independent Cavalry Regiment 
+	division_names_group = MAN_CAV_03
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Hakuroshia Ryodan" 		# White Russian Brigade
+	division_names_group = MAN_INF_05
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Chosen Shidan" 			# Korean Division
+	division_names_group = MAN_INF_06
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Shin'eitai" 			# Imperial Guard
+	division_names_group = MAN_INF_07
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Kaigun Sentai" 			# Marines
+	division_names_group = MAN_INF_07
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+##### OOB #####
+units = {
+	division = {
+		name = "Shin'eitai"
+		location = 4572
+		division_template = "Shin'eitai"
+		start_experience_factor = 0.7
+	}
+	division = {
+		name = "Kaigun Sentai"
+		location = 964
+		division_template = "Kaigun Sentai"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Chosen Shidan"
+		location = 9766
+		division_template = "Chosen Shidan"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Dai 1 Hakuroshia Ryodan"
+		location = 10433
+		division_template = "Hakuroshia Ryodan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Dai 2 Hakuroshia Ryodan"
+		location = 10521
+		division_template = "Hakuroshia Ryodan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Dai 3 Hakuroshia Ryodan"
+		location = 12485
+		division_template = "Hakuroshia Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 1 Hohei Shidan"
+		location = 10433
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Dai 2 Hohei Shidan"
+		location = 7743
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dai 3 Hohei Shidan"
+		location = 4506
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Dai 4 Hohei Shidan"
+		location = 7832
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.6
+	}
+	division = {
+		name = "Dai 5 Hohei Shidan"
+		location = 10368
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Dai 6 Hohei Shidan"
+		location = 6806
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dai 7 Hohei Shidan"
+		location = 11771
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dai 8 Hohei Shidan"
+		location = 3970
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dai 1 Kihei Shidan"
+		location = 4572
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dai 2 Kihei Shidan"
+		location = 11886
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dai 3 Kihei Shidan"
+		location = 11864
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 4 Kihei Shidan"
+		location = 12537
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 5 Kihei Shidan"
+		location = 7848
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dai 6 Kihei Shidan"
+		location = 12618
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dai 7 Kihei Shidan"
+		location = 9803
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 1 Hohei Ryodan"
+		location = 4572
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 2 Hohei Ryodan"
+		location = 11864
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 3 Hohei Ryodan"
+		location = 10433
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 4 Hohei Ryodan"
+		location = 7832
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 5 Hohei Ryodan"
+		location = 10675
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 6 Hohei Ryodan"
+		location = 12537
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 7 Hohei Ryodan"
+		location = 12690
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 1 Kihei Ryodan"
+		location = 10612
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 2 Kihei Ryodan"
+		location = 12500
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 3 Kihei Ryodan"
+		location = 7569
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 4 Kihei Ryodan"
+		location = 783
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 5 Kihei Ryodan"
+		location = 1545
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 6 Kihei Ryodan"
+		location = 12500
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 6 Konsei Ryodan"
+		location = 3843
+		division_template = "Konsei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 11 Konsei Ryodan"
+		location = 3849
+		division_template = "Konsei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 12 Konsei Ryodan"
+		location = 1693
+		division_template = "Konsei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 1 Dokuritsu Ryodan"
+		location = 4649
+		division_template = "Dokuritsu Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 2 Dokuritsu Ryodan"
+		location = 12337
+		division_template = "Dokuritsu Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 1 Dokuritsu Kihei Rentai"
+		location = 7897
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 2 Dokuritsu Kihei Rentai"
+		location = 7670
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 3 Dokuritsu Kihei Rentai"
+		location = 10541
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 4 Dokuritsu Kihei Rentai"
+		location = 1776
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 5 Dokuritsu Kihei Rentai"
+		location = 1502
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 6 Dokuritsu Kihei Rentai"
+		location = 10612
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dai 7 Dokuritsu Kihei Rentai"
+		location = 7697
+		division_template = "Dokuritsu Kihei Rentai"
+		start_experience_factor = 0.3
+	}
+}

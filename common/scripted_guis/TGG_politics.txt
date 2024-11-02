@@ -1,0 +1,8 @@
+scripted_gui = {
+	TGG_politics = {
+		context_type = player_context
+
+		window_name = "ideology_container"
+		parent_window_token = politics_tab
+	}
+}

@@ -236,7 +236,7 @@ set_politics = {
 	ruling_party = conservatism_2
 	last_election = "1954.11.14"
 	election_frequency = 60
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
 	paternalism = 11
@@ -244,9 +244,8 @@ set_popularities = {
 	conservatism_2 = 19
 	conservatism_3 = 10
 	liberalism = 9
-	socialism = 23
+	socialism = 24
 	social_democracy = 18
-	communism = 1
 }
 
 

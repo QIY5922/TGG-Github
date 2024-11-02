@@ -16,6 +16,9 @@ recruit_character = BRM_u_nu
 recruit_character = BRM_aung_san
 recruit_character = BRM_taw_phaya_gyi
 
+add_ideas = {
+	work_in_progress
+}
 
 ENG = {
 	if = {
@@ -36,7 +39,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1952.1.1"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	conservatism = 49

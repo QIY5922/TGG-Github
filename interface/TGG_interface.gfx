@@ -3,4 +3,8 @@ spriteTypes = {
         name = "GFX_topbar_GNP_icon"
         texturefile = "gfx/interface/GNP_icon.dds"
     }
+    spriteType = {
+        name = "GFX_close_button"
+        texturefile = "gfx/interface/cancel_button.dds"
+    }
 }

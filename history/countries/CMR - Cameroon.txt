@@ -11,6 +11,9 @@ recruit_character = CMR_roland_pre
 recruit_character = CMR_andre_marie_mbida
 recruit_character = CMR_ruben_um_nyobe
 
+add_ideas = {
+	work_in_progress
+}
 
 FRA = {
 	if = {
@@ -35,9 +38,9 @@ set_politics = {
 }
 
 set_popularities = {
-	paternalism = 30
+	paternalism = 60
 	conservatism = 28
-	socialism = 42
+	socialism = 12
 }
 
 set_cosmetic_tag = CMR_FRA

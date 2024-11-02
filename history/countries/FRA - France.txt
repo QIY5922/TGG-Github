@@ -171,7 +171,7 @@ set_politics = {
 	ruling_party = social_democracy
 	last_election = "1952.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	communism = 9
@@ -1150,5 +1150,5 @@ add_to_faction = MOR
 add_to_faction = SYR
 add_to_faction = LEB
 add_to_faction = CMR
-add_to_faction = FIC
+#add_to_faction = FIC
 add_to_faction = MAD

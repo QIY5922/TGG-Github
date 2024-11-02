@@ -1,0 +1,18 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		10968 12925 
+	}
+	manpower=1000000
+	history={
+		owner = COG
+		add_core_of = COG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

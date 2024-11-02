@@ -1,0 +1,79 @@
+add_namespace = TGG.news
+
+news_event = {
+	id = TGG.news.1 # MALAY EMERGENCY
+	title = TGG.news.1.t
+	desc = TGG.news.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.1.a
+	}
+}
+
+news_event = {
+	id = TGG.news.2 # NEWFOUNDLAND - ANNEXED BY CANADA
+	title = TGG.news.2.t
+	desc = TGG.news.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.2.a
+	}
+}
+
+news_event = {
+	id = TGG.news.3 # NEWFOUNDLAND - RESPONSIBLE GOVERNMENT
+	title = TGG.news.3.t
+	desc = TGG.news.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.3.a
+	}
+}
+
+news_event = {
+	id = TGG.news.4 # NEWFOUNDLAND - CROWN COLONY
+	title = TGG.news.4.t
+	desc = TGG.news.4.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.4.a
+	}
+}
+
+news_event = {
+	id = TGG.news.5 # WANG CHING-WEI DEAD - CHEN KUNG PO SUCCESSOR
+	title = TGG.news.5.t
+	desc = TGG.news.5.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.5.a
+	}
+}
+
+news_event = {
+	id = TGG.news.6 # WANG CHING-WEI DEAD - CHEN PI CHUN SUCCESSOR
+	title = TGG.news.6.t
+	desc = TGG.news.6.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TGG.news.6.a
+	}
+}

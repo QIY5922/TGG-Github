@@ -12,6 +12,66 @@ characters={
 			id=-1
 		}
 	}
+	GER_eugen_gerstenmaier={
+		name="Eugen Gerstenmaier"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	GER_theodor_heuss={
+		name="Theodor Heuss"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	GER_wilhelm_leuschner={
+		name="Wilhelm Leuschner"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=socdem_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	GER_kurt_schumacher={
+		name="Kurt Schumacher"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+	GER_walter_ulbricht={
+		name="Walter Ulbricht"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1989.1.1"
+			id=-1
+		}
+	}
 	GER_ulrich_von_hassell={
 		name=GER_ulrich_von_hassell
 		portraits={
@@ -19,7 +79,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=prussian_conservatism
+			ideology=revolutionary_conservatism
 			expire="1989.1.1"
 			id=-1
 		}

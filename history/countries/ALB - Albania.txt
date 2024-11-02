@@ -11,6 +11,9 @@ set_technology = {
 
 recruit_character = ALB_ernest_koliqi
 
+add_ideas = {
+	work_in_progress
+}
 
 ITA = {
 	if = {

@@ -27,6 +27,10 @@ recruit_character = MEN_songgotu_zhanshan
 recruit_character = MEN_megata_toshiro
 
 
+add_ideas = {
+	work_in_progress
+}
+
 JAP = {
 	if = {
 		limit = {
@@ -49,8 +53,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 6
+	socialism = 1
 	social_democracy = 2
-	paternalism = 67
-	autocracy = 25
+	paternalism = 52
+	autocracy = 45
 }

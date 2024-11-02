@@ -29,6 +29,10 @@ FRA = {
 
 set_cosmetic_tag = TUN_FRA
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1936.1.1"

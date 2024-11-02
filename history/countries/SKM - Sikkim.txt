@@ -2,7 +2,7 @@ capital = 772
 
 set_cosmetic_tag = SKM_UK
 
-oob = "FIC_1955"
+#oob = "FIC_1955"
 
 set_research_slots = 3
 
@@ -30,6 +30,10 @@ set_technology = {
 	basic_train = 1
 }
 
+
+add_ideas = {
+	work_in_progress
+}
 
 RAJ = {
 	if = {

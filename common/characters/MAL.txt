@@ -7,8 +7,15 @@ characters={
 		}
 		country_leader={
 			ideology=colonial_admin
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
+		}
+	}
+	MAL_francis_festing={
+		name="Sir Francis Festing"
+		portraits={
+			civilian={
+			}
 		}
 	}
 	MAL_tunku_abdul_rahman={
@@ -19,7 +26,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism_ideology
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
 		}
 	}
@@ -31,7 +38,7 @@ characters={
 		}
 		country_leader={
 			ideology=liberalism_ideology
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
 		}
 	}
@@ -43,7 +50,7 @@ characters={
 		}
 		country_leader={
 			ideology=communism_ideology
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
 		}
 	}
@@ -55,7 +62,7 @@ characters={
 		}
 		country_leader={
 			ideology=socdem_ideology
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
 		}
 	}
@@ -79,7 +86,7 @@ characters={
 		}
 		country_leader={
 			ideology=theocracy
-			expire="1953.3.1.1"
+			expire="1989.3.1.1"
 			id=-1
 		}
 	}

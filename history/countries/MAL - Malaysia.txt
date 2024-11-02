@@ -1,10 +1,11 @@
 ﻿capital = 336 #Kuala Lumpur
 
-oob = "MAL_1936"
+oob = "MAL_1955"
 
 set_research_slots = 3
 
 recruit_character = MAL_henry_gurney
+recruit_character = MAL_francis_festing
 recruit_character = MAL_tunku_abdul_rahman
 recruit_character = MAL_tan_cheng_lock
 recruit_character = MAL_chin_peng
@@ -110,11 +111,15 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1951.7.27" # For Jul 27 1955 elections
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 	
 set_popularities = {

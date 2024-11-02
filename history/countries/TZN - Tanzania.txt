@@ -1,5 +1,5 @@
 ﻿capital = 546
-
+oob = "TZN_1955"
 set_cosmetic_tag = TZN_UK
 
 # Starting tech
@@ -25,6 +25,10 @@ ENG = {
 			puppet = TZN
 		}
 	}
+}
+
+add_ideas = {
+	work_in_progress
 }
 
 set_politics = {

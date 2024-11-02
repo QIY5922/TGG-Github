@@ -1,0 +1,12 @@
+﻿on_actions = {
+	on_startup = {
+		effect = {
+			set_variable = { TGG_monthly_tick_dirty = 0 }
+		}
+	}
+	on_monthly = {
+		effect = {
+			add_to_variable = { TGG_monthly_tick_dirty = 1 }
+		}
+	}
+}

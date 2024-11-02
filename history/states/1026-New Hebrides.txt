@@ -1,0 +1,17 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		1237 4247 12120 
+	}
+	history={
+		owner = VTU
+		add_core_of = VTU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=56300
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

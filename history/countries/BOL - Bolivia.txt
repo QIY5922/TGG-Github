@@ -13,6 +13,9 @@ set_technology = {
 }
 
 set_country_flag = monroe_doctrine
+add_ideas = {
+	work_in_progress
+}
 
 recruit_character = BOL_juan_lechin
 recruit_character = BOL_victor_paz_estenssoro
@@ -23,7 +26,7 @@ set_politics = {
 	ruling_party = social_democracy
 	last_election = "1952.6.17" # for elections on 17 June 1956
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	socialism = 34

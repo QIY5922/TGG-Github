@@ -8,15 +8,11 @@ set_technology = {
 }
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+
+add_ideas = {
+	work_in_progress
 }
+
 
 GXC = {
 	if = {

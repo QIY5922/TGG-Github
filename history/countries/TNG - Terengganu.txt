@@ -22,6 +22,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = TNG_ismail_nasiruddin
 
 set_politics = {

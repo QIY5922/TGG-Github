@@ -1,4 +1,7 @@
 ﻿l_english:
+ NWF_UK:0 "Newfoundland"
+ NWF_UK_DEF:0 "Newfoundland"
+ NWF_UK_ADJ:0 "Newfoundlander"
  FIJ_UK:0 "Colony of Fiji"
  FIJ_UK_DEF:0 "the Colony of Fiji"
  BLZ_UK:0 "British Honduras"
@@ -17,8 +20,8 @@
  GHA_UK:0 "Gold Coast"
  GHA_UK_DEF:0 "the Gold Coast"
  GHA_UK_ADJ:0 "Gold Coast"
- TZN_UK:0 "Tanganyika"
- TZN_UK_DEF:0 "Tanganyika"
+ TZN_UK:0 "Tanganyika Territory"
+ TZN_UK_DEF:0 "the Tanganyika Territory"
  BRM_UK:0 "Dominion of Burma"
  BRM_UK_DEF:0 "the Dominion of Burma"
  INS_HOL:0 "Dutch East Indies"

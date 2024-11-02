@@ -24,6 +24,9 @@ ENG = {
 		}
 	}
 }
+add_ideas = {
+	work_in_progress
+}
 
 set_politics = {
 	ruling_party = paternalism

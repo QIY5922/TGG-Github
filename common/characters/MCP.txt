@@ -1,0 +1,14 @@
+characters={
+	MCP_chin_peng={
+		name="Chin Peng"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1989.3.1.1"
+			id=-1
+		}
+	}
+}

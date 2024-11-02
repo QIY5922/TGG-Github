@@ -4,6 +4,10 @@ spriteTypes = {
         texturefile = "gfx/interface/ideologies/communism_group.dds"
     }
     spriteType = {
+        name = "GFX_ideology_communism_2_group"
+        texturefile = "gfx/interface/ideologies/communism_group.dds"
+    }
+    spriteType = {
         name = "GFX_ideology_socialism_group"
         texturefile = "gfx/interface/ideologies/socialism_group.dds"
     }
@@ -64,6 +68,10 @@ spriteTypes = {
         texturefile = "gfx/interface/ideologies/autocracy_group.dds"
     }
     spriteType = {
+        name = "GFX_ideology_autocracy_2_group"
+        texturefile = "gfx/interface/ideologies/autocracy_group.dds"
+    }
+    spriteType = {
         name = "GFX_ideology_ultranat_group"
         texturefile = "gfx/interface/ideologies/ultranat_group.dds"
     }
@@ -73,11 +81,59 @@ spriteTypes = {
         texturefile = "gfx/interface/ideologies/fascism.dds"
     }
     spriteType = {
+        name = "GFX_ideology_aristocratic_conservatism"
+        texturefile = "gfx/interface/ideologies/aristocratic_conservatism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_aristocratic_conservatism_2"
+        texturefile = "gfx/interface/ideologies/aristocratic_conservatism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_colonial_admin"
+        texturefile = "gfx/interface/ideologies/colonial_administration.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_colonial_admin_2"
+        texturefile = "gfx/interface/ideologies/colonial_administration.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_prussian_conservatism"
+        texturefile = "gfx/interface/ideologies/prussian_conservatism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_prussian_conservatism_2"
+        texturefile = "gfx/interface/ideologies/prussian_conservatism.dds"
+    }
+    spriteType = {
         name = "GFX_ideology_southern_paternalism"
         texturefile = "gfx/interface/ideologies/southern_paternalism.dds"
     }
     spriteType = {
+        name = "GFX_ideology_southern_paternalism_2"
+        texturefile = "gfx/interface/ideologies/southern_paternalism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_one_nation_conservatism"
+        texturefile = "gfx/interface/ideologies/one_nation_conservatism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_one_nation_conservatism_2"
+        texturefile = "gfx/interface/ideologies/one_nation_conservatism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_one_nation_conservatism_3"
+        texturefile = "gfx/interface/ideologies/one_nation_conservatism.dds"
+    }
+    spriteType = {
         name = "GFX_ideology_progressivism"
+        texturefile = "gfx/interface/ideologies/progressivism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_progressivism_2"
+        texturefile = "gfx/interface/ideologies/progressivism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_progressivism_3"
         texturefile = "gfx/interface/ideologies/progressivism.dds"
     }
 }

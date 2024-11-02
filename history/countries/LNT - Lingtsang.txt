@@ -22,6 +22,10 @@ GXC = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = LNT_phuntson_gelek
 
 set_politics = {

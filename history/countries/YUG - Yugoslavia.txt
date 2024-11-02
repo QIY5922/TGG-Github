@@ -54,9 +54,11 @@ if = {
 		YUG_idea_serbian_general_staff
 	}
 }
+
 add_ideas = {
-	anti_german_military
+	work_in_progress
 }
+
 
 if = {
 	limit = {
@@ -152,7 +154,7 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1953.5.3"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	communism = 1

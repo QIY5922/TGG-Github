@@ -27,6 +27,10 @@ recruit_character = LEB_yusuf_yazbek
 recruit_character = LEB_kamal_jumblatt
 
 
+add_ideas = {
+	work_in_progress
+}
+
 FRA = {
 	if = {
 		limit = {
@@ -47,7 +51,7 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1954.7.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	paternalism = 15

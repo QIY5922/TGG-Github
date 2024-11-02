@@ -20,7 +20,9 @@ country_event = {
 		days = 30
 	}
 
-	immediate = { set_country_flag = wang_dead }
+	immediate = { 
+		set_country_flag = wang_dead
+	}
 
 	option = {
 		name = TGG.china.1.a
@@ -34,6 +36,11 @@ country_event = {
 				id=-1
 			}
 		}
+		news_event = {
+			id = TGG.news.5
+			hours = 1
+			random_hours = 1
+		}
 	}
 	option = {
 		name = TGG.china.1.b
@@ -46,6 +53,11 @@ country_event = {
 				expire="1989.1.1"
 				id=-1
 			}
+		}
+		news_event = {
+			id = TGG.news.6
+			hours = 1
+			random_hours = 1
 		}
 	}
 }

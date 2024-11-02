@@ -3,10 +3,88 @@ characters={
 		name = "Léo Pétillon" 
 		portraits = {
 			civilian = {
+				large=GFX_portrait_leo_petillon
 			}
 		}
 		country_leader = {
+			desc = "COG_leo_petillon_desc"
 			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_jean_paul_harroy = {
+		name = "Jean-Paul Harroy"
+		portraits = {
+			civilian = {
+			}
+		}
+		advisor = {
+			desc = "COG_jean_paul_harroy_minister_desc"
+			cost = 0
+			slot = head_of_government
+			idea_token = COG_jean_paul_harroy
+		}
+	}
+	COG_auguste_buisseret = {
+		name = "Auguste Buisseret"
+		portraits = {
+			civilian = {
+			}
+		}
+		advisor = {
+			desc = "COG_auguste_buisseret_desc"
+			cost = 0
+			slot = foreign_minister
+			idea_token = COG_auguste_buisseret
+		}
+	}
+	COG_alexandre_galopin = {
+		name = "Alexandre Galopin"
+		portraits = {
+			civilian = {
+			}
+		}
+		advisor = {
+			desc = "COG_alexandre_galopin_desc"
+			cost = 0
+			slot = finance_minister
+			idea_token = COG_alexandre_galopin
+		}
+	}
+	COG_emile_janssens = {
+		name = "Émile Janssens" 
+		portraits = {
+			civilian = {
+			}
+		}
+		advisor = {
+			desc = "COG_emile_janssens_minister_desc"
+			cost = 0
+			slot = defence_minister
+			idea_token = COG_emile_janssens
+		}
+	}
+	COG_various_leaders_1 = {
+		name = "Various Leaders" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	COG_various_leaders_2 = {
+		name = "Various Leaders" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism_2
 			expire = "1965.1.1.1"
 			id = -1
 		}

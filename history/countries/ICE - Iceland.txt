@@ -6,28 +6,10 @@ set_variable = { ICE.communism_support_needed = 0.15 }
 
 set_research_slots = 2
 
-IF = {
-	limit = {
-		has_dlc = "Arms Against Tyranny"
-	}
-	add_ideas = {
-		ICE_christian_x
-		disarmed_nation
-		isolation
-	}
-	
-	set_war_support = 0.15
+
+add_ideas = {
+	work_in_progress
 }
-IF = {
-	limit = {
-		NOT = { has_dlc = "Arms Against Tyranny" }
-	}
-	add_ideas = {
-		disarmed_nation
-		civilian_economy
-	}
-}
-set_cosmetic_tag = ICE_personal_union
 
 set_technology = {
 	infantry_weapons = 1
@@ -77,7 +59,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1952.6.24"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	conservatism = 44

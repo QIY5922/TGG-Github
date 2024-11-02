@@ -347,7 +347,7 @@ guiTypes = {
 		iconType ={
 			name ="industrial_capacity_icon"
 			spriteType = "GFX_industrial_capacity_icon"
-			position = { x= 422 y = 5 } 
+			position = { x= 416 y = 3 } 
 			Orientation = "UPPER_LEFT"
 		}
         
@@ -396,34 +396,6 @@ guiTypes = {
 			frame = 50
 			alwaystransparent = yes
 		}
-
-		## GNP
-
-		iconType ={
-			name ="GNP_text_bg"
-			spriteType = "GFX_generic_box_96"
-			position = { x=713 y=5 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType ={
-			name ="GNP_icon"
-			spriteType = "GFX_topbar_GNP_icon"
-			position = { x= 712 y = 5 }
-			Orientation = "UPPER_LEFT"
-		}
-
-		instantTextBoxType = {
-			name ="GNP_value"
-			position = { x= 738 y = 8 }
-			font = "hoi_18mbs"
-			text = "GNP_text"
-			format = left
-			maxWidth = 57
-			maxHeight = 24
-			fixedsize = yes
-		}
-		
 		## fuel
 		
 		iconType ={

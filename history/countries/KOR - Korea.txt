@@ -26,18 +26,22 @@ JAP = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = KOR_yoshimoto_teiichi
 recruit_character = KOR_kim_tu_bong
 recruit_character = KOR_kim_ku
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	autocracy = 79
+	paternalism = 79
 	conservatism = 19
 	communism = 2
 }

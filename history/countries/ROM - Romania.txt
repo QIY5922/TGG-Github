@@ -97,6 +97,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 SOV = {
 	if = {
 		limit = {

@@ -1,5 +1,5 @@
 COG_FP_01 = {
-	name = "Infantry Unit"
+	name = "Infantry Battalion"
 
 	for_countries = { COG }
 
@@ -15,7 +15,7 @@ COG_FP_01 = {
 	}
 }
 COG_FP_02 = {
-	name = "Infantry Unit"
+	name = "Gendarmerie Battalion"
 
 	for_countries = { COG }
 
@@ -31,7 +31,7 @@ COG_FP_02 = {
 	}
 }
 COG_FP_03 = {
-	name = "Infantry Unit"
+	name = "Detached Gendarmerie Company"
 
 	for_countries = { COG }
 
@@ -63,7 +63,7 @@ COG_FP_04 = {
 	}
 }
 COG_FP_05 = {
-	name = "Infantry Unit"
+	name = "Reconnaissance Squadron"
 
 	for_countries = { COG }
 
@@ -79,7 +79,7 @@ COG_FP_05 = {
 	}
 }
 COG_FP_05 = {
-	name = "Infantry Unit"
+	name = "Military Police Company"
 
 	for_countries = { COG }
 

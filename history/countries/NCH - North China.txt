@@ -1,6 +1,6 @@
 capital = 608
 
-oob = "FIC_1955"
+#oob = "FIC_1955"
 
 set_research_slots = 3
 
@@ -28,6 +28,10 @@ set_technology = {
 	basic_train = 1
 }
 
+
+add_ideas = {
+	work_in_progress
+}
 
 JAP = {
 	if = {

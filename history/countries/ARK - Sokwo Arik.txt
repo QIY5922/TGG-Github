@@ -1,5 +1,8 @@
 ﻿capital = 1012
 #oob = "XSM_1936"
+add_ideas = {
+	work_in_progress
+}
 
 # Starting tech
 set_technology = {
@@ -7,7 +10,7 @@ set_technology = {
 	mass_assault = 1
 }
 
-CHI = {
+KAN = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"

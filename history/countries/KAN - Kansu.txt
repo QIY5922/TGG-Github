@@ -1,5 +1,5 @@
 ﻿capital = 283
-oob = "XSM_1936"
+oob = "KAN_1955"
 
 # Starting tech
 set_technology = {
@@ -10,15 +10,11 @@ set_technology = {
 recruit_character = KAN_darijaya
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+
+add_ideas = {
+	work_in_progress
 }
+
 
 CHI = {
 	if = {

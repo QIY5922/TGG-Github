@@ -12,6 +12,10 @@ set_convoys = 5
 
 recruit_character = QAT_ahmad
 
+add_ideas = {
+	work_in_progress
+}
+
 ENG = {
 	if = {
 		limit = {

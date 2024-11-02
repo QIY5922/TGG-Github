@@ -1,4 +1,4 @@
-capital = 671
+capital = 286
 
 oob = "FIC_1955"
 
@@ -27,27 +27,31 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 }
-
-FRA = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = FIC
-			autonomous_state = autonomy_protectorate
-		}
-		else = {
-			puppet = FIC
-		}
-	}
+add_ideas = {
+	work_in_progress
 }
+
+#FRA = {
+#	if = {
+#		limit = {
+#			has_dlc = "Together for Victory"
+#		}
+#		set_autonomy = {
+#			target = FIC
+#			autonomous_state = autonomy_protectorate
+#		}
+#		else = {
+#			puppet = FIC
+#		}
+#	}
+#}
 
 recruit_character = FIC_raoul_salan
 recruit_character = FIC_bao_dai
 recruit_character = FIC_paul_bernard
 recruit_character = FIC_nguyen_ai_quoc
 recruit_character = FIC_truong_tu_anh
+recruit_character = FIC_nguyen_xuan_tieu
 
 set_politics = {
 	ruling_party = paternalism

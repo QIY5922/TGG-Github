@@ -9,6 +9,11 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+add_ideas = {
+	work_in_progress
+}
+
+
 set_convoys = 5
 
 recruit_character = BOT_martin_osterfield_wray

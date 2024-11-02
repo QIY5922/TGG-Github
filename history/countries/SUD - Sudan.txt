@@ -13,6 +13,10 @@ recruit_character = SUD_ismail_al_azhari
 recruit_character = SUD_stanislaus_paysama
 recruit_character = SUD_hassan_at_taheer
 
+add_ideas = {
+	work_in_progress
+}
+
 ENG = {
 	if = {
 		limit = {
@@ -33,7 +37,7 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1953.11.2"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	conservatism = 28

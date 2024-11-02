@@ -13,6 +13,10 @@ set_convoys = 5
 recruit_character = BHR_salman_bin_hamad
 recruit_character = BHR_isa_bin_salman
 
+add_ideas = {
+	work_in_progress
+}
+
 ENG = {
 	if = {
 		limit = {

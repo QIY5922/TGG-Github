@@ -73,19 +73,6 @@ if = {
 
 set_research_slots = 3
 
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -178,14 +165,10 @@ if = {
 
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
+add_ideas = {
+	work_in_progress
 }
+
 
 SOV = {
 	if = {

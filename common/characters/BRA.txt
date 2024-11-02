@@ -2,6 +2,9 @@ characters={
 	BRA_eduardo_gomes={
 		name="Eduardo Gomes"
 		portraits={
+			civilian={
+				large=GFX_portrait_eduardo_gomes
+			}
 		}
 		country_leader={
 			ideology=free_market_conservatism

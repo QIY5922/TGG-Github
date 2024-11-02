@@ -63,4 +63,20 @@ spriteTypes = {
         name = "GFX_portrait_div_graaff"
         texturefile = "gfx/portraits/div_graaff.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_leo_petillon"
+        texturefile = "gfx/portraits/leo_petillon.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_ricardo_balbin"
+        texturefile = "gfx/portraits/ricardo_balbin.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_eduardo_gomes"
+        texturefile = "gfx/portraits/eduardo_gomes.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_carlos_ibanez"
+        texturefile = "gfx/portraits/carlos_ibanez.dds"
+    }
 }

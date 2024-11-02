@@ -27,6 +27,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = SWZ_david_morgan
 
 set_politics = {

@@ -1,4 +1,4 @@
-﻿capital = 295
+﻿capital = 1021
 set_cosmetic_tag = COG_BEL
 oob = "COG_1955"
 
@@ -14,6 +14,12 @@ recruit_character = COG_leo_petillon
 recruit_character = COG_joseph_kasa_vubu
 recruit_character = COG_mobutu
 recruit_character = COG_antoine_gizenga
+recruit_character = COG_jean_paul_harroy
+recruit_character = COG_auguste_buisseret
+recruit_character = COG_alexandre_galopin
+recruit_character = COG_emile_janssens
+recruit_character = COG_various_leaders_1
+recruit_character = COG_various_leaders_2
 
 BEL = {
 	if = {
@@ -22,7 +28,7 @@ BEL = {
 		}
 		set_autonomy = {
 			target = COG
-			autonomous_state = autonomy_colony
+			autonomous_state = autonomy_BEL_colony
 		}
 		else = {
 			puppet = COG
@@ -34,6 +40,11 @@ add_ideas = {
 	COG_dominer_pour_servir
 	COG_la_trinite_coloniale
 	COG_whispers
+
+	COG_jean_paul_harroy
+	COG_auguste_buisseret
+	COG_alexandre_galopin
+	COG_emile_janssens
 }
 
 set_politics = {

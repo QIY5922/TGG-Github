@@ -8,8 +8,10 @@ state={
 	}
 
 	history={
+		add_core_of = QXD
 		add_core_of = VIN
-		owner = FIC
+		owner = QXD
+		add_core_of = FIC
 		victory_points = {
 			4075 1 
 		}
@@ -23,7 +25,16 @@ state={
 			}
 
 		}
-
+		FIC = {
+			set_province_controller = 10103
+			set_province_controller = 12075
+			set_province_controller = 1185
+			set_province_controller = 4119
+			set_province_controller = 12048
+			set_province_controller = 4075
+			set_province_controller = 7015
+			set_province_controller = 9948
+		}
 	}
 
 	provinces={

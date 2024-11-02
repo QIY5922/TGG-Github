@@ -18,6 +18,9 @@ if = {
 
 recruit_character = GUA_carlos_castillo_armas
 
+add_ideas = {
+	work_in_progress
+}
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1

@@ -46,6 +46,10 @@ set_stability = 0.26
 set_country_flag = monroe_doctrine
 
 
+add_ideas = {
+	work_in_progress
+}
+
 1939.1.1 = {
 	
 	oob = "PAR_1939"

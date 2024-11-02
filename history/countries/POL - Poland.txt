@@ -29,6 +29,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 set_research_slots = 3
 
 # Starting tech
@@ -96,20 +100,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Poland: United and Ready"
-	}
-	add_ideas = {
-		uncontrolled_exports
-		POL_april_constitution_1
-		POL_looming_peasants_strike
-		POL_sanation_left_opposition_1
-		POL_sanation_right_opposition_1
-	}
-}
-
-
 85 = {
 	add_dynamic_modifier = { modifier = international_city }
 }
@@ -126,7 +116,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1953.11.8"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	autocracy = 23

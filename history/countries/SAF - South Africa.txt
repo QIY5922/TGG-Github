@@ -18,6 +18,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 set_stability = 0.6
 set_war_support = 0.1
 # Starting tech
@@ -80,7 +84,7 @@ set_politics = {
 	ruling_party = conservatism
 	last_election = "1953.4.15"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	socialism = 10

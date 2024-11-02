@@ -1,0 +1,90 @@
+### Dai Viet OOB ###
+
+division_template = {
+	name = "Su Doan Quoc Dan"		
+	division_names_group = VIN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Su Doan Phong Thu Bien Gioi"		
+	division_names_group = VIN_INF_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 2 y = 0 }
+		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 3 y = 0 }
+		irregular_infantry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Trung Doan De Quoc Nguoi Thuong"		
+	division_names_group = QXD_INF_02
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Su Doan Quoc Dan So 1"
+		location = 4334
+		division_template = "Su Doan Quoc Dan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Su Doan Quoc Dan So 2"
+		location = 12150
+		division_template = "Su Doan Quoc Dan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Su Doan Quoc Dan So 3"
+		location = 10137
+		division_template = "Su Doan Quoc Dan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Su Doan Phong Thu Bien Gioi So 1"
+		location = 1605
+		division_template = "Su Doan Phong Thu Bien Gioi"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Su Doan Phong Thu Bien Gioi So 2"
+		location = 4363
+		division_template = "Su Doan Phong Thu Bien Gioi"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Trung Doan De Quoc Nguoi Thuong"
+		location = 7380
+		division_template = "Trung Doan De Quoc Nguoi Thuong"
+		start_experience_factor = 0.1
+	}
+}

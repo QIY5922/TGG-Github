@@ -120,6 +120,11 @@ set_popularities = {
 	ultranat = 11
 }
 
+add_ideas = {
+	work_in_progress
+}
+
+
 #Start Horty as neutral if DOD
 recruit_character = HUN_miklos_horthy
 recruit_character = HUN_matyas_rakosi

@@ -15,6 +15,11 @@ if = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
+
 set_convoys = 20
 
 recruit_character = EGY_gamal_abdel_nasser

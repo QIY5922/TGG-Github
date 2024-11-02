@@ -28,7 +28,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=imperial_government
+			ideology=corporatism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -38,7 +38,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=imperial_government
+			ideology=corporatism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -48,7 +48,7 @@ characters={
 		portraits={
 		}
 		country_leader={
-			ideology=imperial_government
+			ideology=corporatism
 			expire="1965.1.1.1"
 			id=-1
 		}

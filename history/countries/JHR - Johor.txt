@@ -22,6 +22,10 @@ ENG = {
 	}
 }
 
+add_ideas = {
+	work_in_progress
+}
+
 recruit_character = JHR_ibrahim
 
 set_politics = {

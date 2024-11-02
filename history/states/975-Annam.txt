@@ -7,8 +7,10 @@ state={
 	}
 
 	history={
+		add_core_of = QXD
 		add_core_of = VIN
-		owner = FIC
+		add_core_of = FIC
+		owner = VIN
 		victory_points = {
 			10309 2
 		}
@@ -18,10 +20,48 @@ state={
 		victory_points = {
 			10162 1
 		}
+		victory_points = {
+			4334 1
+		}
+		victory_points = {
+			4363 1
+		}
+		victory_points = {
+			4255 1
+		}
+		victory_points = {
+			12319 1
+		}
+		victory_points = {
+			12008 1
+		}
+		victory_points = {
+			9948 1
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
+		}
+		FIC = {
+			set_province_controller = 10129
+			set_province_controller = 11909
+			set_province_controller = 11936
+			set_province_controller = 9988
+			set_province_controller = 10016
+			set_province_controller = 4397
+			set_province_controller = 12297
+			set_province_controller = 7280
+			set_province_controller = 1302
+			set_province_controller = 4379
+			set_province_controller = 10309
+			set_province_controller = 12176
+			set_province_controller = 10232
+			set_province_controller = 12204
+			set_province_controller = 1285
+			set_province_controller = 10162
+			set_province_controller = 12109
+			set_province_controller = 4405
 		}
 	}
 	provinces={

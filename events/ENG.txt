@@ -1,0 +1,66 @@
+﻿add_namespace = TGG.britain
+
+country_event = {
+	id = TGG.britain.1
+	title = TGG.britain.1.t
+	desc = TGG.britain.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1955.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	option = {
+		name = TGG.britain.1.a
+		CAN = {
+			annex_country = {
+				target = NWF
+				transfer_troops = yes
+			}
+		}
+		news_event = {
+			id = TGG.news.2
+			hours = 1
+			random_hours = 1
+		}
+	}
+	option = {
+		name = TGG.britain.1.b
+		set_autonomy = {
+			target = NWF
+			autonomous_state = autonomy_dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		NWF = {
+			drop_cosmetic_tag = yes
+			set_popularities = {
+				liberalism = 58
+				conservatism = 42
+			}
+			set_politics = {
+				ruling_party = liberalism
+			}
+		}
+		news_event = {
+			id = TGG.news.3
+			hours = 1
+			random_hours = 1
+		}
+	}
+
+	option = {
+		name = TGG.britain.1.c
+		news_event = {
+			id = TGG.news.4
+			hours = 1
+			random_hours = 1
+		}
+	}
+}

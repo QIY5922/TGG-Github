@@ -1,0 +1,55 @@
+﻿capital = 454
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+#recruit_character = NBR_ralph_hone
+
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = MPL
+			autonomous_state = autonomy_colony
+		}
+		else = {
+			puppet = MPL
+		}
+	}
+}
+
+add_ideas = {
+	work_in_progress
+}
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	paternalism = 6
+
+	# ARAB PARTIES (57%)
+	autocracy = 31
+	conservatism_2 = 14
+	conservatism = 8
+	socialism = 3
+	communism = 1
+
+	# JEWISH PARTIES (37%)
+	communism_2 = 1	
+	social_democracy = 16
+	liberalism = 8
+	paternalism_2 = 8
+	ultranat = 4
+}

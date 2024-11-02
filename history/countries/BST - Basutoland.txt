@@ -24,6 +24,9 @@ ENG = {
 		}
 	}
 }
+add_ideas = {
+	work_in_progress
+}
 
 recruit_character = BST_edwin_arrowsmith
 recruit_character = BST_ntsu_mokhehle

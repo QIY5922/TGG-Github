@@ -8,6 +8,10 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	work_in_progress
+}
+
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1936.1.1"

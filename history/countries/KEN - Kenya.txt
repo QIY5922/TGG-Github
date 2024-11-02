@@ -2,7 +2,7 @@
 
 set_cosmetic_tag = KEN_UK
 
-oob = "KEN_1936"
+oob = "KEN_1955"
 
 # Starting tech
 set_technology = {
@@ -20,6 +20,10 @@ recruit_character = KEN_james_gichuru
 recruit_character = KEN_jomo_kenyatta
 recruit_character = KEN_dedan_kimathi
 recruit_character = KEN_musa_mwariama
+
+add_ideas = {
+	work_in_progress
+}
 
 ENG = {
 	if = {

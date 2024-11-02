@@ -44,3 +44,6 @@ set_popularities = {
 	communism = 7
 }
 
+add_ideas = {
+	work_in_progress
+}

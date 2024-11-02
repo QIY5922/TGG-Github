@@ -30,14 +30,9 @@ recruit_character = SHX_fu_zuoyi
 recruit_character = SHX_qu_yangke
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+
+add_ideas = {
+	work_in_progress
 }
 
 CHI = {

@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		work_in_progress = {
+			name = work_in_progress
+			picture = work_in_progress
+
+			removal_cost = -1
+		}
+	}
+}

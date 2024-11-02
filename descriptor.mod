@@ -3,6 +3,6 @@ tags={
 	"Alternate History"
 }
 version="0.1"
-supported_version="1.14.8"
+supported_version="1.14.10"
 remote_file_id="TGGLocal"
 replace_path="events"

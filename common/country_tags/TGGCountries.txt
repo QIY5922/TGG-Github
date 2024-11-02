@@ -6,13 +6,16 @@ FCA = "countries/French Central Africa.txt"
 FIC = "countries/French Indochina.txt"
 FWA = "countries/French West Africa.txt"
 KAN = "countries/Kansu.txt"
+MPL = "countries/Mandatory Palestine.txt"
 NBR = "countries/North Borneo.txt"
 NCH = "countries/North China.txt"
+NWF = "countries/Newfoundland.txt"
 SKM = "countries/Sikkim.txt"
 SML = "countries/Somaliland.txt"
 SWK = "countries/Sarawak.txt"
 SWZ = "countries/Swaziland.txt"
 TSI = "countries/Tsinghai.txt"
+VTU = "countries/New Hebrides.txt"
 ZNB = "countries/Zanzibar.txt"
 
 # Unfederated Malay States
@@ -33,7 +36,11 @@ NGL = "countries/Ninglang.txt"
 TKP = "countries/Trokyap.txt"
 YSH = "countries/Yushu.txt"
 
-#Congo Crisis successor states
+# Congo Crisis successor states
 KAT = "countries/Katanga.txt"
 RCO = "countries/Congo-Leopoldville.txt"
 SKS = "countries/South Kasai.txt"
+
+# Proxy Conflicts
+MCP = "countries/Malayan Communists.txt"
+QXD = "countries/Quoc Xa Dang.txt"
