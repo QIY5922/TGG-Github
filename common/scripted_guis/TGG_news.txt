@@ -1,0 +1,32 @@
+scripted_gui = {
+	TGG_news = {
+		context_type = player_context
+		#parent_window_name = EventWindow_News
+		window_name = "event_news_header"
+
+		visible = {
+			has_global_flag = TGG_news_event_yes
+		}
+
+		triggers = {
+			generic_news_header_visible = {
+				NOT = {
+					OR = {
+						tag = COG
+						tag = RCO
+						tag = SKS
+						tag = KAT
+					}
+				}
+			}
+			COG_news_header_visible = {
+				OR = {
+					tag = COG
+					tag = RCO
+					tag = SKS
+					tag = KAT
+				}
+			}
+		}
+	}
+}

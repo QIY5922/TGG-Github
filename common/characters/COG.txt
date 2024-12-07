@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader = {
 			desc = "COG_leo_petillon_desc"
+			traits = { ryckmans_heir }
 			ideology = colonial_admin
 			expire = "1965.1.1.1"
 			id = -1
@@ -16,11 +17,23 @@ characters={
 	COG_jean_paul_harroy = {
 		name = "Jean-Paul Harroy"
 		portraits = {
-			civilian = {
+			civilian={
+				large=GFX_portrait_jean_paul_harroy
 			}
+			army = {
+				small="GFX_idea_COG_jean_paul_harroy"
+			}
+		}
+		country_leader = {
+			desc = "COG_jean_paul_harroy_leader_desc"
+			traits = { neglectful_environmentalist }
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
 		}
 		advisor = {
 			desc = "COG_jean_paul_harroy_minister_desc"
+			traits = { neglectful_environmentalist }
 			cost = 0
 			slot = head_of_government
 			idea_token = COG_jean_paul_harroy
@@ -29,11 +42,13 @@ characters={
 	COG_auguste_buisseret = {
 		name = "Auguste Buisseret"
 		portraits = {
-			civilian = {
+			army = {
+				small="GFX_idea_COG_auguste_buisseret"
 			}
 		}
 		advisor = {
 			desc = "COG_auguste_buisseret_desc"
+			traits = { reformist_minister }
 			cost = 0
 			slot = foreign_minister
 			idea_token = COG_auguste_buisseret
@@ -42,11 +57,13 @@ characters={
 	COG_alexandre_galopin = {
 		name = "Alexandre Galopin"
 		portraits = {
-			civilian = {
+			army = {
+				small="GFX_idea_COG_alexandre_galopin"
 			}
 		}
 		advisor = {
 			desc = "COG_alexandre_galopin_desc"
+			traits = { corporate_king }
 			cost = 0
 			slot = finance_minister
 			idea_token = COG_alexandre_galopin
@@ -55,11 +72,16 @@ characters={
 	COG_emile_janssens = {
 		name = "Émile Janssens" 
 		portraits = {
-			civilian = {
+			civilian={
+				large=GFX_portrait_emile_janssens
+			}
+			army = {
+				small="GFX_idea_COG_emile_janssens"
 			}
 		}
 		advisor = {
 			desc = "COG_emile_janssens_minister_desc"
+			traits = { little_maniac }
 			cost = 0
 			slot = defence_minister
 			idea_token = COG_emile_janssens

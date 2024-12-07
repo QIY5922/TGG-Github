@@ -1,6 +1,6 @@
 characters={
 	SAF_de_villiers_graaff={
-		name="Pieter De Villiers Graaff"
+		name="Sir De Villiers Graaff"
 		portraits={
 			civilian={
 				large="GFX_portrait_div_graaff"

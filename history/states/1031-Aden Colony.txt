@@ -1,0 +1,23 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		13369 
+	}
+	manpower=138230
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			private_factory = 1
+			13369 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			13369 5
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

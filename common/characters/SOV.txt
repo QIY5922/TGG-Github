@@ -28,6 +28,31 @@ characters = {
 		}
 	}
 
+	SOV_vyacheslav_molotov = {
+		name = SOV_vyacheslav_molotov
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_vyacheslav_molotov"
+			}
+		}
+		country_leader = {
+			ideology = marxism_2
+			expire = "1989.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_anastas_mikoyan = {
+		name = "Anastas Mikoyan"
+		portraits = {
+		}
+		country_leader = {
+			ideology = communism_ideology_3
+			expire = "1989.3.1.1"
+			id = -1
+		}
+	}
+
    # #    #####   #    #  #   #      #        ######    ##    #####   ######  #####    ####  
   #   #   #    #  ##  ##   # #       #        #        #  #   #    #  #       #    #  #      
  #     #  #    #  # ## #    #        #        #####   #    #  #    #  #####   #    #   ####  
@@ -2334,37 +2359,6 @@ characters = {
 			}
 			traits = {
 				head_of_intelligence 
-			}
-		}
-	}
-
-	SOV_vyacheslav_molotov = {
-		name = SOV_vyacheslav_molotov
-		portraits = {
-			army = {
-				small = "GFX_idea_SOV_vyacheslav_molotov"
-			}
-		}
-		allowed_civil_war = {
-			has_government = communism
-		}
-
-		advisor = {
-			slot = political_advisor
-			idea_token = SOV_vyacheslav_molotov
-			allowed = {
-				original_tag = SOV
-			}
-			visible = {
-				NOT = {
-					has_character_flag = SOV_character_purged_flag 
-				}
-			}
-			available = {
-				has_completed_focus = SOV_policy_of_individual_security
-			}
-			traits = {
-				pc_for_foreign_affairs_molotov 
 			}
 		}
 	}

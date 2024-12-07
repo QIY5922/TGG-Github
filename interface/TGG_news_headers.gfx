@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_header_0"
+		texturefile = "gfx/interface/news_headers/news_header_0.dds"
+	}
+	spriteType = {
+		name = "GFX_news_header_1"
+		texturefile = "gfx/interface/news_headers/news_header_1.dds"
+	}
+}

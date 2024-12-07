@@ -1,0 +1,60 @@
+﻿division_template = {
+	name = "Mahratta Light Infantry"
+	#division_names_group = KAR_01
+							
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Aden Protectorate Levies"
+	#division_names_group = KAR_01
+							
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Aden Command"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Aden Command"
+		location = 5074
+		division_template = "Aden Command"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "5th Mahratta Light Infantry"
+		location = 5074
+		division_template = "Mahratta Light Infantry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Aden Protectorate Levies"
+		location = 5074
+		division_template = "Aden Protectorate Levies"
+		start_experience_factor = 0.1
+	}
+}

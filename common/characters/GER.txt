@@ -1224,25 +1224,10 @@ characters={
 				large=GFX_portrait_GER_hermann_goring
 			}
 		}
-		advisor={
-			slot = air_chief
-			idea_token = goering
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				or = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
-			}
-			traits = {
-				air_chief_ground_support_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.05
-			}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1989.1.1"
+			id=-1
 		}
 	}
 

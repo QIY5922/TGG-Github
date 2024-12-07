@@ -7,27 +7,29 @@ COG_FP_01 = {
 
 	division_types = { "infantry" }
 
-	fallback_name = "%d. Bataillon d'Infanterie"
+	fallback_name = "%déme Bataillon d'Infanterie"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%der Bataillon d'Infanterie" }
 	}
 }
 COG_FP_02 = {
 	name = "Gendarmerie Battalion"
 
-	for_countries = { COG }
+	for_countries = { COG CMR }
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "irregular_infantry" }
 
-	fallback_name = "%d. Bataillon de Gendarmerie"
+	fallback_name = "%déme Bataillon de Gendarmerie"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%der Bataillon de Gendarmerie" }
 	}
 }
 COG_FP_03 = {
@@ -37,29 +39,31 @@ COG_FP_03 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "irregular_infantry" }
 
-	fallback_name = "%d. Compagnie Détachée de Gendarmerie"
+	fallback_name = "%déme Compagnie Détachée de Gendarmerie"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%dére Compagnie Détachée de Gendarmerie" }
 	}
 }
 COG_FP_04 = {
-	name = "Infantry Unit"
+	name = "Detached Gendarmerie Platoon"
 
 	for_countries = { COG }
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "irregular_infantry" }
 
-	fallback_name = "%d. Peloton Détaché de Gendarmerie"
+	fallback_name = "%déme Peloton Détaché de Gendarmerie"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%der Peloton Détaché de Gendarmerie" }
 	}
 }
 COG_FP_05 = {
@@ -69,16 +73,17 @@ COG_FP_05 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "cavalry" }
 
-	fallback_name = "%d. Escadron de Reconnaissance"
+	fallback_name = "%déme Escadron de Reconnaissance"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%der Escadron de Reconnaissance" }
 	}
 }
-COG_FP_05 = {
+COG_FP_06 = {
 	name = "Military Police Company"
 
 	for_countries = { COG }
@@ -87,10 +92,11 @@ COG_FP_05 = {
 
 	division_types = { "infantry" }
 
-	fallback_name = "%d. Compagnie de Police Militaire"
+	fallback_name = "%déme Compagnie de Police Militaire"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "%der Compagnie de Police Militaire" }
 	}
 }

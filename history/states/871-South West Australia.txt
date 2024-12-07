@@ -1,18 +1,23 @@
+
 state={
 	id=871
 	name="STATE_871"
-	provinces={
-		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
-	}
-	history = {
+
+	history={
 		buildings = {
 			infrastructure = 1
+
 		}
-		owner = AST
-		add_core_of = AST
+		owner = INS
+		add_core_of = INS
+
 	}
-	state_category = pastoral
+
+	provinces={
+		1225 1252 1404 1416 2047 4236 4323 5176 5226 7231 7296 7299 7355 7415 10178 10181 10237 10266 10325 12196 12225 12243 12252 
+	}
 	manpower=50000
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

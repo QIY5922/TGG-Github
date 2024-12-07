@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = absolute_monarchism
+			ideology = semi_const_monarchy
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -25,12 +25,31 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = absolute_monarchism
+			ideology = semi_const_monarchy
 			expire = "1965.1.1.1"
 			id = -1
 		}
 	}
-
+	BUL_kimon_georgiev = {
+		name = "Kimon Georgiev"
+		portraits = {
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	BUL_ivan_dochev = {
+		name = "Ivan Dochev"
+		portraits = {
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 	BUL_regency_council = {
 		name = BUL_regency_council
 		portraits = {

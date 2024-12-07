@@ -1,5 +1,6 @@
 ﻿capital = 551
 set_cosmetic_tag = SUD_UK
+oob = "SUD_1955"
 
 # Starting tech
 set_technology = {

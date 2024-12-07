@@ -4,48 +4,20 @@ bookmarks = {
 		desc = "TGG_DESC"
 		date = 1955.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ENG"
+		default_country = "COG"
 		default = yes
-		"ENG"={
-			history = "ENG_TGG_DESC"
-			ideology = democratic
+		"COG"={
+			history = "COG_TGG_DESC"
+			ideology = paternalism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+				COG_dominer_pour_servir
+				COG_la_trinite_coloniale
+				COG_whispers
 			}
 			focuses = {
 				tizard_mission_focus
 				ENG_war_with_germany
 				ENG_war_with_italy
-			}
-		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
-			}
-		}
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
 			}
 		}
 		effect = {

@@ -1,0 +1,15 @@
+characters = {
+	EAD_hugh_boustead = {
+		name = "Sir Hugh Boustead" 
+		portraits = {
+			civilian = {
+			}
+		}
+		country_leader = {
+			ideology = colonial_admin
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

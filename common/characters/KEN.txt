@@ -2,6 +2,9 @@ characters={
 	KEN_evelyn_baring={
 		name=KEN_evelyn_baring
 		portraits={
+			civilian={
+				large=GFX_portrait_evelyn_baring
+			}
 		}
 		country_leader={
 			ideology=colonial_admin

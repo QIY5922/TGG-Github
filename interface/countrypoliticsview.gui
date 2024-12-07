@@ -554,9 +554,10 @@ guiTypes = {
 		}
 	}
 	
+
 	containerWindowType = {
 		name = "political_ideas_window"
-		position = { x = -356 y = -90000 }	
+		position = { x = -356 y = 80 }	
 		show_position = { x = 540 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
@@ -632,7 +633,95 @@ guiTypes = {
 				}
 			}
 		}
+		
+		buttonType = {
+			name = "close"
+			position = { x = -50 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
 	}
+	
+	containerWindowType = {
+		name = "idea_group"
+		position = { x = 0 y = 0 }
+		size = { width=500 height=30 }
+		#verticalScrollbar = "right_vertical_slider"
+		#margin = { top = 14 bottom = 12}
+		
+		iconType = {
+			name = "title_bar"
+			position = { x = 244 y = 0 }
+			quadTextureSprite = "GFX_idea_group_header"
+			centerposition = yes			
+		}
+		
+		instantTextboxType = {
+			name = "title"
+			position = { x = 135 y = -10 }
+			font = "hoi_18mbs"
+			text = "sub category"
+			maxWidth = 220
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "limit"
+			position = { x = 250 y = -10 }
+			font = "hoi_16mbs"
+			text = "IDEA_SUB_CATEGORY_LIMIT"
+			maxWidth = 200
+			maxHeight = 20
+			format = right
+		}
+		
+		gridBoxType = {
+			name = "ideas_grid"
+			position = { x = 10 y = 25 }
+			size = { width = 231 height = 1 }
+			slotsize = { width = 231 height = 75 }
+			max_slots_horizontal = 2
+			add_horizontal = yes
+			format = "UPPER_LEFT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "political_idea_entry"
+		size = { width = 53 height = 53 }
+		clipping = no
+
+		iconType = {
+			name = "idea_alert_glow"
+			position = { x = -14 y = -8 }
+			spriteType = "GFX_ongoing_generic_glow_yellow"
+			scale = 0.65			
+			alwaystransparent = yes
+		}		
+		
+		buttonType = {
+			name = "add_idea_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_add_pol_idea_button"
+			clicksound = click_default
+		}
+		
+		iconType = {
+			name = "idea_traits"
+			position = { x = 43 y = 46 }
+			spriteType = "GFX_idea_traits_strip"
+			centerposition = yes
+			alwaystransparent = yes
+			frame = 1
+		}
+	}
+
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 0 }
@@ -761,87 +850,148 @@ guiTypes = {
 		}
 	}
 	
-#	containerWindowType = {
-#		name = "political_selectable_idea_entry_grid"
-#		size = { width = 231 height = 74 }
-#		clipping = no
-#			
-#		background = {
-#			name = "idea_entry_bg"
-#			position = { x = 3 y = 0 }
-#			spriteType = "GFX_idea_entry_bg_2"
-#		}
-#			
-#		iconType = {
-#			name = "icon"
-#			position = { x = 42 y = 38 }
-#			spriteType = "GFX_placeholder_bordered"
-#			centerposition = yes
-#			alwaystransparent = yes
-#		}
-#
-#		iconType = {
-#			name = "idea_traits"
-#			position = { x = 53 y = 51 }
-#			spriteType = "GFX_idea_traits_strip"
-#			centerposition = yes
-#			alwaystransparent = yes
-#			frame = 1
-#		}
-#		
-#		containerWindowType = {
-#		    name = "traits_container"
-#		    position = { x = 76 y = 0 }	
-#		    show_position = { x = 0 y = 0 }
-#			size = { width=170 height=100%% }
-#			
-#			instantTextboxType = {
-#				name = "name"
-#				position = { x = 0 y = 10 }
-#				font = "hoi_18mbs"
-#				fixedsize = yes			
-#				text = ""
-#				maxWidth = 150
-#				maxHeight = 13
-#				format = left
-#				alwaystransparent = yes			
-#			}
-#
-#			instantTextboxType = {
-#				name = "traits"
-#				position = { x = 0 y = 28 }
-#				font = "hoi_16mbs"
-#				fixedsize = yes			
-#				text = ""
-#				maxWidth = 140
-#				maxHeight = 100%%
-#				format = left
-#				alwaystransparent = yes			
-#			}
-#		}
-#		
-#		instantTextboxType = {
-#			name = "cost"
-#			position = { x = 80 y = 47 }
-#			font = "hoi_16mbs"
-#			text = ""
-#			maxWidth = 142
-#			maxHeight = 10
-#			format = right
-#			alwaystransparent = yes
-#		}
-#
-#		instantTextboxType = {
-#			name = "stats"
-#			position = { x = 300 y = 32 }
-#			font = "hoi_16mbs"
-#			text = ""
-#			maxWidth = 142
-#			maxHeight = 10
-#			format = center
-#			alwaystransparent = yes
-#		}
-#	}
+	containerWindowType = {
+		name = "political_selectable_idea_entry_grid"
+		size = { width = 231 height = 74 }
+		clipping = no
+			
+		background = {
+			name = "idea_entry_bg"
+			position = { x = 3 y = 0 }
+			spriteType = "GFX_idea_entry_bg_2"
+		}
+			
+		iconType = {
+			name = "icon"
+			position = { x = 42 y = 38 }
+			spriteType = "GFX_placeholder_bordered"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "idea_traits"
+			position = { x = 53 y = 51 }
+			spriteType = "GFX_idea_traits_strip"
+			centerposition = yes
+			alwaystransparent = yes
+			frame = 1
+		}
+		
+		containerWindowType = {
+		    name = "traits_container"
+		    position = { x = 76 y = 0 }	
+		    show_position = { x = 0 y = 0 }
+			size = { width=170 height=100%% }
+			
+			instantTextboxType = {
+				name = "name"
+				position = { x = 0 y = 10 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 150
+				maxHeight = 13
+				format = left
+				alwaystransparent = yes			
+			}
+
+			instantTextboxType = {
+				name = "traits"
+				position = { x = 0 y = 28 }
+				font = "hoi_16mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 140
+				maxHeight = 100%%
+				format = left
+				alwaystransparent = yes			
+			}
+		}
+
+		instantTextboxType = {
+			name = "stats"
+			position = { x = 300 y = 32 }
+			font = "hoi_16mbs"
+			text = ""
+			maxWidth = 142
+			maxHeight = 10
+			format = center
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "political_selectable_idea_entry_list"
+		size = { width = 462 height = 74 }
+		clipping = no
+			
+		background = {
+			name = "idea_entry_bg"
+			position = { x = 3 y = 0 }
+			spriteType = "GFX_idea_entry_bg_3"
+		}
+			
+		iconType = {
+			name = "icon"
+			position = { x = 42 y = 38 }
+			spriteType = "GFX_placeholder_bordered"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "idea_traits"
+			position = { x = 53 y = 51 }
+			spriteType = "GFX_idea_traits_strip"
+			centerposition = yes
+			alwaystransparent = yes
+			frame = 1
+		}
+		
+		containerWindowType = {
+		    name = "traits_container"
+		    position = { x = 84 y = 0 }	
+		    show_position = { x = 0 y = 0 }
+			size = { width=170 height=100%% }
+			
+			instantTextboxType = {
+				name = "name"
+				position = { x = 0 y = -13 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 160
+				maxHeight = 100%%
+				format = left
+				vertical_alignment = center
+				alwaystransparent = yes			
+			}
+
+			instantTextboxType = {
+				name = "traits"
+				position = { x = 0 y = 10 }
+				font = "hoi_16mbs"
+				fixedsize = yes			
+				text = "name"
+				maxWidth = 160
+				maxHeight = 100%%
+				format = left
+				alwaystransparent = yes			
+			}
+		}
+
+		instantTextboxType = {
+			name = "stats"
+			position = { x = 300 y = 32 }
+			font = "hoi_16mbs"
+			text = ""
+			maxWidth = 142
+			maxHeight = 10
+			format = center
+			alwaystransparent = yes
+		}
+	}
 	
 	containerWindowType = {
 		name = "political_party_info_entry"

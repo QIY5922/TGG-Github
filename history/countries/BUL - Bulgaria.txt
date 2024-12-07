@@ -15,17 +15,6 @@ add_ideas = {
 	work_in_progress
 }
 
-set_party_name = { # DLC
-	ideology = communism
-	name = BUL_communism_party_bulgarian
-	long_name = BUL_communism_party_bulgarian_long
-}
-set_party_name = { # DLC
-	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
-}
-
 set_technology = { #VANILLA & DLC
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -46,19 +35,21 @@ set_technology = { #VANILLA & DLC
 	
 	#POLIICS
 	set_popularities = {
-		autocracy = 78
+		autocracy = 10
 		ultranat = 4
-		paternalism = 10
+		paternalism = 78
 		conservatism = 8
 	}
 	set_politics = { 
-		ruling_party = autocracy
+		ruling_party = paternalism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no
 	}
 
 	recruit_character = BUL_boris_iii
+	recruit_character = BUL_kimon_georgiev
+	recruit_character = BUL_ivan_dochev
 	#TECHNOLOGY
 	set_technology = {
 		gw_artillery = 1

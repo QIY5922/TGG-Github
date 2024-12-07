@@ -1,0 +1,26 @@
+focus_tree = {
+	id = COG_petillon_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = COG
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 0 y = 0 }
+
+	focus = {
+		id = COG_heart_of_africa
+		icon = GFX_COG_heart_of_africa_icon
+		x = 5
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

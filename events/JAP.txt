@@ -1,0 +1,275 @@
+add_namespace = TGG.japan
+
+country_event = { # HIGASHIKUNI SUCCESSION
+	id = TGG.japan.1
+	title = TGG.japan.1.t
+	desc = TGG.japan.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1955.9.1
+		has_country_leader = {
+			character = JAP_prince_higashikuni
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		retire_character = JAP_prince_higashikuni
+		promote_character = {
+			character = JAP_prince_konoye
+			ideology = nihonshugi
+		}
+	}
+
+	option = {
+		name = TGG.japan.1.a
+	}
+	option = {
+		name = TGG.japan.1.b
+		set_politics = {
+			ruling_party = autocracy
+		}
+	}
+	option = {
+		name = TGG.japan.1.c
+		set_politics = {
+			ruling_party = paternalism_2
+		}
+	}
+}
+
+country_event = { # KONOYE SUCCESSION
+	id = TGG.japan.2
+	title = TGG.japan.2.t
+	desc = TGG.japan.2.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1958.1.1
+		has_country_leader = {
+			character = JAP_prince_konoye
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		retire_character = JAP_prince_konoye
+		add_country_leader_role = {
+			character = JAP_iwao_yamazaki
+			promote_leader = yes
+			country_leader = {
+				ideology=nihonshugi
+				expire="1989.1.1"
+				id=-1
+			}
+		}
+	}
+
+	option = {
+		name = TGG.japan.2.a
+	}
+	option = {
+		name = TGG.japan.2.b
+		set_politics = {
+			ruling_party = autocracy
+		}
+	}
+}
+
+country_event = { # KISHI SUCCESSION
+	id = TGG.japan.4
+	title = TGG.japan.4.t
+	desc = TGG.japan.4.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1961.1.1
+		has_country_leader = {
+			character = JAP_kishi_nobusuke
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	immediate = {
+		retire_character = JAP_kishi_nobusuke
+	}
+	option = {
+		name = TGG.japan.4.a
+		recruit_character = JAP_prince_higashikuni
+		promote_character = {
+			character = JAP_prince_higashikuni
+			ideology = aristocratic_conservatism
+		}
+		set_politics = {
+			ruling_party = paternalism
+		}
+	}
+	option = {
+		name = TGG.japan.4.b
+		promote_character = {
+			character = JAP_naoki_hoshino
+			ideology = corporatism
+		}
+	}
+	option = {
+		name = TGG.japan.4.c
+		promote_character = {
+			character = JAP_etsusaburo_shiina
+			ideology = corporatism
+		}
+	}
+}
+
+country_event = { # IKEDA HIGH OR LOW POSTURE
+	id = TGG.japan.6
+	title = TGG.japan.6.t
+	desc = TGG.japan.6.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1958.1.1
+		has_country_leader = {
+			character = JAP_ikeda_hayato
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = TGG.japan.6.a
+		set_country_flag = ikeda_high_posture
+	}
+	option = {
+		name = TGG.japan.6.b
+		set_country_flag = ikeda_low_posture
+		set_country_leader_ideology = paternalist_populism_2
+	}
+}
+
+country_event = { # IKEDA - HIGH POSTURE OHIRA SUCCESSION
+	id = TGG.japan.3
+	title = TGG.japan.3.t
+	desc = TGG.japan.3.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1958.1.1
+		has_country_leader = {
+			character = JAP_ikeda_hayato
+			ruling_only = yes
+		}
+		has_country_flag = ikeda_high_posture
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = TGG.japan.3.a
+		retire_character = JAP_ikeda_hayato
+		MEN = {
+			retire_character = MEN_ohira_masayoshi
+		}
+		recruit_character = JAP_ohira_masayoshi
+		add_country_leader_role = {
+			character = JAP_ohira_masayoshi
+			promote_leader = yes
+			country_leader = {
+				ideology=paternalism_ideology_2
+				expire="1989.1.1"
+				id=-1
+			}
+		}
+	}
+}
+
+country_event = { # IKEDA - LOW POSTURE KISHI OUSTING
+	id = TGG.japan.5 
+	title = TGG.japan.5.t
+	desc = TGG.japan.5.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1959.3.1
+		has_country_leader = {
+			character = JAP_ikeda_hayato
+			ruling_only = yes
+		}
+		has_country_flag = ikeda_low_posture
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+		
+	option = {
+		name = TGG.japan.5.a
+		retire_character = JAP_ikeda_hayato
+		set_politics = {
+			ruling_party = autocracy
+		}
+	}
+
+	option = {
+		name = TGG.japan.5.b
+	}
+}
+
+country_event = { # IKEDA - LOW POSTURE KONOYE SUCCESSION
+	id = TGG.japan.7 
+	title = TGG.japan.7.t
+	desc = TGG.japan.7.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1961.1.1
+		has_country_leader = {
+			character = JAP_ikeda_hayato
+			ruling_only = yes
+		}
+		has_country_flag = ikeda_low_posture
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+		
+	option = {
+		name = TGG.japan.7.a
+		retire_character = JAP_ikeda_hayato
+		set_politics = {
+			ruling_party = paternalism
+		}
+	}
+}

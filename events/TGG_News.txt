@@ -8,8 +8,13 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.1.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
 }
 
@@ -21,8 +26,13 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.2.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
 }
 
@@ -34,8 +44,13 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.3.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
 }
 
@@ -47,8 +62,13 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.4.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
 }
 
@@ -60,8 +80,13 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.5.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
 }
 
@@ -73,7 +98,123 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
 	option = {
 		name = TGG.news.6.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
 	}
+}
+
+news_event = {
+	id = TGG.news.7 # HUGH GAITSKELL LABOUR LEADER
+	title = TGG.news.7.t
+	desc = TGG.news.7.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.6.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+}
+news_event = {
+	id = TGG.news.8 # NYE BEVAN LABOUR LEADER
+	title = TGG.news.8.t
+	desc = TGG.news.8.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.8.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+}
+
+news_event = {
+	id = TGG.news.101 # SUEZ WAR
+	title = TGG.news.101.t
+	desc = TGG.news.101.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.101.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+}
+
+news_event = {
+	id = TGG.news.102 # NASSER DEAD
+	title = TGG.news.102.t
+	desc = TGG.news.102.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.102.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+}
+
+news_event = {
+	id = TGG.news.200 # CONGO - LEOPOLDVILLE RIOTS
+	title = TGG.news.200.t
+	desc = TGG.news.200.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.200.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	picture = GFX_news_200
+}
+
+news_event = {
+	id = TGG.news.201 # CONGO - PETILLON SACKED
+	title = TGG.news.201.t
+	desc = TGG.news.201.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+
+	option = {
+		name = TGG.news.201.a
+		clr_global_flag = TGG_news_event_yes # NEEDED OTHERWISE IT WILL BREAK
+	}
+	
+	picture = GFX_news_201
 }

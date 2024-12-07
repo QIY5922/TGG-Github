@@ -1,0 +1,170 @@
+ideas = {
+
+	economic_policy = {
+		law = yes
+		use_list_view = yes
+
+		laissez_faire = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		free_market = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		mixed_economy = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		state_socialism = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		oligarchy = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		
+			visible = {
+				has_country_flag = oligarchy
+			}
+		}
+
+		corporatism = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			visible = {
+				has_country_flag = corporatist_country
+			}
+		}
+
+		dirigisme = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			visible = {
+				has_country_flag = dirigiste_country
+			}
+		}
+
+	}
+
+	welfare_policy = {
+		law = yes
+		use_list_view = yes
+
+		charities_only = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		welfare_minimalism = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		social_market = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		welfare_state = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+
+	trade_policy = {
+		law = yes
+		use_list_view = yes
+
+		free_trade = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		protectionism = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		autarky = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-﻿add_namespace = TGG.britain
+add_namespace = TGG.britain
 
 country_event = {
 	id = TGG.britain.1
@@ -41,11 +41,22 @@ country_event = {
 		NWF = {
 			drop_cosmetic_tag = yes
 			set_popularities = {
-				liberalism = 58
+				liberalism = 51
+				social_democracy = 7
 				conservatism = 42
 			}
 			set_politics = {
 				ruling_party = liberalism
+			}
+			random = {
+				chance = 40
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.2
+				}
+				set_politics = {
+					ruling_party = conservatism
+				}
 			}
 		}
 		news_event = {
@@ -59,6 +70,326 @@ country_event = {
 		name = TGG.britain.1.c
 		news_event = {
 			id = TGG.news.4
+			hours = 1
+			random_hours = 1
+		}
+	}
+}
+
+country_event = { # LABOUR LEADERSHIP
+	id = TGG.britain.2
+	title = TGG.britain.2.t
+	desc = TGG.britain.2.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1955.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 240
+	}
+	
+	immediate = {
+		retire_character = ENG_herbert_morrison
+	}
+
+	option = {
+		name = TGG.britain.2.a
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		news_event = {
+			id = TGG.news.7
+			hours = 1
+			random_hours = 1
+		}
+		set_country_flag = ENG_gaitskell_labour_leader
+	}
+	option = {
+		name = TGG.britain.2.b
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+		news_event = {
+			id = TGG.news.8
+			hours = 1
+			random_hours = 1
+		}
+		set_country_flag = ENG_nye_labour_leader
+	}
+}
+
+country_event = { # TORY LEADERSHIP
+	id = TGG.britain.3
+	title = TGG.britain.3.t
+	desc = TGG.britain.3.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1956.1.1
+		EGY = {
+			NOT = {
+				OR = {
+					has_country_leader = {
+						character = EGY_gamal_abdel_nasser
+					}
+					has_country_leader = {
+						character = EGY_gamal_abdel_nasser_2
+					}
+					has_country_leader = {
+						character = EGY_supreme_council
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	immediate = {
+		retire_character = ENG_anthony_eden
+	}
+
+	option = {
+		name = TGG.britain.3.a
+		add_popularity = {
+			ideology = conservatism_2
+			popularity = 0.05
+		}
+		remove_idea = ENG_supermac
+		add_country_leader_role = {
+			character = ENG_supermac
+			promote_leader = yes
+			country_leader={
+				ideology=one_nation_conservatism_2
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}	
+	option = {
+		name = TGG.britain.3.b
+		add_popularity = {
+			ideology = conservatism_2
+			popularity = 0.05
+		}
+		remove_idea = ENG_rab_butler
+		add_country_leader_role = {
+			character = ENG_rab_butler
+			promote_leader = yes
+			country_leader={
+				ideology=liberal_conservatism_2
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}
+	option = {
+		name = TGG.britain.3.c
+		add_popularity = {
+			ideology = conservatism_3
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = conservatism_3
+		}
+	}
+}
+
+country_event = { # 1956 ELECTION - GAITSKELL LABOUR LEADER
+	id = TGG.britain.4
+	title = TGG.britain.4.t
+	desc = TGG.britain.4.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1956.1.1
+		has_country_flag = ENG_gaitskell_labour_leader
+		NOT = {
+			has_country_leader = {
+				character = ENG_anthony_eden
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = TGG.britain.4.a # TORIES WIN
+	}	
+	option = {
+		name = TGG.britain.4.b
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		set_politics = {
+			ruling_party = social_democracy
+		}
+	}
+}
+
+country_event = { # 1956 ELECTION - NYE LABOUR LEADER
+	id = TGG.britain.5
+	title = TGG.britain.5.t
+	desc = TGG.britain.5.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1956.1.1
+		has_country_flag = ENG_nye_labour_leader
+		NOT = {
+			has_country_leader = {
+				character = ENG_anthony_eden
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = TGG.britain.5.a # TORIES WIN
+	}	
+	option = {
+		name = TGG.britain.5.b
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+}
+
+add_namespace = TGG.ENGsuez
+country_event = {
+	id = TGG.ENGsuez.1
+	title = TGG.ENGsuez.1.t
+	desc = TGG.ENGsuez.1.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = TGG.ENGsuez.1.a
+		declare_war_on = {
+			target = EGY
+			type = annex_everything
+		}
+
+		division_template = {
+			name = "Canal Zone Garrison"
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				light_armor = { x = 1 y = 0 }
+				light_armor = { x = 1 y = 1 }
+
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
+				recon = { x = 0 y = 2 }
+			}
+		}
+		446 = {
+			create_unit = { # 29th Infantry Brigade
+				division = "name = \"29th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5 "
+				owner = FROM
+				prioritize_location = 4073
+			}
+			create_unit = {
+				division = "name = \"18th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5 "
+				owner = FROM
+				prioritize_location = 4073
+			}
+			create_unit = {
+				division = "name = \"14th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5 "
+				owner = FROM
+				prioritize_location = 4073
+			}
+			create_unit = {
+				division = "name = \"16th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5 "
+				owner = FROM
+				prioritize_location = 4073
+			}
+			create_unit = {
+				division = "name = \"11th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5"
+				owner = FROM
+				prioritize_location = 12049
+			}
+			create_unit = {
+				division = "name = \"10th Infantry Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5"
+				owner = FROM
+				prioritize_location = 12049
+			}
+			create_unit = {
+				division = "name = \"7th Armoured Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5"
+				owner = FROM
+				prioritize_location = 12049
+			}
+			create_unit = {
+				division = "name = \"4th Armoured Brigade\" division_template = \"Canal Zone Garrison\" start_experience_factor = 0.5"
+				owner = FROM
+				prioritize_location = 12049
+			}
+		}
+		news_event = {
+			id = TGG.news.101
+			hours = 1
+			random_hours = 1
+		}
+	}
+}
+
+country_event = {
+	id = TGG.ENGsuez.2
+	title = TGG.ENGsuez.2.t
+	desc = TGG.ENGsuez.2.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		controls_province = 7011
+	}
+
+	option = {
+		name = TGG.ENGsuez.2.a
+		add_war_support = 0.2
+		EGY = {
+			retire_character = EGY_gamal_abdel_nasser
+			retire_character = EGY_gamal_abdel_nasser_2
+			set_politics = {
+				ruling_party = autocracy
+			}
+		}
+		news_event = {
+			id = TGG.news.102
 			hours = 1
 			random_hours = 1
 		}

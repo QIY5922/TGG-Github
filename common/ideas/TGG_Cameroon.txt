@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		UPC_les_umistes = {
+			name = UPC_les_umistes
+			picture = les_umistes
+
+			removal_cost = -1
+
+			modifier = {
+				attack = 0.5
+				army_speed_factor = 0.25
+				out_of_supply_factor = -0.25
+			}
+		}
+		CMR_zopac = {
+			name = CMR_zopac
+			picture = zopac
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.2
+				dig_in_speed_factor = 0.5
+				max_dig_in_factor = 0.5
+			}
+		}
+		CMR_mass_internment = {
+			name = CMR_mass_internment
+			picture = mass_internment
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = -0.015
+				political_power_gain = -0.1
+				stability_factor = 0.15
+				attack = 0.2
+			}
+		}
+	}
+}

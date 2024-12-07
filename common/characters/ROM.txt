@@ -11,4 +11,16 @@ characters={
 			id=-1
 		}
 	}
+	ROM_lucretiu_patrascanu={
+		name="Lucretiu Patrascanu"
+		portraits={
+			civilian={
+			}
+		}
+		country_leader={
+			ideology=national_communism_2
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

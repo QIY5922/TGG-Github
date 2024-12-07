@@ -81,7 +81,11 @@ characters={
 			id=700
 		}
 	}
-
+	JAP_ohira_masayoshi={
+		name=JAP_ohira_masayoshi
+		portraits={
+		}
+	}
 	JAP_kyuichi_tokuda={
 		name=JAP_kyuichi_tokuda
 		portraits={

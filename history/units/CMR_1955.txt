@@ -1,4 +1,4 @@
-### French Indochina OOB ###
+### French Cameroon OOB ###
 
 division_template = {
 	name = "Régiment d'Infanterie Coloniale"		
@@ -18,23 +18,8 @@ division_template = {
 }
 
 division_template = {
-	name = "Régiment Étranger d'Infanterie"		
-	division_names_group = FIC_INF_02
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-	}
-	support = {
-	}
-}
-
-division_template = {
-	name = "Régiment de Tirailleurs Tonkinois"		
-	division_names_group = FIC_INF_03
+	name = "Régiment de Tirailleurs Camerounais"		
+	division_names_group = CMR_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -43,8 +28,8 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Régiment de Tirailleurs Annamite"		
-	division_names_group = FIC_INF_04
+	name = "Bataillon de Gendarmerie"		
+	division_names_group = COG_FP_02
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -54,66 +39,34 @@ division_template = {
 }
 
 units = {
-	# TONKIN
 	division = {
-		name = "1er Régiment de Tirailleurs Tonkinois"
-		location = 10103
-		division_template = "Régiment de Tirailleurs Tonkinois"
+		name = "1er Régiment de Tirailleurs Camerounais"
+		location = 2080
+		division_template = "Régiment de Tirailleurs Camerounais"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "2éme Régiment de Tirailleurs Tonkinois"
-		location = 9948
-		division_template = "Régiment de Tirailleurs Tonkinois"
+		name = "2éme Régiment de Tirailleurs Camerounais"
+		location = 7963
+		division_template = "Régiment de Tirailleurs Camerounais"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "3éme Régiment de Tirailleurs Tonkinois"
-		location = 12048
-		division_template = "Régiment de Tirailleurs Tonkinois"
-		start_experience_factor = 0.2
+		name = "1er Bataillon de Gendarmerie"
+		location = 5036
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.1
 	}
 	division = {
-		name = "4éme Régiment de Tirailleurs Tonkinois"
-		location = 12075
-		division_template = "Régiment de Tirailleurs Tonkinois"
-		start_experience_factor = 0.2
+		name = "2éme Bataillon de Gendarmerie"
+		location = 7963
+		division_template = "Bataillon de Gendarmerie"
+		start_experience_factor = 0.1
 	}
 	division = {
-		name = "3éme Régiment d'Infanterie Coloniale"
-		location = 12048
+		name = "5éme Régiment d'Infanterie Coloniale"
+		location = 2080
 		division_template = "Régiment d'Infanterie Coloniale"
 		start_experience_factor = 0.4
-	}
-	division = {
-		name = "4éme Régiment Étranger d'Infanterie"
-		location = 7218
-		division_template = "Régiment Étranger d'Infanterie"
-		start_experience_factor = 0.3
-	}
-	# ANNAM
-	division = {
-		name = "1er Régiment de Tirailleurs Annamite"
-		location = 10309
-		division_template = "Régiment de Tirailleurs Annamite"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "2éme Régiment de Tirailleurs Annamite"
-		location = 10162
-		division_template = "Régiment de Tirailleurs Annamite"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "3éme Régiment de Tirailleurs Annamite"
-		location = 4596
-		division_template = "Régiment de Tirailleurs Annamite"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "9éme Régiment d'Infanterie Coloniale"
-		location = 4405
-		division_template = "Régiment de Tirailleurs Annamite"
-		start_experience_factor = 0.2
 	}
 }

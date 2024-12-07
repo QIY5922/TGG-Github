@@ -2,6 +2,19 @@ characters={
 	EGY_gamal_abdel_nasser={
 		name=EGY_gamal_abdel_nasser
 		portraits={
+			civilian = {
+				large = GFX_portrait_gamal_abdel_nasser
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EGY_supreme_council={
+		name="Supreme Council of the Armed Forces"
+		portraits={
 		}
 		country_leader={
 			ideology=military_junta
@@ -12,6 +25,9 @@ characters={
 	EGY_gamal_abdel_nasser_2={
 		name=EGY_gamal_abdel_nasser
 		portraits={
+			civilian = {
+				large = GFX_portrait_gamal_abdel_nasser
+			}
 		}
 		country_leader={
 			ideology=arab_nationalism

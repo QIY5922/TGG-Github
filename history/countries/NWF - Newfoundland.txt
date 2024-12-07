@@ -102,8 +102,13 @@ set_politics = {
 }
 
 set_popularities = {
-	paternalism = 100
+	paternalism = 83
+	conservatism = 17
 }
+
+recruit_character = NWF_george_london
+recruit_character = NWF_malcolm_hollett
+recruit_character = NWF_joey_smallwood
 
 set_convoys = 100
 set_stability = 0.75

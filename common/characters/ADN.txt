@@ -1,12 +1,12 @@
 characters = {
-	ADN_joint_aden_political_offices = {
-		name = "Joint Aden Political Offices" 
+	ADN_kennedy_trevaskis = {
+		name = "Sir Kennedy Trevaskis" 
 		portraits = {
 			civilian = {
 			}
 		}
 		country_leader = {
-			ideology = absolute_monarchism
+			ideology = colonial_admin
 			expire = "1965.1.1.1"
 			id = -1
 		}

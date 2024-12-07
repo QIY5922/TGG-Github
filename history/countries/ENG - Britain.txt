@@ -1,19 +1,5 @@
 ﻿capital = 126
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "ENG_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ENG_1936_nsb"
-}
+oob = "ENG_1955"
 
 starting_train_buffer = 4
 
@@ -156,9 +142,6 @@ if = {
 		basic_fire_control_system = 1
 		basic_dp_light_battery = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
 
 if = {
@@ -171,13 +154,6 @@ if = {
 }
 
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
-	
 
 set_convoys = 1000
 
@@ -262,9 +238,12 @@ add_to_faction = MAL
 
 #give_guarantee = CZE
 
-# Order matters - here Chamberlain becomes starting leader
+# Order matters - here Eden becomes starting PM and Morrison becomes starting Labour leader
 recruit_character = ENG_anthony_eden
+recruit_character = ENG_herbert_morrison
 recruit_character = ENG_hugh_gaitskell
+recruit_character = ENG_alan_lennox_boyd
+recruit_character = ENG_selwyn_lloyd
 recruit_character = ENG_nye
 recruit_character = ENG_supermac
 recruit_character = ENG_rab_butler
@@ -274,37 +253,12 @@ recruit_character = ENG_lord_strang
 recruit_character = ENG_peter_thorneycroft
 recruit_character = ENG_lord_salisbury
 
-recruit_character = ENG_john_beckett
-recruit_character = ENG_corgis_1
-recruit_character = ENG_corgis_2
-recruit_character = ENG_corgis_3
-recruit_character = ENG_alan_turing
-recruit_character = ENG_clement_attlee
-recruit_character = ENG_ernest_bevin
-recruit_character = ENG_leslie_hore_belisha
-recruit_character = ENG_george_orwell
-recruit_character = ENG_nevile_henderson
-recruit_character = ENG_random_communist_minister_8
-recruit_character = ENG_random_communist_minister_9
-recruit_character = ENG_david_lloyd_george
-recruit_character = ENG_random_communist_minister_1
-recruit_character = ENG_random_communist_minister_2
-recruit_character = ENG_random_communist_minister_3
-recruit_character = ENG_random_communist_minister_4
-recruit_character = ENG_random_communist_minister_5
-recruit_character = ENG_random_communist_minister_6
-recruit_character = ENG_random_communist_minister_7
-recruit_character = ENG_random_communist_minister_13
-recruit_character = ENG_random_communist_minister_12
-recruit_character = ENG_random_communist_minister_11
-recruit_character = ENG_random_communist_minister_10
-recruit_character = ENG_mary_sophia_allen
-recruit_character = ENG_philip_kerr
-recruit_character = ENG_sylvia_pankhurst
-recruit_character = ENG_stewart_menzies
-recruit_character = ENG_maxwell_aitken
-recruit_character = ENG_thomas_moore
-
+add_ideas = {
+	ENG_supermac
+	ENG_lord_salisbury
+	ENG_rab_butler
+	ENG_alan_lennox_boyd
+}
 
 
 if = {

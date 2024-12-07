@@ -1,14 +1,12 @@
 characters={
 	HUN_miklos_horthy={
-		name=HUN_miklos_horthy
+		name="Miklós Horthy"
 		portraits={
 			civilian={
-				large="GFX_Portrait_hungary_miklos_horthy"
 			}
 		}
 		country_leader={
 			ideology=paternalism_ideology
-			traits={ fascist_sympathies anti_communist }
 			expire="1989.1.1.1"
 			id=-1
 		}

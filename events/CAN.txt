@@ -1,0 +1,38 @@
+add_namespace = TGG.canada
+
+country_event = {
+	id = TGG.canada.1
+	title = TGG.canada.1.t
+	desc = TGG.canada.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = CAN
+		date > 1957.6.9
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = TGG.canada.1.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		add_coutnry_leader_role = {
+			character = CAN_lester_b_pearson
+			promote_leader = yes
+			country_leader={
+				ideology=social_liberalism
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+		retire_character = CAN_louis_st_laurent
+	}
+	option = {
+		name = TGG.canada.1.b
+	}
+}

@@ -1,10 +1,17 @@
 #reload countrycolors
 
+UPC = {
+    color = rgb { 240 96 43 }
+    color_ui = rgb { 240 96 43 }
+}
 NWF = {
     color = rgb { 235 93 93 }
     color_ui = rgb { 235 93 93 }
 }
-
+EAD = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 201 56 93 }
+}
 PRC = {
     color = rgb { 0 0 0 }
     color_ui = rgb { 0 0 0 }
@@ -33,10 +40,6 @@ SKM = {
 	color_ui = rgb { 210 197 187 }
 }
 ARK = {
-	color = rgb { 79 124 151 }
-	color_ui = rgb { 79 124 151 }
-}
-LNT = {
 	color = rgb { 79 124 151 }
 	color_ui = rgb { 79 124 151 }
 }
@@ -131,7 +134,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 195 107 160 }
+	color = rgb { 224 228 255 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {

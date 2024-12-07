@@ -1,0 +1,17 @@
+state={
+	id=1028
+	name="STATE_1028"
+	provinces={
+		5054 13368 
+	}
+	history={
+		owner = CMR
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower = 450000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

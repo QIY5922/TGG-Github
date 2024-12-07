@@ -1,4 +1,5 @@
 ﻿capital = 907
+oob = "EGY_1955"
 
 # Starting tech
 set_technology = {
@@ -23,6 +24,7 @@ add_ideas = {
 set_convoys = 20
 
 recruit_character = EGY_gamal_abdel_nasser
+recruit_character = EGY_supreme_council
 recruit_character = EGY_qutb
 recruit_character = EGY_central_committee
 

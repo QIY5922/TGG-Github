@@ -154,7 +154,6 @@ if = {
 		basic_dp_light_battery = 1
 		cruiser_submarines = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -194,6 +193,7 @@ give_guarantee = LUX
 give_guarantee = HOL
 
 recruit_character = FRA_jean_zay
+recruit_character = FRA_maurice_bourges_maunoury
 recruit_character = FRA_pierre_mendes_france
 recruit_character = FRA_paul_reynaud
 recruit_character = FRA_henri_queuille
@@ -264,6 +264,13 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
+
+add_ideas = {
+	FRA_pierre_mendes_france
+	FRA_henri_queuille
+	FRA_guy_mollet
+	FRA_maurice_bourges_maunoury
+}
 
 
 if = {

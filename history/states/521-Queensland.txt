@@ -1,3 +1,4 @@
+
 state={
 	id=521
 	name="STATE_521"
@@ -6,11 +7,9 @@ state={
 	}
 
 	history={
-		owner = AST
+		owner = INS
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
+			infrastructure = 1
 			7564 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -28,12 +27,12 @@ state={
 		victory_points = {
 			7566 1 
 		}
-		add_core_of = AST
+		add_core_of = INS
 
 	}
 
 	provinces={
-		1472 1557 1570 4481 4502 4517 4530 4546 4560 4632 5227 7522 7535 7564 7566 7592 7610 7651 7666 10430 10445 10458 10460 10475 10487 11006 12308 12382 12411 12424 12451 
+		1209 1413 4306 4390 4608 7654 10135 10479 10491 12277 12293 12472 
 	}
 	manpower=816800
 	buildings_max_level_factor=1.000

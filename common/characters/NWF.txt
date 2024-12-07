@@ -1,0 +1,32 @@
+characters={
+	NWF_george_london={
+		name="Sir George London"
+		portraits={
+		}
+		country_leader={
+			ideology=colonial_admin
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NWF_joey_smallwood={
+		name="Joey Smallwood"
+		portraits={
+		}
+		country_leader={
+			ideology=social_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NWF_malcolm_hollett={
+		name="Malcolm Hollett"
+		portraits={
+		}
+		country_leader={
+			ideology=red_toryism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

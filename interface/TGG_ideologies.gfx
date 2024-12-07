@@ -136,4 +136,12 @@ spriteTypes = {
         name = "GFX_ideology_progressivism_3"
         texturefile = "gfx/interface/ideologies/progressivism.dds"
     }
+    spriteType = {
+        name = "GFX_ideology_marxism"
+        texturefile = "gfx/interface/ideologies/marxism_leninism.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_marxism_2"
+        texturefile = "gfx/interface/ideologies/marxism_leninism.dds"
+    }
 }

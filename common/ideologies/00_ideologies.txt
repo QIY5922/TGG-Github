@@ -5,6 +5,7 @@ ideologies = {
 			italian_fascism = {}
 			fascism_ideology = {}
 			falangism = {}
+			popular_autocracy = {}
 		}
 		dynamic_faction_names = {}
 		color = { 127 96 0 }
@@ -99,6 +100,7 @@ ideologies = {
 			national_conservatism_3 = {}
 			red_toryism_3 = {}
 			paternalistic_conservatism_3 = {}
+			agrarianism_3 = {}
 		}
 		dynamic_faction_names = {}
 		color = { 32 23 138 }
@@ -117,6 +119,7 @@ ideologies = {
 			national_conservatism = {}
 			red_toryism = {}
 			paternalistic_conservatism = {}
+			agrarianism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 60 48 186 }
@@ -135,6 +138,7 @@ ideologies = {
 			national_conservatism_2 = {}
 			red_toryism_2 = {}
 			paternalistic_conservatism_2 = {}
+			agrarianism_2 = {}
 		}
 		dynamic_faction_names = {}
 		color = { 102 92 214 }
@@ -272,11 +276,25 @@ ideologies = {
 		color = { 198 30 30 }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
+
+	communism_3 = {
+		types = {
+			communism_ideology_3 = {}
+			marxism_3 = {}
+			technocratic_communism_3 = {}
+			national_communism_3 = {}
+		}
+		dynamic_faction_names = {}
+		color = { 162 10 10 }
+		ai_communist = yes # uses the commie AI behaviour
+	}
+
 	communism = {
 		types = {
 			communism_ideology = {}
 			marxism = {}
 			technocratic_communism = {}
+			national_communism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 152 0 0 }
@@ -287,9 +305,10 @@ ideologies = {
 			communism_ideology_2 = {}
 			marxism_2 = {}
 			technocratic_communism_2 = {}
+			national_communism_2 = {}
 		}
 		dynamic_faction_names = {}
-		color = { 122 10 10 }
+		color = { 142 10 10 }
 		ai_communist = yes # uses the commie AI behaviour
 	}
 

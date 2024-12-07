@@ -2,7 +2,6 @@
 state={
 	id=674
 	name="STATE_674"
-	impassable = yes
 
 	history={
 		owner = AST
@@ -10,16 +9,15 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = AST
+		add_core_of = PNG
 
 	}
 
 	provinces={
-		2133 2177 2186 2205 2223 5138 5206 7623 8134 8155 8206 8237 10336 10473 10936 10955 10979 11013 12904 12906 12912 12915 12926 12936 12992 13131 13132 13171 13172 
+		1389 4317 4393 4418 5135 7305 7333 7365 7378 7409 7614 10231 10251 10423 10974 11004 11018 12154 12193 12237 12240 12400 12428 12931 
 	}
 	manpower=30000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-
-	local_supplies=0.0 
+	state_category=rural
+	local_supplies=0.000
 }

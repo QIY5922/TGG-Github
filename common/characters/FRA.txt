@@ -21,6 +21,12 @@ characters={
 			expire="1989.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "FRA_pierre_mendes_france"
+			cost = 0
+			slot = finance_minister
+			idea_token = FRA_pierre_mendes_france
+		}
 	}
 	FRA_henri_queuille={
 		name=FRA_henri_queuille
@@ -30,6 +36,12 @@ characters={
 			ideology=social_liberalism
 			expire="1989.1.1.1"
 			id=-1
+		}
+		advisor = {
+			desc = "FRA_henri_queuille_desc"
+			cost = 0
+			slot = head_of_government
+			idea_token = FRA_henri_queuille
 		}
 	}
 	FRA_yves_dechezelles={
@@ -50,6 +62,23 @@ characters={
 			ideology=socdem_ideology_3
 			expire="1989.1.1.1"
 			id=-1
+		}
+		advisor = {
+			desc = "FRA_guy_mollet_desc"
+			cost = 0
+			slot = foreign_minister
+			idea_token = FRA_guy_mollet
+		}
+	}
+	FRA_maurice_bourges_maunoury={
+		name="Maurice Bourgès-Maunoury"
+		portraits={
+		}
+		advisor = {
+			desc = "FRA_maurice_bourges_maunoury"
+			cost = 0
+			slot = defence_minister
+			idea_token = FRA_maurice_bourges_maunoury
 		}
 	}
 	FRA_paul_reynaud={

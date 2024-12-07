@@ -79,4 +79,40 @@ spriteTypes = {
         name = "GFX_portrait_carlos_ibanez"
         texturefile = "gfx/portraits/carlos_ibanez.dds"
     }
+    spriteType = {
+        name = "GFX_idea_COG_jean_paul_harroy"
+        texturefile = "gfx/portraits/jean_paul_harroy_minister.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_COG_auguste_buisseret"
+        texturefile = "gfx/portraits/auguste_buisseret.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_COG_emile_janssens"
+        texturefile = "gfx/portraits/emile_janssens_minister.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_COG_alexandre_galopin"
+        texturefile = "gfx/portraits/alexandre_galopin.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_gamal_abdel_nasser"
+        texturefile = "gfx/portraits/gamal_abdel_nasser.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_enoch_powell"
+        texturefile = "gfx/portraits/enoch_powell.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_evelyn_baring"
+        texturefile = "gfx/portraits/evelyn_baring.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_emile_janssens"
+        texturefile = "gfx/portraits/emile_janssens.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_jean_paul_harroy"
+        texturefile = "gfx/portraits/jean_paul_harroy.dds"
+    }
 }

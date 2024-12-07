@@ -28,6 +28,7 @@ BEL = {
 		}
 		set_autonomy = {
 			target = COG
+			freedom_level = 0.24
 			autonomous_state = autonomy_BEL_colony
 		}
 		else = {
@@ -45,6 +46,11 @@ add_ideas = {
 	COG_auguste_buisseret
 	COG_alexandre_galopin
 	COG_emile_janssens
+
+	oligarchy
+	welfare_minimalism
+	free_trade
+	civilian_economy
 }
 
 set_politics = {

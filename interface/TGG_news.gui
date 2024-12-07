@@ -1,0 +1,21 @@
+guiTypes = {
+	containerWindowType = {
+		name = "event_news_header"
+		position = { x=800 y=258}
+		size = { width = 255 height = 60 }
+		Orientation = UPPER_LEFT
+		clipping = no
+		moveable = yes
+		
+		iconType = {
+			name = "generic_news_header"
+			position = {x=0 y=0}
+			spriteType = GFX_news_header_0
+		}
+		iconType = {
+			name = "COG_news_header"
+			position = {x=0 y=0}
+			spriteType = GFX_news_header_1
+		}
+	}
+}

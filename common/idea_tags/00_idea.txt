@@ -34,23 +34,24 @@ idea_categories = {
 		removal_cost = -1
 	}
 	government = {
-		slot = mobilization_laws
-		slot = trade_laws
+		slot = economic_policy
+		slot = welfare_policy
+		slot = trade_policy
 		slot = economy
 		
 		ledger = civilian
 		
-		cost = 150
-		removal_cost = 0
+		cost = 0
+		removal_cost = -1
 	}
 	
 	research_production = {
+		slot = mobilization_laws
 		slot = tank_manufacturer
 		slot = naval_manufacturer
 		slot = aircraft_manufacturer
 		slot = materiel_manufacturer
 		slot = industrial_concern
-		character_slot = theorist
 
 		ledger = civilian
 		

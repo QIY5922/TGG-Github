@@ -43,6 +43,7 @@ set_stability = 0.6
 set_war_support = 0.6
 
 recruit_character = ROM_gheorghe_gheorghiu_dej
+recruit_character = ROM_lucretiu_patrascanu
 
 # Starting tech
 set_technology = {
@@ -123,6 +124,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 94
-	socialism = 6
+	communism = 74
+	communism_2 = 26
 }

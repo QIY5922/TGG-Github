@@ -9,6 +9,7 @@ recruit_character = GER_theodor_heuss
 recruit_character = GER_wilhelm_leuschner
 recruit_character = GER_kurt_schumacher
 recruit_character = GER_walter_ulbricht
+recruit_character = GER_hermann_goring
 
 set_politics = {
 	ruling_party = paternalism

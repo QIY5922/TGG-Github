@@ -1,41 +1,40 @@
-﻿capital = 1008
-#oob = "XSM_1936"
+﻿capital = 1030
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	mass_assault = 1
 }
 
-GXC = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = LNT
-			autonomous_state = autonomy_puppet
-		}
-		else = {
-			puppet = LNT
-		}
-	}
-}
+set_convoys = 5
+
+recruit_character = EAD_hugh_boustead
 
 add_ideas = {
 	work_in_progress
 }
 
-recruit_character = LNT_phuntson_gelek
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = EAD
+			autonomous_state = autonomy_protectorate
+		}
+		else = {
+			puppet = EAD
+		}
+	}
+}
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	autocracy = 100
+	paternalism = 95
+	communism = 5
 }
-
