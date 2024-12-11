@@ -16,7 +16,7 @@ characters={
 		name=NZL_sidney_holland
 		portraits={
 			civilian={
-				large="GFX_NZL_sidney_holland"
+				large="GFX_portrait_sidney_holland"
 			}
 		}
 		country_leader={

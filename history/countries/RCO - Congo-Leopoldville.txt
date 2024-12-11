@@ -23,3 +23,8 @@ set_popularities = {
 	liberalism = 32
 	socialism = 20
 }
+
+recruit_character = RCO_patrice_lumumba
+recruit_character = RCO_joseph_kasa_vubu
+recruit_character = RCO_mobutu
+recruit_character = RCO_antoine_gizenga

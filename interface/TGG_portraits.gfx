@@ -115,4 +115,24 @@ spriteTypes = {
         name = "GFX_portrait_jean_paul_harroy"
         texturefile = "gfx/portraits/jean_paul_harroy.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_joseph_kasa_vubu"
+        texturefile = "gfx/portraits/joseph_kasa_vubu.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_moise_tshombe"
+        texturefile = "gfx/portraits/moise_tshombe.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_august_maria_knoll"
+        texturefile = "gfx/portraits/august_maria_knoll.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_sidney_holland"
+        texturefile = "gfx/portraits/sidney_holland.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_robert_menzies"
+        texturefile = "gfx/portraits/robert_menzies.dds"
+    }
 }

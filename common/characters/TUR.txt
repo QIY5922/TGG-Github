@@ -169,7 +169,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism_ideology
+			ideology=kemalism
 			traits={ }
 			expire="1965.1.1.1"
 			id=-1

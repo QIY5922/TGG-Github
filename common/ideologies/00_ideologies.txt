@@ -6,6 +6,7 @@ ideologies = {
 			fascism_ideology = {}
 			falangism = {}
 			popular_autocracy = {}
+			clerical_fascism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 127 96 0 }
@@ -63,6 +64,8 @@ ideologies = {
 			paternalist_populism_2 = {}
 			controlled_democracy_2 = {}
 			nihonshugi_2 = {}
+			revisionist_zionism_2 = {}
+			kemalism_2 = {}
 		}
 		dynamic_faction_names = {}
 		color = { 94 94 94 }
@@ -82,6 +85,8 @@ ideologies = {
 			paternalist_populism = {}
 			controlled_democracy = {}
 			nihonshugi = {}
+			revisionist_zionism = {}
+			kemalism = {}
 		}
 		dynamic_faction_names = {}
 		color = { 124 124 124 }

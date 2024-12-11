@@ -12,6 +12,18 @@ spriteTypes = {
         texturefile = "gfx/natspirits/the_circling_eagle.dds"
     }
     spriteType = {
+        name = "GFX_idea_all_created_equal"
+        texturefile = "gfx/natspirits/all_created_equal.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_bounty_for_all"
+        texturefile = "gfx/natspirits/bounty_for_all.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_march_of_the_dollar"
+        texturefile = "gfx/natspirits/march_of_the_dollar.dds"
+    }
+    spriteType = {
         name = "GFX_idea_dominer_pour_servir"
         texturefile = "gfx/natspirits/dominer_pour_servir.dds"
     }

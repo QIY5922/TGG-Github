@@ -14,16 +14,19 @@ ideas = {
 		}
 		USA_all_created_equal = {
 			name = USA_all_created_equal
+			picture = all_created_equal
 
 			removal_cost = -1
 		}
 		USA_march_of_the_dollar = {
 			name = USA_march_of_the_dollar
+			picture = march_of_the_dollar
 
 			removal_cost = -1
 		}
 		USA_bounty_for_all = {
 			name = USA_bounty_for_all
+			picture = bounty_for_all
 
 			removal_cost = -1
 		}

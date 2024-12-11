@@ -2,6 +2,9 @@ characters={
 	KAT_moise_tshombe={
 		name="Moise Tshombe"
 		portraits={
+			civilian={
+				large="GFX_portrait_moise_tshombe"
+			}
 		}
 		country_leader={
 			ideology=aristocratic_conservatism
